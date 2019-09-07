@@ -1,4 +1,4 @@
-﻿Log file open, 04/29/19 23:09:30
+﻿Log file open, 09/07/19 13:00:43
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: SKnightPrototype_01
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-985263857) SRandInit(-985263857).
+LogInit: Display: RandInit(-1902369247) SRandInit(-1902369247).
 LogInit: Read version file with build ID '3709383'
-LogInit: Overriding engine version to CL 3794801, compatible CL 3709383
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 1.758279
+LogStats: Stats thread started at 1.601451
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -166,8 +166,8 @@ LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
 LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
 LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-LogInit: Build: ++UE4+Release-4.18-CL-3794801
-LogInit: Engine Version: 4.18.2-3794801+++UE4+Release-4.18
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
 LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
 LogInit: Net CL: 3709383
 LogDevObjectVersion: Number of dev versions registered: 16
@@ -187,456 +187,1099 @@ LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
 LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
 LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
 LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
-LogInit: Compiled (64-bit): Dec  8 2017 02:04:53
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line:  
-LogInit: Base directory: D:/Program Files (x86)/Epic Games/4.15/UE_4.18/Engine/Binaries/Win64/
+LogInit: Command line: -EpicPortal  -epicusername="CMP001" -epicuserid=504a56eacb094752a172dcccc7c138cb -epiclocale=en-US
+LogInit: Base directory: D:/Program Files (x86)/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.04.30-03.09.34:503][  0]LogInit: Selected Device Profile: [Windows]
-[2019.04.30-03.09.34:503][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.04.30-03.09.34:549][  0]LogInit: Computer: DESKTOP-0NODL4J
-[2019.04.30-03.09.34:549][  0]LogInit: User: Ownewr
-[2019.04.30-03.09.34:549][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.04.30-03.09.34:549][  0]LogInit: High frequency timer resolution =3.906243 MHz
-[2019.04.30-03.09.34:550][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.04.30-03.09.34:550][  0]LogMemory: Platform Memory Stats for Windows
-[2019.04.30-03.09.34:550][  0]LogMemory: Process Physical Memory: 273.66 MB used, 273.66 MB peak
-[2019.04.30-03.09.34:550][  0]LogMemory: Process Virtual Memory: 269.63 MB used, 269.63 MB peak
-[2019.04.30-03.09.34:550][  0]LogMemory: Physical Memory: 9106.45 MB used,  7219.20 MB free, 16325.64 MB total
-[2019.04.30-03.09.34:550][  0]LogMemory: Virtual Memory: 4765.82 MB used,  7219.20 MB free, 134217728.00 MB total
-[2019.04.30-03.09.35:148][  0]LogInit: Using OS detected language (en-US).
-[2019.04.30-03.09.35:148][  0]LogInit: Using OS detected locale (en-US).
-[2019.04.30-03.09.35:285][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.04.30-03.09.35:833][  0]LogInit: Setting process to per monitor DPI aware
-[2019.04.30-03.09.37:067][  0]LogD3D11RHI: D3D11 adapters:
-[2019.04.30-03.09.37:132][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2019.04.30-03.09.37:132][  0]LogD3D11RHI:       8088/0/8162 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
-[2019.04.30-03.09.37:135][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.04.30-03.09.37:135][  0]LogD3D11RHI:       0/0/8162 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.04.30-03.09.37:135][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.04.30-03.09.37:144][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.04.30-03.09.37:153][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2019.04.30-03.09.37:153][  0]LogWindows: EnumDisplayDevices:
-[2019.04.30-03.09.37:154][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2019.04.30-03.09.37:154][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2019.04.30-03.09.37:154][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2019.04.30-03.09.37:155][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2019.04.30-03.09.37:155][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2019.04.30-03.09.37:155][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2019.04.30-03.09.37:155][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2019.04.30-03.09.37:155][  0]LogD3D11RHI:      Driver Date: Unknown
-[2019.04.30-03.09.37:155][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
-[2019.04.30-03.09.37:202][  0]LogD3D11RHI: Async texture creation enabled
-[2019.04.30-03.09.37:455][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.04.30-03.09.37:674][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (C:/Users/Ownewr/Documents/GitHub/SugarKnight/SKnightPrototype_01/Intermediate/Shaders/WorkingDirectory/23212/).
-[2019.04.30-03.09.37:674][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Ownewr/AppData/Local/Temp/UnrealShaderWorkingDir/C20AF2D941D56C71A055B6B0D01DA190/'.
-[2019.04.30-03.09.37:677][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.04.30-03.09.39:488][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.04.30-03.09.39:556][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.04.30-03.09.39:623][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.04.30-03.09.39:691][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.04.30-03.09.39:769][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.04.30-03.09.39:837][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.04.30-03.09.39:905][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.04.30-03.09.39:973][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.04.30-03.09.40:035][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.04.30-03.09.40:102][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2019.04.30-03.09.40:174][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2019.04.30-03.09.40:240][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2019.04.30-03.09.40:306][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2019.04.30-03.09.40:370][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2019.04.30-03.09.40:503][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2019.04.30-03.09.40:503][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2019.04.30-03.09.40:577][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.30-03.09.40:635][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.04.30-03.09.40:804][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.04.30-03.09.40:839][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.04.30-03.09.40:904][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.04.30-03.09.40:968][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.04.30-03.09.41:040][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.04.30-03.09.41:143][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.04.30-03.09.41:143][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.04.30-03.09.42:357][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.04.30-03.09.42:629][  0]LogDerivedDataCache: Loaded boot cache 0.27s 78MB C:/Users/Ownewr/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2019.04.30-03.09.42:629][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Ownewr/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2019.04.30-03.09.42:629][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Ownewr/Documents/GitHub/SugarKnight/SKnightPrototype_01/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.04.30-03.09.42:629][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.04.30-03.09.42:629][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Ownewr/Documents/GitHub/SugarKnight/SKnightPrototype_01/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.04.30-03.09.42:629][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.04.30-03.09.42:669][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.04.30-03.09.42:682][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ownewr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.04.30-03.09.42:716][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.04.30-03.09.42:747][  0]LogSlate: Using Freetype 2.6.0
-[2019.04.30-03.09.42:761][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.04.30-03.09.42:771][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.04.30-03.09.45:671][  0]LogInit: Selected Device Profile: [Windows]
-[2019.04.30-03.09.46:898][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.04.30-03.09.46:980][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.04.30-03.09.46:980][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.04.30-03.09.46:980][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.04.30-03.09.46:980][  0]LogMeshReduction: No automatic mesh merging module available
-[2019.04.30-03.09.46:980][  0]LogMeshMerging: No automatic mesh merging module available
-[2019.04.30-03.09.47:333][  0]LogNetVersion: SKnightPrototype_01 , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 431312611)
-[2019.04.30-03.09.48:024][  0]LogAssetRegistry: FAssetRegistry took 0.0333 seconds to start up
-[2019.04.30-03.09.49:816][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.068269 seconds
-[2019.04.30-03.09.49:829][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
-[2019.04.30-03.09.49:829][  0]LogUObjectAllocator: 7372024 out of 0 bytes used by permanent object pool.
-[2019.04.30-03.09.49:829][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.04.30-03.09.49:914][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2019.04.30-03.09.58:196][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.04.30-03.09.58:269][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.04.30-03.10.00:053][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2019.04.30-03.10.00:957][  0]SourceControl: Source control is disabled
-[2019.04.30-03.10.00:958][  0]SourceControl: Source control is disabled
-[2019.04.30-03.10.01:078][  0]SourceControl: Source control is disabled
-[2019.04.30-03.10.01:199][  0]SourceControl: Source control is disabled
-[2019.04.30-03.10.02:907][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.04.30-03.10.03:409][  0]LogOcInput: OculusInput pre-init called
-[2019.04.30-03.10.04:123][  0]LogEngine: Initializing Engine...
-[2019.04.30-03.10.04:146][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.04.30-03.10.04:621][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.04.30-03.10.04:621][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.04.30-03.10.05:019][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.04.30-03.10.05:123][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.30-03.10.05:147][  0]LogInit: FAudioDevice initialized.
-[2019.04.30-03.10.05:252][  0]LogDerivedDataCache: Saved boot cache 0.10s 78MB C:/Users/Ownewr/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2019.04.30-03.10.05:275][  0]LogInit: Texture streaming: Enabled
-[2019.04.30-03.10.05:482][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.04.30-03.10.05:813][  0]LogInit: Transaction tracking system initialized
-[2019.04.30-03.10.06:534][  0]BlueprintLog: New page: Editor Load
-[2019.04.30-03.10.08:554][  0]LocalizationService: Localization service is disabled
-[2019.04.30-03.10.10:107][  0]LogConsoleResponse: Display: 
-[2019.04.30-03.10.11:044][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ownewr/Documents/GitHub/SugarKnight/SKnightPrototype_01/Content/' took 0.02s
-[2019.04.30-03.10.11:044][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.04.30-03.10.11:045][  0]LogCook: Display: Mobile HDR setting 1
-[2019.04.30-03.10.11:045][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.04.30-03.10.13:622][  0]SourceControl: Source control is disabled
-[2019.04.30-03.10.13:654][  0]Cmd: MAP LOAD FILE="C:/Users/Ownewr/Documents/GitHub/SugarKnight/SKnightPrototype_01/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.04.30-03.10.13:655][  0]LightingResults: New page: Lighting Build
-[2019.04.30-03.10.13:861][  0]MapCheck: New page: Map Check
-[2019.04.30-03.10.13:861][  0]LightingResults: New page: Lighting Build
-[2019.04.30-03.10.15:570][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2019.04.30-03.10.15:978][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.04.30-03.10.16:030][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.04.30-03.10.16:121][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 90.747ms to complete.
-[2019.04.30-03.10.16:121][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 2.490
-[2019.04.30-03.10.17:169][  0]LogCollectionManager: Loaded 0 collections in 0.002643 seconds
-[2019.04.30-03.10.17:350][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ownewr/Documents/GitHub/SugarKnight/SKnightPrototype_01/Saved/Collections/' took 0.01s
-[2019.04.30-03.10.17:350][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ownewr/Documents/GitHub/SugarKnight/SKnightPrototype_01/Content/Developers/Ownewr/Collections/' took 0.01s
-[2019.04.30-03.10.17:350][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ownewr/Documents/GitHub/SugarKnight/SKnightPrototype_01/Content/Collections/' took 0.01s
-[2019.04.30-03.10.17:350][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.04.30-03.10.17:358][  0]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2363 classes and 519 folders.
-[2019.04.30-03.10.17:505][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.04.30-03.10.18:291][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.04.30-03.10.18:375][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2019.04.30-03.10.19:068][  0]LogSlate: Took 0.006599 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.04.30-03.10.19:086][  0]LogSlate: Took 0.004947 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.04.30-03.10.19:126][  0]LogSlate: Took 0.003241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.04.30-03.10.19:371][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2019.04.30-03.10.19:848][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2019.04.30-03.10.19:848][  0]LogLoad: (Engine Initialization) Total time: 55.55 seconds
-[2019.04.30-03.10.19:848][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.04.30-03.10.19:854][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2019.04.30-03.10.20:340][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.04.30-03.10.20:881][  2]LogAssetRegistry: Asset discovery search completed in 32.8801 seconds
-[2019.04.30-03.10.20:883][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2019.04.30-03.10.20:883][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000071 seconds (updated 0 objects)
-[2019.04.30-03.10.24:588][ 13]LogSlate: Took 0.013774 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2019.04.30-03.15.20:654][317]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.04.30-03.15.21:171][318]Cmd: QUIT_EDITOR
-[2019.04.30-03.15.21:450][318]LogExit: Preparing to exit.
-[2019.04.30-03.15.22:732][318]LogExit: Editor shut down
-[2019.04.30-03.15.22:735][318]LogExit: Transaction tracking system shut down
-[2019.04.30-03.15.22:999][318]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2019.04.30-03.15.22:999][318]LogDirectoryWatcher: A directory notification for 'C:/Users/Ownewr/Documents/GitHub/SugarKnight/SKnightPrototype_01/Content/' was aborted.
-[2019.04.30-03.15.22:999][318]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2019.04.30-03.15.22:999][318]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2019.04.30-03.15.22:999][318]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2019.04.30-03.15.22:999][318]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2019.04.30-03.15.22:999][318]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2019.04.30-03.15.23:451][318]LogExit: Object subsystem successfully closed.
-[2019.04.30-03.15.23:542][318]LogD3D11RHI: Shutdown
-[2019.04.30-03.15.23:542][318]LogD3D11RHI: CleanupD3DDevice
-[2019.04.30-03.15.23:559][318]LogD3D11RHI: ~FD3D11DynamicRHI
-[2019.04.30-03.15.23:925][318]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
-[2019.04.30-03.15.23:925][318]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
-[2019.04.30-03.15.23:936][318]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
-[2019.04.30-03.15.23:948][318]LogDirectoryWatcher: A directory notification for 'D:/Program Files (x86)/Epic Games/4.15/UE_4.18/FeaturePacks/' was aborted.
-[2019.04.30-03.15.23:950][318]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
-[2019.04.30-03.15.23:950][318]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
-[2019.04.30-03.15.23:950][318]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
-[2019.04.30-03.15.23:950][318]LogDirectoryWatcher: A directory notification for 'C:/Users/Ownewr/Documents/GitHub/SugarKnight/SKnightPrototype_01/Content/Collections/' was aborted.
-[2019.04.30-03.15.23:950][318]LogDirectoryWatcher: A directory notification for 'C:/Users/Ownewr/Documents/GitHub/SugarKnight/SKnightPrototype_01/Content/Developers/Ownewr/Collections/' was aborted.
-[2019.04.30-03.15.23:950][318]LogDirectoryWatcher: A directory notification for 'C:/Users/Ownewr/Documents/GitHub/SugarKnight/SKnightPrototype_01/Saved/Collections/' was aborted.
-[2019.04.30-03.15.23:950][318]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
-[2019.04.30-03.15.23:950][318]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
-[2019.04.30-03.15.23:950][318]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
-[2019.04.30-03.15.23:970][318]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
-[2019.04.30-03.15.23:970][318]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
-[2019.04.30-03.15.23:970][318]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
-[2019.04.30-03.15.23:970][318]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
-[2019.04.30-03.15.23:970][318]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
-[2019.04.30-03.15.23:970][318]LogModuleManager: Shutting down and abandoning module BspMode (520)
-[2019.04.30-03.15.23:970][318]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
-[2019.04.30-03.15.23:970][318]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
-[2019.04.30-03.15.23:970][318]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
-[2019.04.30-03.15.23:970][318]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
-[2019.04.30-03.15.23:970][318]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
-[2019.04.30-03.15.23:970][318]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
-[2019.04.30-03.15.24:010][318]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
-[2019.04.30-03.15.24:010][318]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
-[2019.04.30-03.15.24:010][318]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
-[2019.04.30-03.15.24:010][318]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
-[2019.04.30-03.15.24:010][318]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
-[2019.04.30-03.15.24:010][318]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
-[2019.04.30-03.15.24:010][318]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
-[2019.04.30-03.15.24:010][318]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
-[2019.04.30-03.15.24:010][318]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
-[2019.04.30-03.15.24:010][318]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
-[2019.04.30-03.15.24:010][318]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
-[2019.04.30-03.15.24:010][318]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
-[2019.04.30-03.15.24:020][318]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
-[2019.04.30-03.15.24:020][318]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
-[2019.04.30-03.15.24:020][318]LogModuleManager: Shutting down and abandoning module SessionServices (478)
-[2019.04.30-03.15.24:020][318]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
-[2019.04.30-03.15.24:020][318]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
-[2019.04.30-03.15.24:020][318]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
-[2019.04.30-03.15.24:030][318]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
-[2019.04.30-03.15.24:030][318]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
-[2019.04.30-03.15.24:039][318]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
-[2019.04.30-03.15.24:055][318]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
-[2019.04.30-03.15.24:085][318]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
-[2019.04.30-03.15.24:086][318]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
-[2019.04.30-03.15.24:086][318]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
-[2019.04.30-03.15.24:086][318]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
-[2019.04.30-03.15.24:488][318]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
-[2019.04.30-03.15.24:488][318]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
-[2019.04.30-03.15.24:488][318]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
-[2019.04.30-03.15.24:488][318]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
-[2019.04.30-03.15.24:488][318]LogModuleManager: Shutting down and abandoning module MergeActors (446)
-[2019.04.30-03.15.24:488][318]LogModuleManager: Shutting down and abandoning module SizeMap (444)
-[2019.04.30-03.15.24:488][318]LogModuleManager: Shutting down and abandoning module TreeMap (442)
-[2019.04.30-03.15.24:488][318]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
-[2019.04.30-03.15.24:488][318]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
-[2019.04.30-03.15.24:498][318]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
-[2019.04.30-03.15.24:498][318]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
-[2019.04.30-03.15.24:498][318]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
-[2019.04.30-03.15.24:498][318]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
-[2019.04.30-03.15.24:498][318]LogModuleManager: Shutting down and abandoning module XmlParser (428)
-[2019.04.30-03.15.24:498][318]LogModuleManager: Shutting down and abandoning module Blutility (426)
-[2019.04.30-03.15.24:499][318]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
-[2019.04.30-03.15.24:499][318]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
-[2019.04.30-03.15.24:499][318]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
-[2019.04.30-03.15.24:499][318]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
-[2019.04.30-03.15.24:499][318]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
-[2019.04.30-03.15.24:501][318]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
-[2019.04.30-03.15.24:512][318]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
-[2019.04.30-03.15.24:512][318]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
-[2019.04.30-03.15.24:520][318]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
-[2019.04.30-03.15.24:575][318]LogModuleManager: Shutting down and abandoning module AutomationController (406)
-[2019.04.30-03.15.24:575][318]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
-[2019.04.30-03.15.24:587][318]LogModuleManager: Shutting down and abandoning module Layers (402)
-[2019.04.30-03.15.24:593][318]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
-[2019.04.30-03.15.24:593][318]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
-[2019.04.30-03.15.24:604][318]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
-[2019.04.30-03.15.24:604][318]LogModuleManager: Shutting down and abandoning module Persona (394)
-[2019.04.30-03.15.24:651][318]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
-[2019.04.30-03.15.24:651][318]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
-[2019.04.30-03.15.24:651][318]LogModuleManager: Shutting down and abandoning module Kismet (388)
-[2019.04.30-03.15.24:691][318]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
-[2019.04.30-03.15.24:691][318]LogModuleManager: Shutting down and abandoning module Toolbox (384)
-[2019.04.30-03.15.24:691][318]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
-[2019.04.30-03.15.24:691][318]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
-[2019.04.30-03.15.24:715][318]LogModuleManager: Shutting down and abandoning module OutputLog (378)
-[2019.04.30-03.15.24:728][318]LogModuleManager: Shutting down and abandoning module GammaUI (376)
-[2019.04.30-03.15.24:728][318]LogModuleManager: Shutting down and abandoning module Documentation (374)
-[2019.04.30-03.15.24:728][318]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
-[2019.04.30-03.15.24:728][318]LogModuleManager: Shutting down and abandoning module MovieScene (370)
-[2019.04.30-03.15.24:728][318]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
-[2019.04.30-03.15.24:728][318]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
-[2019.04.30-03.15.24:728][318]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
-[2019.04.30-03.15.24:728][318]LogModuleManager: Shutting down and abandoning module PortalServices (362)
-[2019.04.30-03.15.24:728][318]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
-[2019.04.30-03.15.24:728][318]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
-[2019.04.30-03.15.24:728][318]LogModuleManager: Shutting down and abandoning module AIModule (356)
-[2019.04.30-03.15.24:728][318]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
-[2019.04.30-03.15.24:728][318]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
-[2019.04.30-03.15.24:728][318]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
-[2019.04.30-03.15.24:728][318]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
-[2019.04.30-03.15.24:933][318]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
-[2019.04.30-03.15.24:937][318]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
-[2019.04.30-03.15.24:937][318]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
-[2019.04.30-03.15.24:937][318]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
-[2019.04.30-03.15.24:937][318]LogModuleManager: Shutting down and abandoning module OculusInput (338)
-[2019.04.30-03.15.24:937][318]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
-[2019.04.30-03.15.24:937][318]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
-[2019.04.30-03.15.24:937][318]LogModuleManager: Shutting down and abandoning module CableComponent (332)
-[2019.04.30-03.15.24:937][318]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
-[2019.04.30-03.15.24:938][318]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
-[2019.04.30-03.15.24:938][318]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
-[2019.04.30-03.15.24:938][318]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
-[2019.04.30-03.15.24:949][318]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
-[2019.04.30-03.15.24:949][318]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
-[2019.04.30-03.15.24:949][318]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
-[2019.04.30-03.15.24:949][318]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
-[2019.04.30-03.15.24:949][318]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
-[2019.04.30-03.15.24:949][318]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
-[2019.04.30-03.15.24:949][318]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
-[2019.04.30-03.15.24:949][318]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
-[2019.04.30-03.15.24:949][318]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
-[2019.04.30-03.15.24:957][318]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
-[2019.04.30-03.15.24:968][318]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
-[2019.04.30-03.15.24:968][318]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
-[2019.04.30-03.15.24:968][318]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
-[2019.04.30-03.15.24:968][318]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
-[2019.04.30-03.15.24:968][318]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
-[2019.04.30-03.15.24:987][318]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
-[2019.04.30-03.15.24:991][318]LogModuleManager: Shutting down and abandoning module SourceControl (289)
-[2019.04.30-03.15.24:991][318]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
-[2019.04.30-03.15.24:991][318]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
-[2019.04.30-03.15.24:991][318]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
-[2019.04.30-03.15.24:991][318]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
-[2019.04.30-03.15.25:019][318]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
-[2019.04.30-03.15.25:019][318]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
-[2019.04.30-03.15.25:020][318]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
-[2019.04.30-03.15.25:020][318]LogModuleManager: Shutting down and abandoning module MainFrame (274)
-[2019.04.30-03.15.25:026][318]LogModuleManager: Shutting down and abandoning module HotReload (273)
-[2019.04.30-03.15.25:026][318]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
-[2019.04.30-03.15.25:026][318]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
-[2019.04.30-03.15.25:026][318]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
-[2019.04.30-03.15.25:026][318]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
-[2019.04.30-03.15.25:026][318]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
-[2019.04.30-03.15.25:026][318]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
-[2019.04.30-03.15.25:026][318]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
-[2019.04.30-03.15.25:026][318]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
-[2019.04.30-03.15.25:127][318]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
-[2019.04.30-03.15.25:228][318]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
-[2019.04.30-03.15.25:266][318]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
-[2019.04.30-03.15.25:266][318]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
-[2019.04.30-03.15.25:266][318]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
-[2019.04.30-03.15.25:277][318]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
-[2019.04.30-03.15.25:342][318]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
-[2019.04.30-03.15.25:343][318]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
-[2019.04.30-03.15.25:343][318]LogModuleManager: Shutting down and abandoning module Paper2D (236)
-[2019.04.30-03.15.25:343][318]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
-[2019.04.30-03.15.25:343][318]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
-[2019.04.30-03.15.25:346][318]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
-[2019.04.30-03.15.25:346][318]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
-[2019.04.30-03.15.25:346][318]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
-[2019.04.30-03.15.25:346][318]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
-[2019.04.30-03.15.25:346][318]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
-[2019.04.30-03.15.25:346][318]LogModuleManager: Shutting down and abandoning module Media (221)
-[2019.04.30-03.15.25:352][318]LogModuleManager: Shutting down and abandoning module Overlay (218)
-[2019.04.30-03.15.25:352][318]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
-[2019.04.30-03.15.25:352][318]LogModuleManager: Shutting down and abandoning module VREditor (214)
-[2019.04.30-03.15.25:365][318]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
-[2019.04.30-03.15.25:365][318]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
-[2019.04.30-03.15.25:365][318]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
-[2019.04.30-03.15.25:386][318]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
-[2019.04.30-03.15.25:395][318]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
-[2019.04.30-03.15.25:404][318]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
-[2019.04.30-03.15.25:404][318]LogModuleManager: Shutting down and abandoning module UMG (200)
-[2019.04.30-03.15.25:416][318]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
-[2019.04.30-03.15.25:438][318]LogModuleManager: Shutting down and abandoning module Sequencer (198)
-[2019.04.30-03.15.25:459][318]LogModuleManager: Shutting down and abandoning module MessageLog (195)
-[2019.04.30-03.15.25:459][318]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
-[2019.04.30-03.15.25:482][318]LogModuleManager: Shutting down and abandoning module Slate (188)
-[2019.04.30-03.15.25:482][318]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
-[2019.04.30-03.15.25:484][318]LogModuleManager: Shutting down and abandoning module MRMesh (184)
-[2019.04.30-03.15.25:484][318]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
-[2019.04.30-03.15.25:484][318]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
-[2019.04.30-03.15.25:484][318]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
-[2019.04.30-03.15.25:484][318]LogModuleManager: Shutting down and abandoning module Networking (176)
-[2019.04.30-03.15.25:484][318]LogModuleManager: Shutting down and abandoning module Core (172)
-[2019.04.30-03.15.25:484][318]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
-[2019.04.30-03.15.25:484][318]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
-[2019.04.30-03.15.25:485][318]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2019.04.30-03.15.25:485][318]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
-[2019.04.30-03.15.25:495][318]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
-[2019.04.30-03.15.25:495][318]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
-[2019.04.30-03.15.25:495][318]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
-[2019.04.30-03.15.25:495][318]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
-[2019.04.30-03.15.25:495][318]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
-[2019.04.30-03.15.25:495][318]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
-[2019.04.30-03.15.25:496][318]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
-[2019.04.30-03.15.25:561][318]LogDerivedDataCache: Shutdown
-[2019.04.30-03.15.25:561][318]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
-[2019.04.30-03.15.25:561][318]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
-[2019.04.30-03.15.25:561][318]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
-[2019.04.30-03.15.25:561][318]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
-[2019.04.30-03.15.25:561][318]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
-[2019.04.30-03.15.25:561][318]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
-[2019.04.30-03.15.25:566][318]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
-[2019.04.30-03.15.25:566][318]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
-[2019.04.30-03.15.25:566][318]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
-[2019.04.30-03.15.25:566][318]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
-[2019.04.30-03.15.25:566][318]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
-[2019.04.30-03.15.25:566][318]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
-[2019.04.30-03.15.25:566][318]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
-[2019.04.30-03.15.25:566][318]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
-[2019.04.30-03.15.25:566][318]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
-[2019.04.30-03.15.25:566][318]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
-[2019.04.30-03.15.25:566][318]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
-[2019.04.30-03.15.25:566][318]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
-[2019.04.30-03.15.25:566][318]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
-[2019.04.30-03.15.25:566][318]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
-[2019.04.30-03.15.25:566][318]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
-[2019.04.30-03.15.25:566][318]LogModuleManager: Shutting down and abandoning module Messaging (105)
-[2019.04.30-03.15.25:566][318]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
-[2019.04.30-03.15.25:566][318]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
-[2019.04.30-03.15.25:566][318]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
-[2019.04.30-03.15.25:566][318]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
-[2019.04.30-03.15.25:566][318]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
-[2019.04.30-03.15.25:566][318]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
-[2019.04.30-03.15.25:566][318]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
-[2019.04.30-03.15.25:566][318]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
-[2019.04.30-03.15.25:566][318]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
-[2019.04.30-03.15.25:566][318]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
-[2019.04.30-03.15.25:567][318]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
-[2019.04.30-03.15.25:567][318]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
-[2019.04.30-03.15.25:567][318]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
-[2019.04.30-03.15.25:567][318]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
-[2019.04.30-03.15.25:567][318]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
-[2019.04.30-03.15.25:567][318]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
-[2019.04.30-03.15.25:567][318]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
-[2019.04.30-03.15.25:567][318]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
-[2019.04.30-03.15.25:567][318]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
-[2019.04.30-03.15.25:567][318]LogModuleManager: Shutting down and abandoning module InputCore (64)
-[2019.04.30-03.15.25:567][318]LogModuleManager: Shutting down and abandoning module Settings (62)
-[2019.04.30-03.15.25:567][318]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
-[2019.04.30-03.15.25:567][318]LogModuleManager: Shutting down and abandoning module SteamVR (58)
-[2019.04.30-03.15.25:567][318]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
-[2019.04.30-03.15.25:580][318]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
-[2019.04.30-03.15.25:580][318]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
-[2019.04.30-03.15.25:580][318]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2019.04.30-03.15.25:580][318]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2019.04.30-03.15.25:580][318]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2019.04.30-03.15.25:587][318]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2019.04.30-03.15.25:613][318]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2019.04.30-03.15.25:613][318]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2019.04.30-03.15.25:624][318]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BECB0A22E-4106-7336-9B76-EEA38FE24031%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.2-3794801%2B%2B%2BUE4%2BRelease-4.18&UserID=7ecfb0fb4b05d227c1ea07ad8327072f%7C3f5323921f214845ab758bd89726b713%7C5706eedc-39df-4408-bf06-1d219d8aa549&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2019.04.30-03.15.25:633][318]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2019.04.30-03.15.25:643][318]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2019.04.30-03.15.25:643][318]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2019.04.30-03.15.25:643][318]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2019.04.30-03.15.25:655][318]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2019.04.30-03.15.25:656][318]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2019.04.30-03.15.25:656][318]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2019.04.30-03.15.25:656][318]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2019.04.30-03.15.25:668][318]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2019.04.30-03.15.25:679][318]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2019.04.30-03.15.25:679][318]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2019.04.30-03.15.25:679][318]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2019.04.30-03.15.25:679][318]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2019.04.30-03.15.25:689][318]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2019.04.30-03.15.25:689][318]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2019.04.30-03.15.25:689][318]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2019.04.30-03.15.25:689][318]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2019.04.30-03.15.25:689][318]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2019.04.30-03.15.25:689][318]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2019.04.30-03.15.25:705][318]LogExit: Exiting.
-[2019.04.30-03.15.25:713][318]Log file closed, 04/29/19 23:15:25
+[2019.09.07-17.00.50:825][  0]LogInit: Selected Device Profile: [Windows]
+[2019.09.07-17.00.50:825][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.09.07-17.00.50:877][  0]LogInit: Computer: DESKTOP-EEGEEHC
+[2019.09.07-17.00.50:877][  0]LogInit: User: ChristopherP
+[2019.09.07-17.00.50:877][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.09.07-17.00.50:877][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.09.07-17.00.50:877][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.09.07-17.00.50:877][  0]LogMemory: Platform Memory Stats for Windows
+[2019.09.07-17.00.50:877][  0]LogMemory: Process Physical Memory: 273.38 MB used, 273.39 MB peak
+[2019.09.07-17.00.50:877][  0]LogMemory: Process Virtual Memory: 271.64 MB used, 271.64 MB peak
+[2019.09.07-17.00.50:877][  0]LogMemory: Physical Memory: 6175.12 MB used,  1956.75 MB free, 8131.87 MB total
+[2019.09.07-17.00.50:877][  0]LogMemory: Virtual Memory: 4750.09 MB used,  1956.75 MB free, 134217728.00 MB total
+[2019.09.07-17.00.52:095][  0]LogInit: Using OS detected language (en-US).
+[2019.09.07-17.00.52:095][  0]LogInit: Using OS detected locale (en-US).
+[2019.09.07-17.00.52:182][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.09.07-17.00.52:992][  0]LogInit: Setting process to per monitor DPI aware
+[2019.09.07-17.00.54:153][  0]LogD3D11RHI: D3D11 adapters:
+[2019.09.07-17.00.54:269][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2019.09.07-17.00.54:269][  0]LogD3D11RHI:       8088/0/4065 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.09.07-17.00.54:275][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.09.07-17.00.54:275][  0]LogD3D11RHI:       0/0/4065 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.09.07-17.00.54:275][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.09.07-17.00.54:284][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.09.07-17.00.54:284][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2019.09.07-17.00.54:284][  0]LogWindows: EnumDisplayDevices:
+[2019.09.07-17.00.54:284][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2019.09.07-17.00.54:285][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2019.09.07-17.00.54:285][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.09.07-17.00.54:285][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.09.07-17.00.54:285][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.09.07-17.00.54:285][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2019.09.07-17.00.54:285][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.09.07-17.00.54:285][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.09.07-17.00.54:285][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2019.09.07-17.00.54:336][  0]LogD3D11RHI: Async texture creation enabled
+[2019.09.07-17.00.54:364][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.09.07-17.00.54:424][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Intermediate/Shaders/WorkingDirectory/6784/).
+[2019.09.07-17.00.54:425][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ChristopherP/AppData/Local/Temp/UnrealShaderWorkingDir/D2ED60424CC29FFC643B0C97282533BD/'.
+[2019.09.07-17.00.54:425][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.09.07-17.00.56:923][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.09.07-17.00.57:173][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.09.07-17.00.57:420][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.09.07-17.00.57:665][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.09.07-17.00.57:934][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.09.07-17.00.58:189][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.09.07-17.00.58:438][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.09.07-17.00.58:685][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.09.07-17.00.58:918][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.09.07-17.00.59:165][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2019.09.07-17.00.59:418][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2019.09.07-17.00.59:656][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2019.09.07-17.00.59:898][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2019.09.07-17.01.00:142][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2019.09.07-17.01.00:676][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2019.09.07-17.01.00:676][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.09.07-17.01.00:950][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.07-17.01.01:185][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.09.07-17.01.01:639][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.09.07-17.01.01:787][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.09.07-17.01.02:028][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.09.07-17.01.02:266][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.09.07-17.01.02:509][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.09.07-17.01.02:755][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.09.07-17.01.02:755][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.09.07-17.01.05:916][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.09.07-17.01.06:877][  0]LogDerivedDataCache: Loaded boot cache 0.96s 78MB C:/Users/ChristopherP/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2019.09.07-17.01.06:877][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ChristopherP/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2019.09.07-17.01.06:877][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.09.07-17.01.06:877][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.09.07-17.01.06:877][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.09.07-17.01.06:877][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.09.07-17.01.06:910][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.09.07-17.01.06:923][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ChristopherP/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.09.07-17.01.06:934][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.09.07-17.01.06:934][  0]LogSlate: Using Freetype 2.6.0
+[2019.09.07-17.01.06:968][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.09.07-17.01.06:968][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.09.07-17.01.09:664][  0]LogInit: Selected Device Profile: [Windows]
+[2019.09.07-17.01.11:198][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.09.07-17.01.11:438][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.09.07-17.01.11:438][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.09.07-17.01.11:438][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.09.07-17.01.11:438][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.09.07-17.01.11:438][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.09.07-17.01.11:593][  0]LogNetVersion: SKnightPrototype_01 , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 431312611)
+[2019.09.07-17.01.12:137][  0]LogAssetRegistry: FAssetRegistry took 0.0296 seconds to start up
+[2019.09.07-17.01.15:073][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.104578 seconds
+[2019.09.07-17.01.15:078][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2019.09.07-17.01.15:078][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2019.09.07-17.01.15:078][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.09.07-17.01.15:468][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2019.09.07-17.01.43:874][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.09.07-17.01.44:066][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.09.07-17.01.47:586][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2019.09.07-17.01.49:764][  0]SourceControl: Source control is disabled
+[2019.09.07-17.01.49:764][  0]SourceControl: Source control is disabled
+[2019.09.07-17.01.50:180][  0]SourceControl: Source control is disabled
+[2019.09.07-17.01.50:569][  0]SourceControl: Source control is disabled
+[2019.09.07-17.01.55:801][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.09.07-17.01.57:475][  0]LogOcInput: OculusInput pre-init called
+[2019.09.07-17.01.59:300][  0]LogEngine: Initializing Engine...
+[2019.09.07-17.01.59:303][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.09.07-17.01.59:629][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.09.07-17.01.59:643][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.09.07-17.02.00:404][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.09.07-17.02.00:517][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.07-17.02.00:646][  0]LogInit: FAudioDevice initialized.
+[2019.09.07-17.02.00:820][  0]LogDerivedDataCache: Saved boot cache 0.17s 78MB C:/Users/ChristopherP/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2019.09.07-17.02.00:838][  0]LogInit: Texture streaming: Enabled
+[2019.09.07-17.02.01:548][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.09.07-17.02.02:343][  0]LogInit: Transaction tracking system initialized
+[2019.09.07-17.02.04:286][  0]BlueprintLog: New page: Editor Load
+[2019.09.07-17.02.10:100][  0]LocalizationService: Localization service is disabled
+[2019.09.07-17.02.14:726][  0]LogConsoleResponse: Display: 
+[2019.09.07-17.02.15:832][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.09.07-17.02.15:833][  0]LogCook: Display: Mobile HDR setting 1
+[2019.09.07-17.02.15:833][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.09.07-17.02.15:851][  0]LogFileCache: Scanning file cache for directory 'D:/GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/' took 0.04s
+[2019.09.07-17.02.23:851][  0]SourceControl: Source control is disabled
+[2019.09.07-17.02.23:851][  0]Cmd: MAP LOAD FILE="../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.09.07-17.02.23:852][  0]LightingResults: New page: Lighting Build
+[2019.09.07-17.02.24:108][  0]MapCheck: New page: Map Check
+[2019.09.07-17.02.24:108][  0]LightingResults: New page: Lighting Build
+[2019.09.07-17.02.25:104][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData'
+[2019.09.07-17.02.25:121][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData' while loading ../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap.
+[2019.09.07-17.02.25:127][  0]LoadErrors: Error: /Game/SideScrollerBP/Maps/SideScrollerExampleMap : Can't find file for asset. /Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData
+[2019.09.07-17.02.25:136][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData'
+[2019.09.07-17.02.25:136][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData' while loading ../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap.
+[2019.09.07-17.02.25:136][  0]LoadErrors: Error: /Game/SideScrollerBP/Maps/SideScrollerExampleMap : Can't find file for asset. /Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData
+[2019.09.07-17.02.25:170][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData'
+[2019.09.07-17.02.25:170][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData' while loading NULL.
+[2019.09.07-17.02.25:170][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData'
+[2019.09.07-17.02.25:171][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData' while loading NULL.
+[2019.09.07-17.02.25:572][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData'
+[2019.09.07-17.02.25:572][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.SideScrollerExampleMap_BuiltData Referenced by PersistentLevel
+[2019.09.07-17.02.25:572][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData' while loading NULL.
+[2019.09.07-17.02.25:572][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.SideScrollerExampleMap_BuiltData Referenced by PersistentLevel
+[2019.09.07-17.02.25:659][  0]LogTexture: Display: Building textures: Texture2D_64 (BGRA8, 256X256)
+[2019.09.07-17.02.25:659][  0]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2019.09.07-17.02.25:910][  0]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2019.09.07-17.02.26:552][  0]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2019.09.07-17.02.27:003][  0]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2019.09.07-17.02.39:806][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.09.07-17.02.40:122][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.09.07-17.02.40:187][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.09.07-17.02.40:378][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 190.49ms to complete.
+[2019.09.07-17.02.40:378][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 16.527
+[2019.09.07-17.02.41:309][  0]LogCollectionManager: Loaded 0 collections in 0.002386 seconds
+[2019.09.07-17.02.41:800][  0]LogFileCache: Scanning file cache for directory 'D:/GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Collections/' took 0.01s
+[2019.09.07-17.02.41:800][  0]LogFileCache: Scanning file cache for directory 'D:/GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/Developers/ChristopherP/Collections/' took 0.01s
+[2019.09.07-17.02.41:800][  0]LogFileCache: Scanning file cache for directory 'D:/GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/Collections/' took 0.01s
+[2019.09.07-17.02.41:800][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.09.07-17.02.41:812][  0]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2363 classes and 519 folders.
+[2019.09.07-17.02.42:435][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.09.07-17.02.43:142][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.09.07-17.02.43:477][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.09.07-17.02.44:042][  0]LogSlate: Took 0.019279 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.09.07-17.02.44:048][  0]LogSlate: Took 0.003768 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.09.07-17.02.44:127][  0]LogSlate: Took 0.018196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.09.07-17.02.44:494][  0]LogMaterial: Missing cached shader map for material LevelGridMaterial2, compiling. 
+[2019.09.07-17.02.44:633][  0]LogRenderer: Reallocating scene render targets to support 1128x708 Format 10 NumSamples 1 (Frame:1).
+[2019.09.07-17.02.59:500][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.09.07-17.02.59:500][  0]LogLoad: (Engine Initialization) Total time: 158.73 seconds
+[2019.09.07-17.02.59:500][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.09.07-17.02.59:500][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2019.09.07-17.02.59:551][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.09.07-17.03.05:332][  1]LogSlate: Took 0.036456 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.09.07-17.03.05:388][  2]LogAssetRegistry: Asset discovery search completed in 113.2750 seconds
+[2019.09.07-17.03.05:390][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.09.07-17.03.05:391][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000101 seconds (updated 0 objects)
+[2019.09.07-17.04.35:012][560]LogSlate: Took 0.000280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.09.07-17.04.35:306][560]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2019.09.07-17.04.35:329][560]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.04.35:521][560]LogSlate: Took 0.000378 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.09.07-17.04.35:976][560]LogMaterial: Missing cached shader map for material M_SkyBox, compiling. 
+[2019.09.07-17.04.36:025][560]LogMaterial: Missing cached shader map for material GridMaterial, compiling. 
+[2019.09.07-17.04.36:508][560]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.04.36:632][560]LogSlate: Took 0.052778 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.09.07-17.04.44:515][113]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.04.44:530][113]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.04.53:012][708]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.04.53:012][708]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.04.53:012][708]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.05.48:034][870]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.05.48:285][871]LogSlate: Took 0.016245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.09.07-17.05.51:426][152]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.05.59:249][854]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.05.59:262][854]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.06.01:534][ 64]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.06.01:534][ 64]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.06.01:534][ 64]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.06.02:727][167]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.06.04:380][302]LogMaterialEditor: Saving and Compiling material PP_CelShading
+[2019.09.07-17.06.05:164][302]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.06.05:211][302]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.06.05:252][302]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.06.05:299][302]TextureStreamingBuild: Display: Compiling optional shaders took 0.007 seconds.
+[2019.09.07-17.06.06:509][302]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materiels/PP_CelShading" FILE="../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/Materiels/PP_CelShading.uasset" SILENT=true
+[2019.09.07-17.06.06:633][302]LogSavePackage: Save=76.26ms
+[2019.09.07-17.06.06:633][302]LogSavePackage: Moving '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Saved/PP_CelShading83E56EE344923E10ABC3B2A39BBF07A7.tmp' to '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/Materiels/PP_CelShading.uasset'
+[2019.09.07-17.06.06:654][302]LogSavePackage: Display: Finished SavePackage ../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/Materiels/PP_CelShading.uasset
+[2019.09.07-17.06.06:661][302]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.06.06:661][302]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.06.06:661][302]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.06.31:458][414]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.06.38:582][ 53]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.06.38:582][ 53]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.06.38:582][ 53]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.06.40:534][220]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.06.42:134][351]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.06.54:725][515]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.06.57:381][744]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.06.57:381][744]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.06.57:381][744]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.07.00:360][ 16]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.07.02:492][210]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.07.02:492][210]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.07.02:492][210]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.07.22:664][561]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.07.24:327][707]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.07.25:879][831]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.07.27:376][966]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.07.27:376][966]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.07.27:376][966]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.07.32:517][435]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.07.36:853][740]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.07.36:853][740]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.07.36:853][740]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.07.39:305][949]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.07.40:940][ 78]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.07.40:941][ 78]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.07.40:941][ 78]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.07.46:801][592]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.07.49:819][842]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.07.55:005][221]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.07.57:575][430]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.08.00:829][665]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.08.04:531][930]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.08.08:424][256]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.08.09:839][366]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.08.09:839][366]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.08.09:839][366]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.08.13:475][689]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.08.16:445][954]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.08.16:445][954]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.08.16:445][954]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.08.19:367][207]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.08.23:905][594]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.08.23:905][594]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.08.23:905][594]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.08.40:249][914]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionSceneTexture'"MaterialGraphNode_7.MaterialExpressionSceneTexture_1"',OutputIndex=2)'
+[2019.09.07-17.08.40:249][914]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant2Vector'"MaterialGraphNode_6.MaterialExpressionConstant2Vector_0"')'
+[2019.09.07-17.08.40:249][914]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureCoordinate'"MaterialGraphNode_5.MaterialExpressionTextureCoordinate_0"')'
+[2019.09.07-17.08.40:249][914]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'"MaterialGraphNode_3.MaterialExpressionMultiply_0"')'
+[2019.09.07-17.08.40:250][914]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionAdd'"MaterialGraphNode_4.MaterialExpressionAdd_0"')'
+[2019.09.07-17.08.40:250][914]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionSceneTexture'"MaterialGraphNode_0.MaterialExpressionSceneTexture_2"',Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)'
+[2019.09.07-17.08.40:251][914]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionComponentMask'"MaterialGraphNode_1.MaterialExpressionComponentMask_1"')'
+[2019.09.07-17.08.40:262][914]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.08.43:711][191]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.08.43:711][191]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.08.43:711][191]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.08.47:171][440]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionSceneTexture'"MaterialGraphNode_7.MaterialExpressionSceneTexture_1"',OutputIndex=2)'
+[2019.09.07-17.08.47:172][440]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant2Vector'"MaterialGraphNode_6.MaterialExpressionConstant2Vector_0"')'
+[2019.09.07-17.08.47:172][440]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureCoordinate'"MaterialGraphNode_5.MaterialExpressionTextureCoordinate_0"')'
+[2019.09.07-17.08.47:172][440]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'"MaterialGraphNode_3.MaterialExpressionMultiply_0"')'
+[2019.09.07-17.08.47:173][440]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionAdd'"MaterialGraphNode_4.MaterialExpressionAdd_0"')'
+[2019.09.07-17.08.47:173][440]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionSceneTexture'"MaterialGraphNode_0.MaterialExpressionSceneTexture_2"',Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)'
+[2019.09.07-17.08.47:173][440]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionComponentMask'"MaterialGraphNode_1.MaterialExpressionComponentMask_1"')'
+[2019.09.07-17.08.47:192][440]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.08.53:683][930]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.08.53:683][930]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.08.53:683][930]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.08.59:508][355]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionSceneTexture'"MaterialGraphNode_7.MaterialExpressionSceneTexture_1"',OutputIndex=2)'
+[2019.09.07-17.08.59:509][355]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant2Vector'"MaterialGraphNode_6.MaterialExpressionConstant2Vector_0"')'
+[2019.09.07-17.08.59:509][355]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureCoordinate'"MaterialGraphNode_5.MaterialExpressionTextureCoordinate_0"')'
+[2019.09.07-17.08.59:509][355]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'"MaterialGraphNode_3.MaterialExpressionMultiply_0"')'
+[2019.09.07-17.08.59:510][355]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionAdd'"MaterialGraphNode_4.MaterialExpressionAdd_0"')'
+[2019.09.07-17.08.59:510][355]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionSceneTexture'"MaterialGraphNode_0.MaterialExpressionSceneTexture_2"',Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)'
+[2019.09.07-17.08.59:511][355]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionComponentMask'"MaterialGraphNode_1.MaterialExpressionComponentMask_1"')'
+[2019.09.07-17.08.59:523][355]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.09.01:712][519]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.09.01:712][519]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.09.01:712][519]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.09.42:445][308]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.09.49:642][763]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.09.53:374][999]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.09.53:374][999]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.09.53:374][999]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.09.54:432][ 66]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.09.58:388][312]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.09.58:388][312]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.09.58:388][312]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.10.00:545][449]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.10.02:647][581]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.10.02:648][581]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.10.02:648][581]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.10.02:884][597]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.10.05:129][733]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.10.05:130][733]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.10.05:130][733]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.10.15:622][437]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.10.19:270][676]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.10.19:270][676]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.10.19:270][676]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.10.22:185][865]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.10.25:738][ 90]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.10.27:539][204]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.10.27:539][204]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.10.27:539][204]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.10.32:853][553]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.10.33:426][583]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.10.33:979][612]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.10.37:481][814]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.10.37:481][814]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.10.37:481][814]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.10.39:527][951]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.10.41:822][ 96]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.10.43:978][229]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.10.46:357][377]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.10.48:284][496]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.10.48:284][496]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.10.48:284][496]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.10.53:183][812]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.10.54:869][918]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.10.57:059][ 51]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.10.57:059][ 51]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.10.57:059][ 51]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.11.32:867][330]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.11.33:350][352]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.11.38:546][643]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.11.38:546][643]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.11.38:546][643]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.12.06:812][359]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.12.09:407][506]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.12.09:407][506]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.12.09:407][506]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.12.09:958][541]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.12.11:052][602]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.12.11:053][602]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.12.11:053][602]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.12.14:012][778]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.12.15:522][863]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.12.16:831][933]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.12.24:005][393]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.12.26:341][526]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.12.26:341][526]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.12.26:341][526]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.12.27:559][609]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.12.29:370][720]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.12.30:302][770]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.12.30:302][770]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.12.30:302][770]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.12.32:087][887]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.12.34:357][ 23]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.12.35:880][112]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.12.35:880][112]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.12.35:880][112]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.13.25:075][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionSceneTexture'"MaterialGraphNode_2.MaterialExpressionSceneTexture_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)'
+[2019.09.07-17.13.25:076][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionSceneTexture'"MaterialGraphNode_11.MaterialExpressionSceneTexture_1"',OutputIndex=2)'
+[2019.09.07-17.13.25:076][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant2Vector'"MaterialGraphNode_15.MaterialExpressionConstant2Vector_0"')'
+[2019.09.07-17.13.25:077][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureCoordinate'"MaterialGraphNode_14.MaterialExpressionTextureCoordinate_0"')'
+[2019.09.07-17.13.25:077][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'"MaterialGraphNode_12.MaterialExpressionMultiply_0"')'
+[2019.09.07-17.13.25:077][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionAdd'"MaterialGraphNode_13.MaterialExpressionAdd_0"')'
+[2019.09.07-17.13.25:078][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionSceneTexture'"MaterialGraphNode_16.MaterialExpressionSceneTexture_2"',Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)'
+[2019.09.07-17.13.25:078][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionComponentMask'"MaterialGraphNode_8.MaterialExpressionComponentMask_0"')'
+[2019.09.07-17.13.25:078][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionComponentMask'"MaterialGraphNode_17.MaterialExpressionComponentMask_1"')'
+[2019.09.07-17.13.25:079][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionSceneTexture'"MaterialGraphNode_19.MaterialExpressionSceneTexture_3"',OutputIndex=2)'
+[2019.09.07-17.13.25:079][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant2Vector'"MaterialGraphNode_23.MaterialExpressionConstant2Vector_1"')'
+[2019.09.07-17.13.25:079][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureCoordinate'"MaterialGraphNode_22.MaterialExpressionTextureCoordinate_1"')'
+[2019.09.07-17.13.25:079][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'"MaterialGraphNode_20.MaterialExpressionMultiply_1"')'
+[2019.09.07-17.13.25:080][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionAdd'"MaterialGraphNode_21.MaterialExpressionAdd_1"')'
+[2019.09.07-17.13.25:080][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionSceneTexture'"MaterialGraphNode_24.MaterialExpressionSceneTexture_4"',Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)'
+[2019.09.07-17.13.25:081][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionComponentMask'"MaterialGraphNode_8.MaterialExpressionComponentMask_0"')'
+[2019.09.07-17.13.25:081][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionComponentMask'"MaterialGraphNode_25.MaterialExpressionComponentMask_2"')'
+[2019.09.07-17.13.25:081][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionSceneTexture'"MaterialGraphNode_27.MaterialExpressionSceneTexture_5"',OutputIndex=2)'
+[2019.09.07-17.13.25:082][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant2Vector'"MaterialGraphNode_31.MaterialExpressionConstant2Vector_2"')'
+[2019.09.07-17.13.25:082][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureCoordinate'"MaterialGraphNode_30.MaterialExpressionTextureCoordinate_2"')'
+[2019.09.07-17.13.25:082][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'"MaterialGraphNode_28.MaterialExpressionMultiply_2"')'
+[2019.09.07-17.13.25:083][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionAdd'"MaterialGraphNode_29.MaterialExpressionAdd_2"')'
+[2019.09.07-17.13.25:083][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionSceneTexture'"MaterialGraphNode_32.MaterialExpressionSceneTexture_6"',Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)'
+[2019.09.07-17.13.25:083][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionComponentMask'"MaterialGraphNode_8.MaterialExpressionComponentMask_0"')'
+[2019.09.07-17.13.25:083][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionComponentMask'"MaterialGraphNode_33.MaterialExpressionComponentMask_3"')'
+[2019.09.07-17.13.25:083][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionSceneTexture'"MaterialGraphNode_7.MaterialExpressionSceneTexture_7"',OutputIndex=2)'
+[2019.09.07-17.13.25:083][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant2Vector'"MaterialGraphNode_6.MaterialExpressionConstant2Vector_3"')'
+[2019.09.07-17.13.25:084][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureCoordinate'"MaterialGraphNode_5.MaterialExpressionTextureCoordinate_3"')'
+[2019.09.07-17.13.25:084][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'"MaterialGraphNode_3.MaterialExpressionMultiply_3"')'
+[2019.09.07-17.13.25:085][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionAdd'"MaterialGraphNode_4.MaterialExpressionAdd_3"')'
+[2019.09.07-17.13.25:086][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionSceneTexture'"MaterialGraphNode_0.MaterialExpressionSceneTexture_8"',Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)'
+[2019.09.07-17.13.25:086][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionComponentMask'"MaterialGraphNode_8.MaterialExpressionComponentMask_0"')'
+[2019.09.07-17.13.25:086][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionComponentMask'"MaterialGraphNode_1.MaterialExpressionComponentMask_4"')'
+[2019.09.07-17.13.25:087][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionSubtract'"MaterialGraphNode_18.MaterialExpressionSubtract_0"')'
+[2019.09.07-17.13.25:087][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionSubtract'"MaterialGraphNode_26.MaterialExpressionSubtract_1"')'
+[2019.09.07-17.13.25:087][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionAdd'"MaterialGraphNode_35.MaterialExpressionAdd_4"')'
+[2019.09.07-17.13.25:087][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionAdd'"MaterialGraphNode_37.MaterialExpressionAdd_6"')'
+[2019.09.07-17.13.25:088][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionSubtract'"MaterialGraphNode_34.MaterialExpressionSubtract_2"')'
+[2019.09.07-17.13.25:088][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionSubtract'"MaterialGraphNode_10.MaterialExpressionSubtract_3"')'
+[2019.09.07-17.13.25:088][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionAdd'"MaterialGraphNode_36.MaterialExpressionAdd_5"')'
+[2019.09.07-17.13.25:088][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionScalarParameter'"MaterialGraphNode_38.MaterialExpressionScalarParameter_1"')'
+[2019.09.07-17.13.25:089][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'"MaterialGraphNode_40.MaterialExpressionMultiply_4"')'
+[2019.09.07-17.13.25:089][314]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionScalarParameter'"MaterialGraphNode_39.MaterialExpressionScalarParameter_2"')'
+[2019.09.07-17.13.25:132][314]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.13.29:172][528]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.13.29:173][528]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.13.29:173][528]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.14.00:710][368]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.14.03:813][538]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.14.03:814][538]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.14.03:814][538]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.14.16:499][273]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.14.19:565][447]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.14.19:565][447]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.14.19:565][447]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.14.28:537][971]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.14.28:705][972]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2019.09.07-17.14.29:984][ 42]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.14.29:984][ 42]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.14.29:984][ 42]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.14.36:834][439]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.14.37:843][492]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.14.37:843][492]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.14.37:843][492]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.14.40:093][639]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.14.41:096][693]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.14.41:096][693]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.14.41:096][693]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.15.23:559][234]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.15.27:440][454]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.15.27:440][454]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.15.27:440][454]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.15.46:400][258]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.15.46:479][262]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.15.48:886][391]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.15.49:484][423]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.15.52:427][586]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.15.52:427][586]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.15.52:428][586]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.16.11:448][699]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.16.13:272][785]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.16.15:706][903]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.16.15:706][903]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.16.15:706][903]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.16.17:393][990]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.16.20:582][193]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.16.20:582][193]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.16.20:582][193]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.16.22:801][346]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.16.26:098][584]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.16.27:782][699]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.16.30:206][856]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.16.30:206][856]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.16.30:206][856]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.16.33:540][113]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.16.33:548][113]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.16.36:316][286]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.16.36:316][286]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.16.36:316][286]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.16.46:491][ 89]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.16.46:499][ 89]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.16.49:609][323]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.16.49:609][323]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.16.49:609][323]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.16.57:816][998]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.16.57:823][998]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.16.59:879][159]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.16.59:879][159]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.16.59:879][159]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.17.07:885][721]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.17.08:563][754]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.17.08:563][754]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.17.08:563][754]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.17.12:738][ 43]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.17.16:872][317]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.17.22:271][665]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.17.22:271][665]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.17.22:271][665]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.17.31:014][243]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.17.31:903][290]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.17.31:903][290]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.17.31:903][290]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.17.37:229][662]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.17.38:595][757]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.17.38:595][757]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.17.38:595][757]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.17.41:262][950]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.17.44:616][191]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.17.44:617][191]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.17.44:617][191]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.17.45:870][274]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.17.45:884][274]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2019.09.07-17.17.49:194][477]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.17.54:289][822]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.17.54:296][822]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_1, compiling. 
+[2019.09.07-17.17.56:696][976]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.17.56:696][976]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.17.56:696][976]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.17.58:196][ 70]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.18.05:225][554]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.18.05:232][554]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_2, compiling. 
+[2019.09.07-17.18.06:354][615]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.18.06:354][615]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.18.06:354][615]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.18.12:404][ 21]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.18.29:389][261]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.18.29:402][261]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.09.07-17.18.31:093][358]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.18.31:093][358]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.18.31:093][358]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.18.51:073][681]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.18.51:125][681]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.09.07-17.18.55:233][947]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.18.57:306][ 75]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.18.57:306][ 75]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.18.57:306][ 75]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.19.04:382][582]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.19.04:390][582]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.19.06:046][672]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.19.06:046][672]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.19.06:046][672]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.19.07:236][750]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.19.08:339][816]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.19.08:339][816]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.19.08:339][816]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.19.11:031][995]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.19.12:543][ 86]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.19.12:543][ 86]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.19.12:543][ 86]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.19.17:611][424]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.19.20:108][580]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.09.07-17.19.20:108][580]MaterialEditorStats: Vertex shader: 29 instructions
+[2019.09.07-17.19.20:108][580]MaterialEditorStats: Texture samplers: 0/16
+[2019.09.07-17.19.22:008][711]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.19.22:023][711]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.09.07-17.19.24:663][884]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.19.27:986][121]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.19.29:878][249]MaterialEditorStats: Base pass shader without light map: 112 instructions
+[2019.09.07-17.19.29:879][249]MaterialEditorStats: Vertex shader: 31 instructions
+[2019.09.07-17.19.29:879][249]MaterialEditorStats: Texture samplers: 3/16
+[2019.09.07-17.19.29:879][249]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.07-17.19.31:099][333]LogMaterialEditor: Applying material PP_CelShading
+[2019.09.07-17.19.31:827][333]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.19.31:891][333]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.19.31:906][333]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.19.31:932][333]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2019.09.07-17.19.40:931][831]MaterialEditorStats: Base pass shader without light map: 112 instructions
+[2019.09.07-17.19.40:931][831]MaterialEditorStats: Vertex shader: 31 instructions
+[2019.09.07-17.19.40:931][831]MaterialEditorStats: Texture samplers: 3/16
+[2019.09.07-17.19.40:931][831]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.07-17.19.59:660][887]LogSlate: Took 0.000669 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.09.07-17.20.08:675][914]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.013
+[2019.09.07-17.20.08:729][914]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materiels/PP_CelShading] ([1] browsable assets)...
+[2019.09.07-17.20.08:746][914]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materiels/PP_CelShading.PP_CelShading]
+[2019.09.07-17.20.08:746][914]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materiels/PP_CelShading]
+[2019.09.07-17.20.08:813][914]LogSavePackage: Save=53.76ms
+[2019.09.07-17.20.08:813][914]LogSavePackage: Moving '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Saved/PP_CelShading_Auto17047BCDB4B3A4379A6B1748BAA6F1308.tmp' to '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Autosaves/Game/Materiels/PP_CelShading_Auto1.uasset'
+[2019.09.07-17.20.08:816][914]LogSavePackage: Display: Finished SavePackage ../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Autosaves/Game/Materiels/PP_CelShading_Auto1.uasset
+[2019.09.07-17.20.08:816][914]LogFileHelpers: Auto-saving content packages took 0.140
+[2019.09.07-17.22.15:615][688]LogDirectoryWatcher: Warning: Failed to begin reading directory changes for ../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Plugins/. Error: The system cannot find the file specified. (0x00000002)
+[2019.09.07-17.22.20:336][922]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2019.09.07-17.25.51:116][251]LogMaterialEditor: Applying material PP_CelShading
+[2019.09.07-17.25.51:842][251]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.25.51:904][251]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.25.51:920][251]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.25.51:955][251]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2019.09.07-17.26.01:458][768]MaterialEditorStats: Base pass shader without light map: 112 instructions
+[2019.09.07-17.26.01:458][768]MaterialEditorStats: Vertex shader: 31 instructions
+[2019.09.07-17.26.01:458][768]MaterialEditorStats: Texture samplers: 3/16
+[2019.09.07-17.26.01:458][768]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.07-17.30.28:218][345]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.011
+[2019.09.07-17.30.28:221][345]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materiels/PP_CelShading] ([1] browsable assets)...
+[2019.09.07-17.30.28:233][345]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materiels/PP_CelShading.PP_CelShading]
+[2019.09.07-17.30.28:234][345]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materiels/PP_CelShading]
+[2019.09.07-17.30.28:314][345]LogSavePackage: Save=68.84ms
+[2019.09.07-17.30.28:314][345]LogSavePackage: Moving '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Saved/PP_CelShading_Auto241CC89694AC04287D994CCAD52F62D84.tmp' to '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Autosaves/Game/Materiels/PP_CelShading_Auto2.uasset'
+[2019.09.07-17.30.28:319][345]LogSavePackage: Display: Finished SavePackage ../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Autosaves/Game/Materiels/PP_CelShading_Auto2.uasset
+[2019.09.07-17.30.28:319][345]LogFileHelpers: Auto-saving content packages took 0.099
+[2019.09.07-17.34.18:715][588]LogMaterialEditor: Applying material PP_CelShading
+[2019.09.07-17.34.19:456][588]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.34.19:496][588]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.34.19:518][588]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.34.19:551][588]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2019.09.07-17.34.30:907][736]MaterialEditorStats: Base pass shader without light map: 112 instructions
+[2019.09.07-17.34.30:908][736]MaterialEditorStats: Vertex shader: 31 instructions
+[2019.09.07-17.34.30:908][736]MaterialEditorStats: Texture samplers: 3/16
+[2019.09.07-17.34.30:908][736]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.07-17.34.48:802][486]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.09.07-17.34.55:354][151]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2019.09.07-17.35.07:493][419]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2019.09.07-17.35.45:572][330]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materiels/PP_CelShading" FILE="../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/Materiels/PP_CelShading.uasset" SILENT=true
+[2019.09.07-17.35.45:649][330]LogSavePackage: Save=63.53ms
+[2019.09.07-17.35.45:649][330]LogSavePackage: Moving '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Saved/PP_CelShadingBB7F87BA402967B28E4A8FAB1C479C31.tmp' to '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/Materiels/PP_CelShading.uasset'
+[2019.09.07-17.35.45:655][330]LogSavePackage: Display: Finished SavePackage ../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/Materiels/PP_CelShading.uasset
+[2019.09.07-17.36.03:208][160]MapCheck: New page: Map Check
+[2019.09.07-17.36.03:274][160]Cmd: MAP REBUILD ALLVISIBLE
+[2019.09.07-17.36.03:286][160]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.09.07-17.36.04:318][160]LogEditorServer: Cleared 24 NULL BSP materials after rebuild.
+[2019.09.07-17.36.04:656][160]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2019.09.07-17.36.04:667][160]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2019.09.07-17.36.04:696][160]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2019.09.07-17.36.04:723][160]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2019.09.07-17.36.04:729][160]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2019.09.07-17.36.04:737][160]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body, compiling. 
+[2019.09.07-17.36.04:754][160]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_ChestLogo, compiling. 
+[2019.09.07-17.36.04:765][160]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2019.09.07-17.36.06:537][160]TextureStreamingBuild: Display: Compiling optional shaders took 1.904 seconds.
+[2019.09.07-17.36.06:677][160]LogLevel: Display: Export Material TexCoord Scales took 0.139 seconds.
+[2019.09.07-17.36.06:765][160]TextureStreamingBuild: Display: Build Texture Streaming took 0.088 seconds.
+[2019.09.07-17.36.06:917][160]LightingResults: New page: Lighting Build - Sep 7, 2019, 9:36:06 AM
+[2019.09.07-17.36.07:297][160]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.09.07-17.36.07:605][160]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.09.07-17.36.07:648][160]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.09.07-17.36.08:746][160]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.09.07-17.36.08:746][160]LogSwarmInterface: [TryOpenConnection] Local Process ID is 6784
+[2019.09.07-17.36.16:637][160]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2019.09.07-17.36.16:653][160]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.09.07-17.36.16:654][160]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.09.07-17.36.16:654][160]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.09.07-17.36.16:654][160]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.09.07-17.36.16:654][160]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.09.07-17.36.17:396][160]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.09.07-17.36.17:396][160]MapCheck: New page: SideScrollerExampleMap - Sep 7, 2019, 9:36:17 AM
+[2019.09.07-17.36.17:470][160]MapCheck: Error: WorldInfo_0 Maps need lighting rebuilt 
+[2019.09.07-17.36.17:780][160]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 383.794ms to complete.
+[2019.09.07-17.36.17:803][160]LogEditorBuildUtils: Build time 0:14
+[2019.09.07-17.36.17:867][160]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_1, compiling. 
+[2019.09.07-17.36.17:874][160]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_1, compiling. 
+[2019.09.07-17.36.18:008][161]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1026, compiling. Is special engine material.
+[2019.09.07-17.36.18:017][161]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1026, compiling. Is special engine material.
+[2019.09.07-17.36.18:194][164]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2019.09.07-17.36.18:206][164]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2019.09.07-17.36.18:236][165]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2019.09.07-17.36.18:244][165]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2019.09.07-17.37.32:030][287]Job is a success!
+[2019.09.07-17.37.32:729][288]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.227s
+[2019.09.07-17.37.32:729][288]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2019.09.07-17.37.32:729][288]LogVolumetricLightmapImport:      BrickData 1280x20x5 = 4.0Mb
+[2019.09.07-17.37.32:729][288]LogVolumetricLightmapImport:      Bricks at Level
+[2019.09.07-17.37.32:729][288]LogVolumetricLightmapImport:          0: 0.9% covering 100.0% of volume
+[2019.09.07-17.37.32:729][288]LogVolumetricLightmapImport:          1: 8.3% covering 13.7% of volume
+[2019.09.07-17.37.32:729][288]LogVolumetricLightmapImport:          2: 90.8% covering 2.3% of volume
+[2019.09.07-17.37.35:195][288]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2019.09.07-17.37.35:195][288]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2019.09.07-17.37.35:195][288]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2019.09.07-17.37.35:195][288]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 1024X512)
+[2019.09.07-17.37.35:195][288]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2019.09.07-17.37.35:195][288]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2019.09.07-17.37.35:195][288]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 256X128)
+[2019.09.07-17.37.35:195][288]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 256X256)
+[2019.09.07-17.37.35:195][288]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 256X256)
+[2019.09.07-17.37.35:195][288]LogTexture: Display: Building textures: SkyOcclusion0_4 (AutoDXT, 256X128)
+[2019.09.07-17.37.35:195][288]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 256X256)
+[2019.09.07-17.37.35:195][288]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 256X256)
+[2019.09.07-17.37.35:195][288]LogTexture: Display: Building textures: SkyOcclusion0_5 (AutoDXT, 256X128)
+[2019.09.07-17.37.35:195][288]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 256X256)
+[2019.09.07-17.37.35:195][288]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 256X256)
+[2019.09.07-17.37.35:195][288]LogTexture: Display: Building textures: SkyOcclusion0_6 (AutoDXT, 256X128)
+[2019.09.07-17.37.35:195][288]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 256X256)
+[2019.09.07-17.37.35:195][288]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 256X256)
+[2019.09.07-17.37.35:195][288]LogTexture: Display: Building textures: SkyOcclusion0_7 (AutoDXT, 64X32)
+[2019.09.07-17.37.35:195][288]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 64X64)
+[2019.09.07-17.37.35:196][288]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 64X64)
+[2019.09.07-17.37.35:395][288]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 128X128)
+[2019.09.07-17.37.35:395][288]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 128X128)
+[2019.09.07-17.37.35:460][288]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X1024)
+[2019.09.07-17.37.35:563][288]Lightmass on DESKTOP-EEGEEHC: 1:11 min total, 511 ms importing, 170 ms setup, 8.49 sec photons, 1:02 min processing, 0 ms extra exporting [781/781 mappings]. Threads: 4:09 min total, 29.4 sec processing.
+[2019.09.07-17.37.35:752][288]LogStaticLightingSystem: Illumination: 1:28 min (1.78 sec encoding lightmaps, 261 ms encoding shadowmaps)
+[2019.09.07-17.37.35:753][288]LogStaticLightingSystem: Lightmap texture memory:  6.0 MB (0.7 MB streaming, 5.3 MB non-streaming), 14 textures
+[2019.09.07-17.37.35:753][288]LogStaticLightingSystem: Shadowmap texture memory: 1.4 MB (0.0 MB streaming, 1.3 MB non-streaming), 3 textures
+[2019.09.07-17.37.36:699][288]DumpUnbuiltLightIteractions
+[2019.09.07-17.37.36:699][288]Lights with unbuilt interactions: 0
+[2019.09.07-17.37.36:699][288]
+[2019.09.07-17.37.36:699][288]Primitives with unbuilt interactions: 0
+[2019.09.07-17.37.36:725][289]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.09.07-17.37.36:725][289]MapCheck: New page: SideScrollerExampleMap - Sep 7, 2019, 9:37:36 AM
+[2019.09.07-17.37.36:945][289]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 220.017ms to complete.
+[2019.09.07-17.40.49:063][720]LogSavePackage: Save=1909.31ms
+[2019.09.07-17.40.49:063][720]LogSavePackage: Moving '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Saved/SideScrollerExampleMap_Auto351FEDEA6419232B8322BFF8A57A1375D.tmp' to '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto3.umap'
+[2019.09.07-17.40.49:068][720]LogSavePackage: Display: Finished SavePackage ../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto3.umap
+[2019.09.07-17.40.49:091][720]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 2.164
+[2019.09.07-17.40.49:091][720]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.164
+[2019.09.07-17.40.49:098][720]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData] ([1] browsable assets)...
+[2019.09.07-17.40.49:098][720]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData]
+[2019.09.07-17.40.49:166][720]LogSavePackage: Save=64.78ms
+[2019.09.07-17.40.49:166][720]LogSavePackage: Moving '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Saved/SideScrollerExampleMap_BuiltData79E3F2784372B2301662AD8F87F0D296.tmp' to '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData_Auto3.uasset'
+[2019.09.07-17.40.49:171][720]LogSavePackage: Display: Finished SavePackage ../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData_Auto3.uasset
+[2019.09.07-17.40.49:171][720]LogFileHelpers: Auto-saving content packages took 0.077
+[2019.09.07-17.42.19:953][778]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.42.28:973][390]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.42.31:102][512]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.42.32:299][583]MaterialEditorStats: Base pass shader without light map: 112 instructions
+[2019.09.07-17.42.32:299][583]MaterialEditorStats: Vertex shader: 31 instructions
+[2019.09.07-17.42.32:299][583]MaterialEditorStats: Texture samplers: 3/16
+[2019.09.07-17.42.32:299][583]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.07-17.42.37:296][920]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.42.37:304][920]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.42.39:557][ 49]MaterialEditorStats: Base pass shader without light map: 112 instructions
+[2019.09.07-17.42.39:557][ 49]MaterialEditorStats: Vertex shader: 31 instructions
+[2019.09.07-17.42.39:557][ 49]MaterialEditorStats: Texture samplers: 3/16
+[2019.09.07-17.42.39:558][ 49]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.07-17.42.41:010][145]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.42.44:191][353]MaterialEditorStats: Base pass shader without light map: 112 instructions
+[2019.09.07-17.42.44:191][353]MaterialEditorStats: Vertex shader: 31 instructions
+[2019.09.07-17.42.44:191][353]MaterialEditorStats: Texture samplers: 3/16
+[2019.09.07-17.42.44:191][353]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.07-17.42.51:904][979]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.42.55:332][198]MaterialEditorStats: Base pass shader without light map: 112 instructions
+[2019.09.07-17.42.55:332][198]MaterialEditorStats: Vertex shader: 31 instructions
+[2019.09.07-17.42.55:332][198]MaterialEditorStats: Texture samplers: 3/16
+[2019.09.07-17.42.55:332][198]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.07-17.43.01:090][561]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.43.02:341][626]MaterialEditorStats: Base pass shader without light map: 112 instructions
+[2019.09.07-17.43.02:341][626]MaterialEditorStats: Vertex shader: 31 instructions
+[2019.09.07-17.43.02:341][626]MaterialEditorStats: Texture samplers: 3/16
+[2019.09.07-17.43.02:341][626]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.07-17.43.09:894][118]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.43.11:266][197]MaterialEditorStats: Base pass shader without light map: 112 instructions
+[2019.09.07-17.43.11:266][197]MaterialEditorStats: Vertex shader: 31 instructions
+[2019.09.07-17.43.11:266][197]MaterialEditorStats: Texture samplers: 3/16
+[2019.09.07-17.43.11:266][197]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.07-17.43.12:504][284]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.43.15:314][467]MaterialEditorStats: Base pass shader without light map: 112 instructions
+[2019.09.07-17.43.15:314][467]MaterialEditorStats: Vertex shader: 31 instructions
+[2019.09.07-17.43.15:314][467]MaterialEditorStats: Texture samplers: 3/16
+[2019.09.07-17.43.15:314][467]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.07-17.43.24:406][ 58]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionSceneTexture'"MaterialGraphNode_97.MaterialExpressionSceneTexture_18"',Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)'
+[2019.09.07-17.43.24:427][ 58]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.43.26:340][163]MaterialEditorStats: Base pass shader without light map: 112 instructions
+[2019.09.07-17.43.26:341][163]MaterialEditorStats: Vertex shader: 31 instructions
+[2019.09.07-17.43.26:341][163]MaterialEditorStats: Texture samplers: 3/16
+[2019.09.07-17.43.26:341][163]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.07-17.43.27:879][274]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.43.30:913][470]MaterialEditorStats: Base pass shader without light map: 112 instructions
+[2019.09.07-17.43.30:913][470]MaterialEditorStats: Vertex shader: 31 instructions
+[2019.09.07-17.43.30:913][470]MaterialEditorStats: Texture samplers: 3/16
+[2019.09.07-17.43.30:913][470]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.07-17.43.36:143][816]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.43.37:449][890]MaterialEditorStats: Base pass shader without light map: 112 instructions
+[2019.09.07-17.43.37:449][890]MaterialEditorStats: Vertex shader: 31 instructions
+[2019.09.07-17.43.37:449][890]MaterialEditorStats: Texture samplers: 3/16
+[2019.09.07-17.43.37:449][890]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.07-17.43.39:857][ 60]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.43.41:192][136]MaterialEditorStats: Base pass shader without light map: 115 instructions
+[2019.09.07-17.43.41:192][136]MaterialEditorStats: Vertex shader: 31 instructions
+[2019.09.07-17.43.41:192][136]MaterialEditorStats: Texture samplers: 3/16
+[2019.09.07-17.43.41:192][136]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.07-17.44.08:411][891]LogMaterialEditor: Applying material PP_CelShading
+[2019.09.07-17.44.09:337][891]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.44.09:385][891]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.44.09:402][891]LogMaterial: Missing cached shader map for material PP_CelShading, compiling. 
+[2019.09.07-17.44.09:439][891]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2019.09.07-17.44.11:984][ 36]LogMaterialEditor: Saving and Compiling material PP_CelShading
+[2019.09.07-17.44.13:414][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materiels/PP_CelShading" FILE="../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/Materiels/PP_CelShading.uasset" SILENT=true
+[2019.09.07-17.44.13:493][ 36]LogSavePackage: Save=67.18ms
+[2019.09.07-17.44.13:493][ 36]LogSavePackage: Moving '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Saved/PP_CelShading677F8D0D4E3EBE76BCAE189543BDF638.tmp' to '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/Materiels/PP_CelShading.uasset'
+[2019.09.07-17.44.13:500][ 36]LogSavePackage: Display: Finished SavePackage ../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/Materiels/PP_CelShading.uasset
+[2019.09.07-17.44.13:510][ 36]MaterialEditorStats: Base pass shader without light map: 115 instructions
+[2019.09.07-17.44.13:511][ 36]MaterialEditorStats: Vertex shader: 31 instructions
+[2019.09.07-17.44.13:511][ 36]MaterialEditorStats: Texture samplers: 3/16
+[2019.09.07-17.44.13:511][ 36]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.07-17.46.45:955][595]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.07-17.46.47:671][595]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.09.07-17.46.47:690][595]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.07-17.46.47:754][595]PIE: New page: PIE session: SideScrollerExampleMap (Sep 7, 2019, 9:46:47 AM)
+[2019.09.07-17.46.47:776][595]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.09.07-17.46.48:008][595]LogPlayLevel: PIE: StaticDuplicateObject took: (0.231768s)
+[2019.09.07-17.46.48:137][595]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.09.07-17.46.48:157][595]LogPlayLevel: PIE: World Init took: (0.148599s)
+[2019.09.07-17.46.48:172][595]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.405747s)
+[2019.09.07-17.46.48:352][595]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.07-17.46.48:418][595]LogInit: FAudioDevice initialized.
+[2019.09.07-17.46.48:534][595]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.09.07-17.46.48:629][595]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2019.09.07-13.46.48
+[2019.09.07-17.46.48:667][595]LogWorld: Bringing up level for play took: 0.041532
+[2019.09.07-17.46.49:015][595]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 11 classes and 0 folders.
+[2019.09.07-17.46.49:051][595]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.576
+[2019.09.07-17.46.49:051][595]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.09.07-17.46.58:325][625]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.09.07-17.46.58:462][625]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.09.07-17.47.04:191][143]LogSavePackage: Save=713.99ms
+[2019.09.07-17.47.04:191][143]LogSavePackage: Moving '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Saved/SideScrollerExampleMapCA7362B24148A262E81A03902EE8E0FF.tmp' to '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2019.09.07-17.47.04:199][143]LogSavePackage: Display: Finished SavePackage ../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap
+[2019.09.07-17.47.04:551][143]LogSavePackage: Save=309.98ms
+[2019.09.07-17.47.04:551][143]LogSavePackage: Moving '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Saved/SideScrollerExampleMap_BuiltDataBF49181C4CB98E3F76707ABE40264C1E.tmp' to '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.uasset'
+[2019.09.07-17.47.04:558][143]LogSavePackage: Display: Finished SavePackage ../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.uasset
+[2019.09.07-17.49.26:057][134]LogSavePackage: Save=687.99ms
+[2019.09.07-17.49.26:057][134]LogSavePackage: Moving '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Saved/SideScrollerExampleMap346329804749D2330A20A699B1102BC9.tmp' to '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2019.09.07-17.49.26:065][134]LogSavePackage: Display: Finished SavePackage ../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap
+[2019.09.07-17.49.26:402][134]LogSavePackage: Save=286.73ms
+[2019.09.07-17.49.26:402][134]LogSavePackage: Moving '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Saved/SideScrollerExampleMap_BuiltData194753634EE8E2AEA8152A8E3B9F8B86.tmp' to '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.uasset'
+[2019.09.07-17.49.26:406][134]LogSavePackage: Display: Finished SavePackage ../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.uasset
+[2019.09.07-17.49.28:054][253]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.09.07-17.49.28:502][254]Cmd: QUIT_EDITOR
+[2019.09.07-17.49.29:050][254]LogExit: Preparing to exit.
+[2019.09.07-17.49.30:060][254]LogDirectoryWatcher: A directory notification for 'D:/GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/' was aborted.
+[2019.09.07-17.49.30:269][254]LogExit: Editor shut down
+[2019.09.07-17.49.30:309][254]LogExit: Transaction tracking system shut down
+[2019.09.07-17.49.30:806][254]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2019.09.07-17.49.30:806][254]LogDirectoryWatcher: A directory notification for '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/' was aborted.
+[2019.09.07-17.49.30:806][254]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2019.09.07-17.49.30:806][254]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2019.09.07-17.49.30:806][254]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2019.09.07-17.49.30:806][254]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2019.09.07-17.49.30:806][254]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2019.09.07-17.49.32:163][254]LogExit: Object subsystem successfully closed.
+[2019.09.07-17.49.32:418][254]LogD3D11RHI: Shutdown
+[2019.09.07-17.49.32:431][254]LogD3D11RHI: CleanupD3DDevice
+[2019.09.07-17.49.32:485][254]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.09.07-17.49.35:776][254]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (554)
+[2019.09.07-17.49.35:776][254]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (552)
+[2019.09.07-17.49.35:824][254]LogModuleManager: Shutting down and abandoning module MaterialEditor (550)
+[2019.09.07-17.49.35:824][254]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
+[2019.09.07-17.49.35:824][254]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
+[2019.09.07-17.49.35:824][254]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
+[2019.09.07-17.49.35:897][254]LogDirectoryWatcher: A directory notification for 'D:/Program Files (x86)/UE_4.18/FeaturePacks/' was aborted.
+[2019.09.07-17.49.35:908][254]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
+[2019.09.07-17.49.35:908][254]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
+[2019.09.07-17.49.35:908][254]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
+[2019.09.07-17.49.35:938][254]LogDirectoryWatcher: A directory notification for 'D:/GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/Collections/' was aborted.
+[2019.09.07-17.49.35:938][254]LogDirectoryWatcher: A directory notification for 'D:/GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/Developers/ChristopherP/Collections/' was aborted.
+[2019.09.07-17.49.35:938][254]LogDirectoryWatcher: A directory notification for 'D:/GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Collections/' was aborted.
+[2019.09.07-17.49.35:938][254]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2019.09.07-17.49.36:040][254]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2019.09.07-17.49.36:088][254]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2019.09.07-17.49.36:336][254]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2019.09.07-17.49.36:421][254]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2019.09.07-17.49.36:421][254]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2019.09.07-17.49.36:421][254]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2019.09.07-17.49.36:421][254]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2019.09.07-17.49.36:421][254]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2019.09.07-17.49.36:421][254]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2019.09.07-17.49.36:421][254]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2019.09.07-17.49.36:421][254]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2019.09.07-17.49.36:475][254]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2019.09.07-17.49.36:548][254]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2019.09.07-17.49.36:589][254]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2019.09.07-17.49.36:878][254]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2019.09.07-17.49.36:878][254]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2019.09.07-17.49.36:878][254]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2019.09.07-17.49.36:878][254]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2019.09.07-17.49.36:878][254]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2019.09.07-17.49.36:878][254]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2019.09.07-17.49.36:878][254]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2019.09.07-17.49.36:878][254]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2019.09.07-17.49.36:878][254]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2019.09.07-17.49.36:879][254]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2019.09.07-17.49.36:879][254]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2019.09.07-17.49.36:879][254]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2019.09.07-17.49.36:922][254]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2019.09.07-17.49.36:939][254]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2019.09.07-17.49.36:939][254]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2019.09.07-17.49.36:939][254]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2019.09.07-17.49.36:939][254]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2019.09.07-17.49.36:939][254]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2019.09.07-17.49.37:070][254]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2019.09.07-17.49.37:188][254]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2019.09.07-17.49.37:337][254]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2019.09.07-17.49.37:452][254]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2019.09.07-17.49.37:567][254]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2019.09.07-17.49.37:567][254]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2019.09.07-17.49.37:567][254]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2019.09.07-17.49.37:567][254]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2019.09.07-17.49.38:567][254]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2019.09.07-17.49.38:567][254]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2019.09.07-17.49.38:567][254]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2019.09.07-17.49.38:567][254]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2019.09.07-17.49.38:599][254]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2019.09.07-17.49.38:661][254]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2019.09.07-17.49.38:661][254]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2019.09.07-17.49.38:685][254]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2019.09.07-17.49.38:685][254]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2019.09.07-17.49.38:698][254]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2019.09.07-17.49.38:749][254]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2019.09.07-17.49.38:749][254]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2019.09.07-17.49.38:749][254]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2019.09.07-17.49.38:789][254]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2019.09.07-17.49.38:837][254]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2019.09.07-17.49.38:837][254]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2019.09.07-17.49.38:837][254]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2019.09.07-17.49.38:838][254]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2019.09.07-17.49.38:838][254]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2019.09.07-17.49.38:904][254]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2019.09.07-17.49.39:010][254]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2019.09.07-17.49.39:053][254]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2019.09.07-17.49.39:103][254]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2019.09.07-17.49.39:119][254]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2019.09.07-17.49.39:177][254]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2019.09.07-17.49.39:311][254]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2019.09.07-17.49.39:422][254]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2019.09.07-17.49.39:779][254]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2019.09.07-17.49.39:784][254]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2019.09.07-17.49.39:926][254]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2019.09.07-17.49.39:986][254]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2019.09.07-17.49.40:181][254]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2019.09.07-17.49.40:181][254]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2019.09.07-17.49.40:181][254]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2019.09.07-17.49.40:222][254]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2019.09.07-17.49.40:222][254]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2019.09.07-17.49.40:222][254]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2019.09.07-17.49.40:253][254]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2019.09.07-17.49.40:324][254]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2019.09.07-17.49.40:374][254]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2019.09.07-17.49.40:379][254]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2019.09.07-17.49.40:379][254]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2019.09.07-17.49.40:380][254]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2019.09.07-17.49.40:380][254]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2019.09.07-17.49.40:380][254]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2019.09.07-17.49.40:380][254]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2019.09.07-17.49.40:380][254]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2019.09.07-17.49.40:380][254]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2019.09.07-17.49.40:380][254]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2019.09.07-17.49.40:380][254]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2019.09.07-17.49.40:380][254]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2019.09.07-17.49.40:380][254]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2019.09.07-17.49.40:387][254]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2019.09.07-17.49.40:398][254]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2019.09.07-17.49.40:457][254]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2019.09.07-17.49.40:686][254]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2019.09.07-17.49.40:686][254]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2019.09.07-17.49.40:686][254]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2019.09.07-17.49.40:710][254]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2019.09.07-17.49.40:734][254]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2019.09.07-17.49.40:734][254]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2019.09.07-17.49.40:734][254]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2019.09.07-17.49.40:734][254]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2019.09.07-17.49.40:734][254]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2019.09.07-17.49.40:734][254]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2019.09.07-17.49.40:734][254]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2019.09.07-17.49.41:019][254]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2019.09.07-17.49.41:019][254]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2019.09.07-17.49.41:019][254]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2019.09.07-17.49.41:019][254]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2019.09.07-17.49.41:034][254]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2019.09.07-17.49.41:034][254]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2019.09.07-17.49.41:042][254]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2019.09.07-17.49.41:042][254]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2019.09.07-17.49.41:042][254]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2019.09.07-17.49.41:066][254]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2019.09.07-17.49.41:072][254]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2019.09.07-17.49.41:072][254]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2019.09.07-17.49.41:072][254]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2019.09.07-17.49.41:073][254]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2019.09.07-17.49.41:082][254]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2019.09.07-17.49.41:090][254]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2019.09.07-17.49.41:092][254]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2019.09.07-17.49.41:127][254]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2019.09.07-17.49.41:127][254]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2019.09.07-17.49.41:127][254]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2019.09.07-17.49.41:127][254]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2019.09.07-17.49.41:179][254]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2019.09.07-17.49.41:192][254]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2019.09.07-17.49.41:213][254]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2019.09.07-17.49.41:304][254]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2019.09.07-17.49.41:349][254]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2019.09.07-17.49.41:399][254]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2019.09.07-17.49.41:399][254]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2019.09.07-17.49.41:399][254]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2019.09.07-17.49.41:399][254]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2019.09.07-17.49.41:399][254]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2019.09.07-17.49.41:399][254]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2019.09.07-17.49.41:399][254]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2019.09.07-17.49.41:416][254]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2019.09.07-17.49.41:551][254]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2019.09.07-17.49.41:739][254]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2019.09.07-17.49.41:873][254]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2019.09.07-17.49.41:874][254]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2019.09.07-17.49.41:874][254]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2019.09.07-17.49.41:951][254]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2019.09.07-17.49.41:951][254]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2019.09.07-17.49.41:954][254]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2019.09.07-17.49.41:954][254]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2019.09.07-17.49.41:954][254]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2019.09.07-17.49.41:988][254]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2019.09.07-17.49.42:049][254]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2019.09.07-17.49.42:049][254]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2019.09.07-17.49.42:049][254]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2019.09.07-17.49.42:049][254]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2019.09.07-17.49.42:112][254]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2019.09.07-17.49.42:112][254]LogModuleManager: Shutting down and abandoning module Media (221)
+[2019.09.07-17.49.42:118][254]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2019.09.07-17.49.42:118][254]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2019.09.07-17.49.42:119][254]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2019.09.07-17.49.42:203][254]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2019.09.07-17.49.42:249][254]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2019.09.07-17.49.42:249][254]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2019.09.07-17.49.42:537][254]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2019.09.07-17.49.42:575][254]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2019.09.07-17.49.42:684][254]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2019.09.07-17.49.42:768][254]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2019.09.07-17.49.42:818][254]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2019.09.07-17.49.42:844][254]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2019.09.07-17.49.43:083][254]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2019.09.07-17.49.43:083][254]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2019.09.07-17.49.43:315][254]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2019.09.07-17.49.43:315][254]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2019.09.07-17.49.43:357][254]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2019.09.07-17.49.43:357][254]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2019.09.07-17.49.43:357][254]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2019.09.07-17.49.43:357][254]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2019.09.07-17.49.43:357][254]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2019.09.07-17.49.43:358][254]LogModuleManager: Shutting down and abandoning module Core (172)
+[2019.09.07-17.49.43:358][254]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2019.09.07-17.49.43:410][254]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2019.09.07-17.49.43:421][254]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2019.09.07-17.49.43:421][254]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2019.09.07-17.49.43:478][254]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2019.09.07-17.49.43:485][254]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2019.09.07-17.49.43:485][254]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2019.09.07-17.49.43:501][254]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2019.09.07-17.49.43:501][254]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2019.09.07-17.49.43:507][254]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2019.09.07-17.49.43:516][254]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2019.09.07-17.49.43:611][254]LogDerivedDataCache: Shutdown
+[2019.09.07-17.49.43:611][254]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2019.09.07-17.49.43:611][254]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2019.09.07-17.49.43:627][254]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2019.09.07-17.49.43:632][254]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2019.09.07-17.49.43:640][254]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2019.09.07-17.49.43:644][254]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2019.09.07-17.49.43:651][254]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2019.09.07-17.49.43:651][254]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2019.09.07-17.49.43:651][254]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2019.09.07-17.49.43:651][254]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2019.09.07-17.49.43:656][254]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2019.09.07-17.49.43:656][254]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2019.09.07-17.49.43:656][254]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2019.09.07-17.49.43:656][254]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2019.09.07-17.49.43:656][254]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2019.09.07-17.49.43:674][254]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2019.09.07-17.49.43:675][254]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2019.09.07-17.49.43:675][254]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2019.09.07-17.49.43:675][254]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2019.09.07-17.49.43:675][254]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2019.09.07-17.49.43:675][254]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2019.09.07-17.49.43:675][254]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2019.09.07-17.49.43:675][254]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2019.09.07-17.49.43:675][254]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2019.09.07-17.49.43:675][254]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2019.09.07-17.49.43:675][254]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2019.09.07-17.49.43:675][254]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2019.09.07-17.49.43:675][254]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2019.09.07-17.49.43:675][254]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2019.09.07-17.49.43:675][254]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2019.09.07-17.49.43:675][254]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2019.09.07-17.49.43:675][254]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2019.09.07-17.49.43:675][254]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2019.09.07-17.49.43:675][254]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2019.09.07-17.49.43:675][254]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2019.09.07-17.49.43:675][254]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2019.09.07-17.49.43:675][254]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2019.09.07-17.49.43:675][254]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2019.09.07-17.49.43:675][254]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2019.09.07-17.49.43:675][254]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2019.09.07-17.49.43:676][254]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2019.09.07-17.49.43:676][254]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2019.09.07-17.49.43:676][254]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2019.09.07-17.49.43:676][254]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2019.09.07-17.49.43:676][254]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2019.09.07-17.49.43:676][254]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2019.09.07-17.49.43:693][254]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2019.09.07-17.49.43:693][254]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2019.09.07-17.49.43:693][254]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2019.09.07-17.49.43:693][254]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2019.09.07-17.49.43:693][254]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2019.09.07-17.49.43:717][254]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2019.09.07-17.49.43:749][254]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2019.09.07-17.49.43:750][254]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.09.07-17.49.43:753][254]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7F70402B-400E-294B-B99F-84BA41C02DEC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=2f9916264acdf33f70768f822f9563c9%7C504a56eacb094752a172dcccc7c138cb%7C241500de-b41d-44c2-b004-1325f18bb3ba&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.09.07-17.49.43:837][254]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2019.09.07-17.49.43:922][254]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.09.07-17.49.43:951][254]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.09.07-17.49.43:951][254]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.09.07-17.49.44:017][254]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.09.07-17.49.44:017][254]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.09.07-17.49.44:017][254]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.09.07-17.49.44:017][254]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.09.07-17.49.44:047][254]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.09.07-17.49.44:078][254]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.09.07-17.49.44:078][254]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.09.07-17.49.44:101][254]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.09.07-17.49.44:101][254]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.09.07-17.49.44:101][254]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.09.07-17.49.44:101][254]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.09.07-17.49.44:119][254]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.09.07-17.49.44:119][254]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.09.07-17.49.44:125][254]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.09.07-17.49.44:134][254]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.09.07-17.49.44:169][254]LogExit: Exiting.
+[2019.09.07-17.49.44:218][254]Log file closed, 09/07/19 13:49:44
