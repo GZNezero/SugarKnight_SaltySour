@@ -1,0 +1,1060 @@
+﻿Log file open, 10/14/19 16:38:54
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: SKnightPrototype_01
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(435811515) SRandInit(435811515).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3794801, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.176341
+LogD3D11RHI: Aftermath initialized
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3794801
+LogInit: Engine Version: 4.18.2-3794801+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Dec  8 2017 02:04:53
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line:  
+LogInit: Base directory: D:/Program Files (x86)/Epic Games/4.15/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.10.14-20.38.56:140][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.14-20.38.56:140][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.10.14-20.38.56:148][  0]LogInit: Computer: DESKTOP-0NODL4J
+[2019.10.14-20.38.56:148][  0]LogInit: User: Ownewr
+[2019.10.14-20.38.56:148][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.10.14-20.38.56:148][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.10.14-20.38.56:148][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.10.14-20.38.56:148][  0]LogMemory: Platform Memory Stats for Windows
+[2019.10.14-20.38.56:148][  0]LogMemory: Process Physical Memory: 276.92 MB used, 276.93 MB peak
+[2019.10.14-20.38.56:148][  0]LogMemory: Process Virtual Memory: 269.82 MB used, 269.82 MB peak
+[2019.10.14-20.38.56:148][  0]LogMemory: Physical Memory: 7054.27 MB used,  9271.37 MB free, 16325.64 MB total
+[2019.10.14-20.38.56:148][  0]LogMemory: Virtual Memory: 4749.54 MB used,  9271.37 MB free, 134217728.00 MB total
+[2019.10.14-20.38.56:306][  0]LogInit: Using OS detected language (en-US).
+[2019.10.14-20.38.56:306][  0]LogInit: Using OS detected locale (en-US).
+[2019.10.14-20.38.56:310][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.10.14-20.38.56:636][  0]LogInit: Setting process to per monitor DPI aware
+[2019.10.14-20.38.56:943][  0]LogD3D11RHI: D3D11 adapters:
+[2019.10.14-20.38.57:003][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2019.10.14-20.38.57:003][  0]LogD3D11RHI:       8088/0/8162 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2019.10.14-20.38.57:006][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.10.14-20.38.57:006][  0]LogD3D11RHI:       0/0/8162 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.10.14-20.38.57:006][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.10.14-20.38.57:012][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.10.14-20.38.57:012][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2019.10.14-20.38.57:012][  0]LogWindows: EnumDisplayDevices:
+[2019.10.14-20.38.57:012][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2019.10.14-20.38.57:013][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2019.10.14-20.38.57:013][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2019.10.14-20.38.57:013][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.10.14-20.38.57:013][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.10.14-20.38.57:013][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2019.10.14-20.38.57:014][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.10.14-20.38.57:014][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.10.14-20.38.57:014][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2019.10.14-20.38.57:055][  0]LogD3D11RHI: Async texture creation enabled
+[2019.10.14-20.38.57:073][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.10.14-20.38.57:217][  0]LogShaderCompilers: Guid format shader working directory is -37 characters bigger than the processId version (C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Intermediate/Shaders/WorkingDirectory/18788/).
+[2019.10.14-20.38.57:217][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Ownewr/AppData/Local/Temp/UnrealShaderWorkingDir/EAA55060431B3ED20233D7AB61178A7C/'.
+[2019.10.14-20.38.57:217][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.10.14-20.38.58:036][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.10.14-20.38.58:089][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.10.14-20.38.58:142][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.10.14-20.38.58:198][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.10.14-20.38.58:255][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.10.14-20.38.58:313][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.10.14-20.38.58:368][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.10.14-20.38.58:422][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.10.14-20.38.58:468][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.10.14-20.38.58:518][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2019.10.14-20.38.58:568][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2019.10.14-20.38.58:618][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2019.10.14-20.38.58:668][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2019.10.14-20.38.58:718][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2019.10.14-20.38.58:821][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2019.10.14-20.38.58:821][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.10.14-20.38.58:874][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.14-20.38.58:916][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.10.14-20.38.59:007][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.10.14-20.38.59:033][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.10.14-20.38.59:082][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.10.14-20.38.59:135][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.10.14-20.38.59:192][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.10.14-20.38.59:243][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.10.14-20.38.59:243][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.10.14-20.38.59:789][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.10.14-20.38.59:846][  0]LogDerivedDataCache: Loaded boot cache 0.06s 78MB C:/Users/Ownewr/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2019.10.14-20.38.59:846][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Ownewr/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2019.10.14-20.38.59:846][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.10.14-20.38.59:846][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.10.14-20.38.59:846][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.14-20.38.59:846][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.10.14-20.38.59:860][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.10.14-20.38.59:872][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ownewr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.10.14-20.38.59:880][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.10.14-20.38.59:880][  0]LogSlate: Using Freetype 2.6.0
+[2019.10.14-20.38.59:881][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.10.14-20.38.59:881][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.10.14-20.39.00:262][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.14-20.39.00:609][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.10.14-20.39.00:653][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.10.14-20.39.00:653][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.10.14-20.39.00:653][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.10.14-20.39.00:653][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.10.14-20.39.00:653][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.10.14-20.39.00:707][  0]LogNetVersion: SKnightPrototype_01 , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 431312611)
+[2019.10.14-20.39.00:868][  0]LogAssetRegistry: FAssetRegistry took 0.0256 seconds to start up
+[2019.10.14-20.39.01:440][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.059753 seconds
+[2019.10.14-20.39.01:444][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
+[2019.10.14-20.39.01:444][  0]LogUObjectAllocator: 7372024 out of 0 bytes used by permanent object pool.
+[2019.10.14-20.39.01:444][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.10.14-20.39.01:510][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2019.10.14-20.39.04:544][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.10.14-20.39.04:596][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.10.14-20.39.05:385][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2019.10.14-20.39.05:847][  0]SourceControl: Source control is disabled
+[2019.10.14-20.39.05:847][  0]SourceControl: Source control is disabled
+[2019.10.14-20.39.05:913][  0]SourceControl: Source control is disabled
+[2019.10.14-20.39.05:977][  0]SourceControl: Source control is disabled
+[2019.10.14-20.39.06:975][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.10.14-20.39.07:312][  0]LogOcInput: OculusInput pre-init called
+[2019.10.14-20.39.07:635][  0]LogEngine: Initializing Engine...
+[2019.10.14-20.39.07:637][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.14-20.39.07:806][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.10.14-20.39.07:806][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.10.14-20.39.07:938][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.10.14-20.39.07:958][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.14-20.39.07:980][  0]LogInit: FAudioDevice initialized.
+[2019.10.14-20.39.08:055][  0]LogDerivedDataCache: Saved boot cache 0.07s 78MB C:/Users/Ownewr/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2019.10.14-20.39.08:066][  0]LogInit: Texture streaming: Enabled
+[2019.10.14-20.39.08:172][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.10.14-20.39.08:309][  0]LogInit: Transaction tracking system initialized
+[2019.10.14-20.39.08:635][  0]BlueprintLog: New page: Editor Load
+[2019.10.14-20.39.09:552][  0]LocalizationService: Localization service is disabled
+[2019.10.14-20.39.10:336][  0]LogConsoleResponse: Display: 
+[2019.10.14-20.39.10:499][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.10.14-20.39.10:499][  0]LogCook: Display: Mobile HDR setting 1
+[2019.10.14-20.39.10:499][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.10.14-20.39.11:315][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Content/' took 0.02s
+[2019.10.14-20.39.11:910][  0]SourceControl: Source control is disabled
+[2019.10.14-20.39.11:910][  0]Cmd: MAP LOAD FILE="C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.14-20.39.11:910][  0]LightingResults: New page: Lighting Build
+[2019.10.14-20.39.11:954][  0]MapCheck: New page: Map Check
+[2019.10.14-20.39.11:954][  0]LightingResults: New page: Lighting Build
+[2019.10.14-20.39.12:494][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.10.14-20.39.12:513][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.14-20.39.12:527][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.14-20.39.12:598][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 69.662ms to complete.
+[2019.10.14-20.39.12:598][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 0.687
+[2019.10.14-20.39.12:798][  0]LogCollectionManager: Loaded 0 collections in 0.002267 seconds
+[2019.10.14-20.39.12:893][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Collections/' took 0.01s
+[2019.10.14-20.39.12:893][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Content/Developers/Ownewr/Collections/' took 0.01s
+[2019.10.14-20.39.12:893][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Content/Collections/' took 0.01s
+[2019.10.14-20.39.12:893][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.10.14-20.39.12:900][  0]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 2363 classes and 519 folders.
+[2019.10.14-20.39.12:971][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.10.14-20.39.13:035][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.10.14-20.39.13:087][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.10.14-20.39.13:174][  0]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.10.14-20.39.13:175][  0]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.10.14-20.39.13:179][  0]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.10.14-20.39.13:278][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.10.14-20.39.13:448][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.10.14-20.39.13:448][  0]LogLoad: (Engine Initialization) Total time: 20.40 seconds
+[2019.10.14-20.39.13:448][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.10.14-20.39.13:448][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2019.10.14-20.39.13:475][  0]LogAssetRegistry: Asset discovery search completed in 12.6299 seconds
+[2019.10.14-20.39.13:477][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.10.14-20.39.13:477][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000054 seconds (updated 0 objects)
+[2019.10.14-20.39.13:479][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.10.14-20.39.13:525][  0]LogSlate: Took 0.000250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.10.14-20.39.14:491][102]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.10.14-20.40.34:265][765]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.10.14-20.40.34:308][765]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Ownewr/Documents/Capstone/KaneUnrealExport/Kane_ModelFinal.FBX)
+[2019.10.14-20.40.34:435][765]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2019.10.14-20.40.34:435][765]LogFbx: ItemName: Model, ItemCount : 58
+[2019.10.14-20.40.34:435][765]LogFbx: ItemName: Geometry, ItemCount : 1
+[2019.10.14-20.40.34:435][765]LogFbx: ItemName: NodeAttribute, ItemCount : 57
+[2019.10.14-20.40.34:435][765]LogFbx: ItemName: Deformer, ItemCount : 57
+[2019.10.14-20.40.34:435][765]LogFbx: ItemName: Pose, ItemCount : 1
+[2019.10.14-20.40.34:454][765]LogFbx: Loading FBX Scene from C:/Users/Ownewr/Documents/Capstone/KaneUnrealExport/Kane_ModelFinal.FBX
+[2019.10.14-20.40.34:486][765]LogFbx: FBX Scene Loaded Succesfully
+[2019.10.14-20.40.49:583][765]LogFbx: Loading FBX Scene from C:/Users/Ownewr/Documents/Capstone/KaneUnrealExport/Kane_ModelFinal.FBX
+[2019.10.14-20.40.49:611][765]LogFbx: FBX Scene Loaded Succesfully
+[2019.10.14-20.40.49:613][765]LogFbx: =================================================
+[2019.10.14-20.40.49:613][765]LogFbx: Dumping Node START [KaneMidPoly] 
+[2019.10.14-20.40.49:613][765]LogFbx: 	Total Deformer Count -911500160.
+[2019.10.14-20.40.49:613][765]LogFbx: 		[Node 1]  (Type Skin).
+[2019.10.14-20.40.49:613][765]LogFbx: =================================================
+[2019.10.14-20.40.49:613][765]LogFbx: 	Attribute () Type (4).
+[2019.10.14-20.40.49:613][765]LogFbx: 		[Node Attribute Child 1] KaneMidPoly (Type Mesh).
+[2019.10.14-20.40.49:613][765]LogFbx: Dumping Node END [KaneMidPoly]
+[2019.10.14-20.40.49:613][765]LogFbx: =================================================
+[2019.10.14-20.40.49:613][765]LogFbx: Dumping Node START [KaneMidPoly] 
+[2019.10.14-20.40.49:613][765]LogFbx: 	Total Deformer Count -911500160.
+[2019.10.14-20.40.49:613][765]LogFbx: 		[Node 1]  (Type Skin).
+[2019.10.14-20.40.49:613][765]LogFbx: =================================================
+[2019.10.14-20.40.49:613][765]LogFbx: 	Attribute () Type (4).
+[2019.10.14-20.40.49:613][765]LogFbx: 		[Node Attribute Child 1] KaneMidPoly (Type Mesh).
+[2019.10.14-20.40.49:613][765]LogFbx: Dumping Node END [KaneMidPoly]
+[2019.10.14-20.40.49:615][765]LogFbx: Valid bind pose for Pose (BIND_POSES) - KaneMidPoly
+[2019.10.14-20.40.49:627][765]FBXImport: Error: Error, Could not import KaneMidPoly.
+Duplicate bone name found ('CATRigSpine1'). Each bone must have a unique name. 
+[2019.10.14-20.40.49:628][765]FBXImport: Error: Multiple roots found 
+[2019.10.14-20.40.49:628][765]FBXImport: Warning: Get Import Data has failed. 
+[2019.10.14-20.40.49:628][765]FBXImport: Error: Import failed. 
+[2019.10.14-20.40.55:817][765]LogAssetTools: Warning: Failed to import 'C:/Users/Ownewr/Documents/Capstone/KaneUnrealExport/Kane_ModelFinal.FBX'. Failed to create asset '/Game/Characters/Kane/Kane_ModelFinal'.
+Please see Output Log for details.
+[2019.10.14-20.46.42:187][910]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Ownewr/Documents/Capstone/KaneUnrealExport/Kane_ModelFinal.FBX)
+[2019.10.14-20.46.42:194][910]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2019.10.14-20.46.42:194][910]LogFbx: ItemName: Model, ItemCount : 59
+[2019.10.14-20.46.42:194][910]LogFbx: ItemName: Geometry, ItemCount : 1
+[2019.10.14-20.46.42:194][910]LogFbx: ItemName: NodeAttribute, ItemCount : 58
+[2019.10.14-20.46.42:194][910]LogFbx: ItemName: Deformer, ItemCount : 57
+[2019.10.14-20.46.42:194][910]LogFbx: ItemName: Pose, ItemCount : 1
+[2019.10.14-20.46.42:198][910]LogFbx: Loading FBX Scene from C:/Users/Ownewr/Documents/Capstone/KaneUnrealExport/Kane_ModelFinal.FBX
+[2019.10.14-20.46.42:224][910]LogFbx: FBX Scene Loaded Succesfully
+[2019.10.14-20.46.50:959][910]LogFbx: Loading FBX Scene from C:/Users/Ownewr/Documents/Capstone/KaneUnrealExport/Kane_ModelFinal.FBX
+[2019.10.14-20.46.50:990][910]LogFbx: FBX Scene Loaded Succesfully
+[2019.10.14-20.46.50:992][910]LogFbx: =================================================
+[2019.10.14-20.46.50:992][910]LogFbx: Dumping Node START [KaneMidPoly] 
+[2019.10.14-20.46.50:992][910]LogFbx: 	Total Deformer Count -1998011072.
+[2019.10.14-20.46.50:992][910]LogFbx: 		[Node 1]  (Type Skin).
+[2019.10.14-20.46.50:992][910]LogFbx: =================================================
+[2019.10.14-20.46.50:992][910]LogFbx: 	Attribute () Type (4).
+[2019.10.14-20.46.50:992][910]LogFbx: 		[Node Attribute Child 1] KaneMidPoly (Type Mesh).
+[2019.10.14-20.46.50:992][910]LogFbx: Dumping Node END [KaneMidPoly]
+[2019.10.14-20.46.50:992][910]LogFbx: =================================================
+[2019.10.14-20.46.50:992][910]LogFbx: Dumping Node START [KaneMidPoly] 
+[2019.10.14-20.46.50:992][910]LogFbx: 	Total Deformer Count -1998011072.
+[2019.10.14-20.46.50:992][910]LogFbx: 		[Node 1]  (Type Skin).
+[2019.10.14-20.46.50:992][910]LogFbx: =================================================
+[2019.10.14-20.46.50:992][910]LogFbx: 	Attribute () Type (4).
+[2019.10.14-20.46.50:992][910]LogFbx: 		[Node Attribute Child 1] KaneMidPoly (Type Mesh).
+[2019.10.14-20.46.50:992][910]LogFbx: Dumping Node END [KaneMidPoly]
+[2019.10.14-20.46.50:993][910]LogFbx: Valid bind pose for Pose (BIND_POSES) - KaneMidPoly
+[2019.10.14-20.46.50:997][910]FBXImport: Error: Error, Could not import KaneMidPoly.
+Duplicate bone name found ('CATRigSpine1'). Each bone must have a unique name. 
+[2019.10.14-20.46.50:997][910]FBXImport: Error: Multiple roots found 
+[2019.10.14-20.46.50:997][910]FBXImport: Warning: Get Import Data has failed. 
+[2019.10.14-20.46.50:997][910]FBXImport: Error: Import failed. 
+[2019.10.14-20.46.54:069][910]LogAssetTools: Warning: Failed to import 'C:/Users/Ownewr/Documents/Capstone/KaneUnrealExport/Kane_ModelFinal.FBX'. Failed to create asset '/Game/Characters/Kane/Kane_ModelFinal'.
+Please see Output Log for details.
+[2019.10.14-20.47.06:187][130]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Ownewr/Documents/Capstone/KaneUnrealExport/Kane_ModelFinal_2017.FBX)
+[2019.10.14-20.47.06:195][130]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2019.10.14-20.47.06:195][130]LogFbx: ItemName: Model, ItemCount : 59
+[2019.10.14-20.47.06:195][130]LogFbx: ItemName: Geometry, ItemCount : 1
+[2019.10.14-20.47.06:195][130]LogFbx: ItemName: NodeAttribute, ItemCount : 58
+[2019.10.14-20.47.06:195][130]LogFbx: ItemName: Deformer, ItemCount : 57
+[2019.10.14-20.47.06:195][130]LogFbx: ItemName: Pose, ItemCount : 1
+[2019.10.14-20.47.06:199][130]LogFbx: Loading FBX Scene from C:/Users/Ownewr/Documents/Capstone/KaneUnrealExport/Kane_ModelFinal_2017.FBX
+[2019.10.14-20.47.06:224][130]LogFbx: FBX Scene Loaded Succesfully
+[2019.10.14-20.47.07:469][130]LogFbx: Loading FBX Scene from C:/Users/Ownewr/Documents/Capstone/KaneUnrealExport/Kane_ModelFinal_2017.FBX
+[2019.10.14-20.47.07:495][130]LogFbx: FBX Scene Loaded Succesfully
+[2019.10.14-20.47.07:496][130]LogFbx: =================================================
+[2019.10.14-20.47.07:496][130]LogFbx: Dumping Node START [KaneMidPoly] 
+[2019.10.14-20.47.07:497][130]LogFbx: 	Total Deformer Count -2130745664.
+[2019.10.14-20.47.07:497][130]LogFbx: 		[Node 1]  (Type Skin).
+[2019.10.14-20.47.07:497][130]LogFbx: =================================================
+[2019.10.14-20.47.07:497][130]LogFbx: 	Attribute () Type (4).
+[2019.10.14-20.47.07:497][130]LogFbx: 		[Node Attribute Child 1] KaneMidPoly (Type Mesh).
+[2019.10.14-20.47.07:497][130]LogFbx: Dumping Node END [KaneMidPoly]
+[2019.10.14-20.47.07:497][130]LogFbx: =================================================
+[2019.10.14-20.47.07:497][130]LogFbx: Dumping Node START [KaneMidPoly] 
+[2019.10.14-20.47.07:497][130]LogFbx: 	Total Deformer Count -2130745664.
+[2019.10.14-20.47.07:497][130]LogFbx: 		[Node 1]  (Type Skin).
+[2019.10.14-20.47.07:497][130]LogFbx: =================================================
+[2019.10.14-20.47.07:497][130]LogFbx: 	Attribute () Type (4).
+[2019.10.14-20.47.07:497][130]LogFbx: 		[Node Attribute Child 1] KaneMidPoly (Type Mesh).
+[2019.10.14-20.47.07:497][130]LogFbx: Dumping Node END [KaneMidPoly]
+[2019.10.14-20.47.07:498][130]LogFbx: Valid bind pose for Pose (BIND_POSES) - KaneMidPoly
+[2019.10.14-20.47.07:503][130]FBXImport: Error: Error, Could not import KaneMidPoly.
+Duplicate bone name found ('CATRigSpine1'). Each bone must have a unique name. 
+[2019.10.14-20.47.07:503][130]FBXImport: Error: Multiple roots found 
+[2019.10.14-20.47.07:503][130]FBXImport: Warning: Get Import Data has failed. 
+[2019.10.14-20.47.07:503][130]FBXImport: Error: Import failed. 
+[2019.10.14-20.47.09:321][130]LogAssetTools: Warning: Failed to import 'C:/Users/Ownewr/Documents/Capstone/KaneUnrealExport/Kane_ModelFinal_2017.FBX'. Failed to create asset '/Game/Characters/Kane/Kane_ModelFinal_2017'.
+Please see Output Log for details.
+[2019.10.14-20.49.14:192][757]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.008
+[2019.10.14-20.49.14:723][757]LogSavePackage: Save=13.32ms
+[2019.10.14-20.49.14:723][757]LogSavePackage: Moving 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Kane_ModelFinal_Auto1820CF71C4531D8D0E27B87BE5DC27BE8.tmp' to 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Autosaves/Game/Characters/Kane/Kane_ModelFinal_Auto1.uasset'
+[2019.10.14-20.49.14:725][757]LogSavePackage: Display: Finished SavePackage C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Autosaves/Game/Characters/Kane/Kane_ModelFinal_Auto1.uasset
+[2019.10.14-20.49.14:728][757]LogSavePackage: Save=1.04ms
+[2019.10.14-20.49.14:728][757]LogSavePackage: Moving 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Kane_ModelFinal_2017_Auto1D8FB85734163AFC608BB64BD614E2BC9.tmp' to 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Autosaves/Game/Characters/Kane/Kane_ModelFinal_2017_Auto1.uasset'
+[2019.10.14-20.49.14:731][757]LogSavePackage: Display: Finished SavePackage C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Autosaves/Game/Characters/Kane/Kane_ModelFinal_2017_Auto1.uasset
+[2019.10.14-20.49.14:731][757]LogFileHelpers: Auto-saving content packages took 0.539
+[2019.10.14-20.49.36:707][ 70]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Ownewr/Documents/Capstone/KaneUnrealExport/Kane_ModelFinal_3.FBX)
+[2019.10.14-20.49.36:714][ 70]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2019.10.14-20.49.36:714][ 70]LogFbx: ItemName: Model, ItemCount : 58
+[2019.10.14-20.49.36:714][ 70]LogFbx: ItemName: Geometry, ItemCount : 1
+[2019.10.14-20.49.36:714][ 70]LogFbx: ItemName: NodeAttribute, ItemCount : 57
+[2019.10.14-20.49.36:714][ 70]LogFbx: ItemName: Deformer, ItemCount : 57
+[2019.10.14-20.49.36:714][ 70]LogFbx: ItemName: Pose, ItemCount : 1
+[2019.10.14-20.49.36:718][ 70]LogFbx: Loading FBX Scene from C:/Users/Ownewr/Documents/Capstone/KaneUnrealExport/Kane_ModelFinal_3.FBX
+[2019.10.14-20.49.36:743][ 70]LogFbx: FBX Scene Loaded Succesfully
+[2019.10.14-20.49.38:406][ 70]LogFbx: Loading FBX Scene from C:/Users/Ownewr/Documents/Capstone/KaneUnrealExport/Kane_ModelFinal_3.FBX
+[2019.10.14-20.49.38:432][ 70]LogFbx: FBX Scene Loaded Succesfully
+[2019.10.14-20.49.38:434][ 70]LogFbx: =================================================
+[2019.10.14-20.49.38:434][ 70]LogFbx: Dumping Node START [KaneMidPoly] 
+[2019.10.14-20.49.38:434][ 70]LogFbx: 	Total Deformer Count -2022291136.
+[2019.10.14-20.49.38:434][ 70]LogFbx: 		[Node 1]  (Type Skin).
+[2019.10.14-20.49.38:434][ 70]LogFbx: =================================================
+[2019.10.14-20.49.38:434][ 70]LogFbx: 	Attribute () Type (4).
+[2019.10.14-20.49.38:434][ 70]LogFbx: 		[Node Attribute Child 1] KaneMidPoly (Type Mesh).
+[2019.10.14-20.49.38:434][ 70]LogFbx: Dumping Node END [KaneMidPoly]
+[2019.10.14-20.49.38:434][ 70]LogFbx: =================================================
+[2019.10.14-20.49.38:434][ 70]LogFbx: Dumping Node START [KaneMidPoly] 
+[2019.10.14-20.49.38:434][ 70]LogFbx: 	Total Deformer Count -2022291136.
+[2019.10.14-20.49.38:434][ 70]LogFbx: 		[Node 1]  (Type Skin).
+[2019.10.14-20.49.38:434][ 70]LogFbx: =================================================
+[2019.10.14-20.49.38:434][ 70]LogFbx: 	Attribute () Type (4).
+[2019.10.14-20.49.38:434][ 70]LogFbx: 		[Node Attribute Child 1] KaneMidPoly (Type Mesh).
+[2019.10.14-20.49.38:435][ 70]LogFbx: Dumping Node END [KaneMidPoly]
+[2019.10.14-20.49.38:437][ 70]LogFbx: Valid bind pose for Pose (BIND_POSES) - KaneMidPoly
+[2019.10.14-20.49.38:439][ 70]LogFbx: Triangulating skeletal mesh KaneMidPoly
+[2019.10.14-20.49.39:780][ 70]LogFbx: Warning: Bones digested - 57  Depth of hierarchy - 15
+[2019.10.14-20.49.40:140][ 70]LogSkeletalMesh: Section 0: 13157 vertices, 56 active bones
+[2019.10.14-20.49.40:156][ 70]LogSkeletalMesh: Section 0: Material=0, 22846 triangles
+[2019.10.14-20.49.40:163][ 70]LogLinker: Can't find file '/Game/Characters/Kane/Kane_ModelFinal_3_Skeleton'
+[2019.10.14-20.49.40:163][ 70]LogLinker: Can't find file '/Game/Characters/Kane/Kane_ModelFinal_3_Skeleton'
+[2019.10.14-20.49.40:164][ 70]LogLinker: Can't find file '/Game/Characters/Kane/Kane_ModelFinal_3_PhysicsAsset'
+[2019.10.14-20.49.40:164][ 70]LogLinker: Can't find file '/Game/Characters/Kane/Kane_ModelFinal_3_PhysicsAsset'
+[2019.10.14-20.49.40:186][ 70]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.10.14-20.49.58:194][467]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.10.14-20.49.58:505][467]LogMaterial: Missing cached shader map for material M_SkyBox, compiling. 
+[2019.10.14-20.49.58:562][467]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.10.14-20.49.58:735][467]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_3:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.10.14-20.49.59:165][467]LogSlate: Took 0.013389 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.10.14-20.49.59:303][467]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2019.10.14-20.49.59:312][467]LogRenderer: Reallocating scene render targets to support 1208x888 Format 10 NumSamples 1 (Frame:1).
+[2019.10.14-20.50.32:428][967]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.10.14-20.50.32:460][967]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_4:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2019.10.14-20.56.55:360][354]LogContentBrowser: Native class hierarchy updated for 'PhysicsAssetEditor' in 0.0003 seconds. Added 7 classes and 3 folders.
+[2019.10.14-20.56.55:368][354]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.Actor_2.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2019.10.14-20.56.55:650][354]LogSlate: Took 0.009532 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.10.14-20.57.07:730][584]LogRenderer: Reallocating scene render targets to support 1208x1292 Format 10 NumSamples 1 (Frame:526).
+[2019.10.14-20.57.16:750][794]LogRenderer: Reallocating scene render targets to support 1528x1292 Format 10 NumSamples 1 (Frame:722).
+[2019.10.14-20.57.53:521][195]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Ownewr/Documents/Capstone/KaneUnrealExport/Kane_Run_2.FBX)
+[2019.10.14-20.57.53:528][195]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2019.10.14-20.57.53:528][195]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2019.10.14-20.57.53:528][195]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2019.10.14-20.57.53:528][195]LogFbx: ItemName: Model, ItemCount : 57
+[2019.10.14-20.57.53:528][195]LogFbx: ItemName: NodeAttribute, ItemCount : 57
+[2019.10.14-20.57.53:528][195]LogFbx: ItemName: AnimationCurve, ItemCount : 513
+[2019.10.14-20.57.53:528][195]LogFbx: ItemName: AnimationCurveNode, ItemCount : 171
+[2019.10.14-20.57.53:532][195]LogFbx: Loading FBX Scene from C:/Users/Ownewr/Documents/Capstone/KaneUnrealExport/Kane_Run_2.FBX
+[2019.10.14-20.57.54:093][195]LogFbx: FBX Scene Loaded Succesfully
+[2019.10.14-20.58.18:718][195]LogFbx: Loading FBX Scene from C:/Users/Ownewr/Documents/Capstone/KaneUnrealExport/Kane_Run_2.FBX
+[2019.10.14-20.58.18:752][195]LogFbx: FBX Scene Loaded Succesfully
+[2019.10.14-20.58.19:260][195]LogFbx: SortedLinks :(0) CATRigPelvis
+[2019.10.14-20.58.19:260][195]LogFbx: SortedLinks :(1) CATRigLLeg1
+[2019.10.14-20.58.19:260][195]LogFbx: SortedLinks :(2) CATRigLLeg2
+[2019.10.14-20.58.19:260][195]LogFbx: SortedLinks :(3) CATRigLLegAnkle
+[2019.10.14-20.58.19:260][195]LogFbx: SortedLinks :(4) CATRigLLegDigit11
+[2019.10.14-20.58.19:260][195]LogFbx: SortedLinks :(5) CATRigLLegDigit12
+[2019.10.14-20.58.19:260][195]LogFbx: SortedLinks :(6) CATRigRLeg1
+[2019.10.14-20.58.19:260][195]LogFbx: SortedLinks :(7) CATRigRLeg2
+[2019.10.14-20.58.19:260][195]LogFbx: SortedLinks :(8) CATRigRLegAnkle
+[2019.10.14-20.58.19:260][195]LogFbx: SortedLinks :(9) CATRigRLegDigit11
+[2019.10.14-20.58.19:260][195]LogFbx: SortedLinks :(10) CATRigRLegDigit12
+[2019.10.14-20.58.19:260][195]LogFbx: SortedLinks :(11) CATRigSpine1
+[2019.10.14-20.58.19:260][195]LogFbx: SortedLinks :(12) CATRigSpine2
+[2019.10.14-20.58.19:260][195]LogFbx: SortedLinks :(13) CATRigSpine3
+[2019.10.14-20.58.19:260][195]LogFbx: SortedLinks :(14) CATRigSpine4
+[2019.10.14-20.58.19:260][195]LogFbx: SortedLinks :(15) CATRigSpine5
+[2019.10.14-20.58.19:260][195]LogFbx: SortedLinks :(16) CATRigRibcage
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(17) CATRigNeck1
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(18) CATRigNeck2
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(19) CATRigNeck3
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(20) CATRigNeck4
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(21) CATRigNeck5
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(22) CATRigHead
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(23) CATRigLArmCollarbone
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(24) CATRigLArm1
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(25) CATRigLArm21
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(26) CATRigLArm22
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(27) CATRigLArmPalm
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(28) CATRigLArmDigit11
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(29) CATRigLArmDigit12
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(30) CATRigLArmDigit13
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(31) CATRigLArmDigit21
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(32) CATRigLArmDigit22
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(33) CATRigLArmDigit23
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(34) CATRigLArmDigit31
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(35) CATRigLArmDigit32
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(36) CATRigLArmDigit33
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(37) CATRigLArmDigit41
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(38) CATRigLArmDigit42
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(39) CATRigLArmDigit43
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(40) CATRigRArmCollarbone
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(41) CATRigRArm1
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(42) CATRigRArm21
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(43) CATRigRArm22
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(44) CATRigRArmPalm
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(45) CATRigRArmDigit11
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(46) CATRigRArmDigit12
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(47) CATRigRArmDigit13
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(48) CATRigRArmDigit21
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(49) CATRigRArmDigit22
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(50) CATRigRArmDigit23
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(51) CATRigRArmDigit31
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(52) CATRigRArmDigit32
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(53) CATRigRArmDigit33
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(54) CATRigRArmDigit41
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(55) CATRigRArmDigit42
+[2019.10.14-20.58.19:261][195]LogFbx: SortedLinks :(56) CATRigRArmDigit43
+[2019.10.14-20.58.19:267][195]LogFbx: Parsing AnimStack Take 001
+[2019.10.14-20.58.19:287][195]LogLinker: Can't find file '/Game/Characters/Kane/Animations/Kane_Run_2'
+[2019.10.14-20.58.19:288][195]LogLinker: Can't find file '/Game/Characters/Kane/Animations/Kane_Run_2'
+[2019.10.14-20.58.19:557][195]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Kane/Animations/Kane_Run_2.Kane_Run_2
+[2019.10.14-20.58.19:557][195]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Kane_Run_2) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.14-20.58.28:664][514]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_3.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2019.10.14-20.58.28:692][514]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_7:PersistentLevel.Actor_3.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2019.10.14-20.58.29:056][514]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.10.14-20.59.22:914][507]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.010
+[2019.10.14-20.59.22:918][507]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Kane/Kane_ModelFinal_3] ([1] browsable assets)...
+[2019.10.14-20.59.22:931][507]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Characters/Kane/Kane_ModelFinal_3.Kane_ModelFinal_3]
+[2019.10.14-20.59.22:931][507]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Kane/Kane_ModelFinal_3]
+[2019.10.14-20.59.22:977][507]LogSavePackage: Save=44.47ms
+[2019.10.14-20.59.22:977][507]LogSavePackage: Moving 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Kane_ModelFinal_3_Auto2E7CA538D4199028710F4AEABC4059A85.tmp' to 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Autosaves/Game/Characters/Kane/Kane_ModelFinal_3_Auto2.uasset'
+[2019.10.14-20.59.22:979][507]LogSavePackage: Display: Finished SavePackage C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Autosaves/Game/Characters/Kane/Kane_ModelFinal_3_Auto2.uasset
+[2019.10.14-20.59.22:980][507]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Kane/Kane_ModelFinal_3_Skeleton] ([1] browsable assets)...
+[2019.10.14-20.59.22:980][507]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Kane/Kane_ModelFinal_3_Skeleton]
+[2019.10.14-20.59.22:984][507]LogSavePackage: Save=2.29ms
+[2019.10.14-20.59.22:984][507]LogSavePackage: Moving 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Kane_ModelFinal_3_Skeleton_Auto203CE5FD541961E667C2A189E6DBEC27A.tmp' to 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Autosaves/Game/Characters/Kane/Kane_ModelFinal_3_Skeleton_Auto2.uasset'
+[2019.10.14-20.59.22:986][507]LogSavePackage: Display: Finished SavePackage C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Autosaves/Game/Characters/Kane/Kane_ModelFinal_3_Skeleton_Auto2.uasset
+[2019.10.14-20.59.22:987][507]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Kane/Kane_ModelFinal_3_PhysicsAsset] ([1] browsable assets)...
+[2019.10.14-20.59.22:996][507]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/Characters/Kane/Kane_ModelFinal_3_PhysicsAsset.Kane_ModelFinal_3_PhysicsAsset]
+[2019.10.14-20.59.22:996][507]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Kane/Kane_ModelFinal_3_PhysicsAsset]
+[2019.10.14-20.59.23:012][507]LogSavePackage: Save=14.36ms
+[2019.10.14-20.59.23:012][507]LogSavePackage: Moving 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Kane_ModelFinal_3_PhysicsAsset_AF2E7EC204F7BC18813B5B5A038C37408.tmp' to 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Autosaves/Game/Characters/Kane/Kane_ModelFinal_3_PhysicsAsset_Auto2.uasset'
+[2019.10.14-20.59.23:014][507]LogSavePackage: Display: Finished SavePackage C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Autosaves/Game/Characters/Kane/Kane_ModelFinal_3_PhysicsAsset_Auto2.uasset
+[2019.10.14-20.59.23:015][507]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Kane/Animations/Kane_Run_2] ([1] browsable assets)...
+[2019.10.14-20.59.23:025][507]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/Kane/Animations/Kane_Run_2.Kane_Run_2]
+[2019.10.14-20.59.23:025][507]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Kane/Animations/Kane_Run_2]
+[2019.10.14-20.59.23:036][507]LogSavePackage: Save=9.74ms
+[2019.10.14-20.59.23:036][507]LogSavePackage: Moving 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Kane_Run_2_Auto2FB3F339846A2EA7F9B5CCFB5F1DCC3BC.tmp' to 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Autosaves/Game/Characters/Kane/Animations/Kane_Run_2_Auto2.uasset'
+[2019.10.14-20.59.23:039][507]LogSavePackage: Display: Finished SavePackage C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Autosaves/Game/Characters/Kane/Animations/Kane_Run_2_Auto2.uasset
+[2019.10.14-20.59.23:039][507]LogFileHelpers: Auto-saving content packages took 0.122
+[2019.10.14-20.59.35:446][467]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Kane_ModelFinal_3)
+[2019.10.14-20.59.38:936][774]Cmd: DELETE
+[2019.10.14-20.59.38:936][774]Cmd: ACTOR DELETE
+[2019.10.14-20.59.38:998][774]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2019.10.14-20.59.39:006][774]LogEditorActor: Deleted 1 Actors (0.070 secs)
+[2019.10.14-20.59.41:117][987]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2019.10.14-21.00.13:030][719]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.10.14-21.00.14:552][843]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2019.10.14-21.00.19:932][227]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton Kane_ModelFinal_3_Skeleton, removing AnimBP from actor.
+[2019.10.14-21.00.23:205][465]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.10.14-21.00.23:316][465]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.10.14-21.00.23:316][465]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.14-21.00.23:317][465]PIE: New page: PIE session: SideScrollerExampleMap (Oct 14, 2019, 1:00:23 PM)
+[2019.10.14-21.00.23:317][465]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.10.14-21.00.23:378][465]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061688s)
+[2019.10.14-21.00.23:379][465]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.10.14-21.00.23:380][465]LogPlayLevel: PIE: World Init took: (0.001073s)
+[2019.10.14-21.00.23:380][465]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.063170s)
+[2019.10.14-21.00.23:433][465]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.14-21.00.23:447][465]LogInit: FAudioDevice initialized.
+[2019.10.14-21.00.23:579][465]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.10.14-21.00.23:582][465]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2019.10.14-17.00.23
+[2019.10.14-21.00.23:583][465]LogWorld: Bringing up level for play took: 0.004286
+[2019.10.14-21.00.23:631][465]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2019.10.14-21.00.23:637][465]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.22
+[2019.10.14-21.00.23:637][465]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.10.14-21.00.24:630][536]LogBlueprintUserMessages: [SKnight_Checkpoint_356] Checkpoint Reached
+[2019.10.14-21.00.26:189][664]LogBlueprintUserMessages: [SKnight_Checkpoint_356] Checkpoint Reached
+[2019.10.14-21.00.31:606][113]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.10.14-21.00.31:670][113]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.10.14-21.00.35:125][433]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2019.10.14-21.01.09:464][874]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.Actor_4.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2019.10.14-21.01.09:492][874]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_11:PersistentLevel.Actor_4.DebugSkelMeshComponent_5) - call TermArticulated first.
+[2019.10.14-21.01.14:435][162]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.Actor_5.DebugSkelMeshComponent_6) Already registered. Aborting.
+[2019.10.14-21.01.14:796][162]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2019.10.14-21.01.15:394][162]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_15:PersistentLevel.Actor_5.DebugSkelMeshComponent_6) - call TermArticulated first.
+[2019.10.14-21.02.31:637][364]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.Actor_6.DebugSkelMeshComponent_8) Already registered. Aborting.
+[2019.10.14-21.02.31:663][364]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_17:PersistentLevel.Actor_6.DebugSkelMeshComponent_8) - call TermArticulated first.
+[2019.10.14-21.04.54:187][124]LogSavePackage: Save=574.82ms
+[2019.10.14-21.04.54:187][124]LogSavePackage: Moving 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Saved/SideScrollerExampleMapF5C1F08D4525DC70F211D392A4D4881E.tmp' to 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2019.10.14-21.04.54:192][124]LogSavePackage: Display: Finished SavePackage C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap
+[2019.10.14-21.04.54:209][124]LogFileHelpers: Saving map 'SideScrollerExampleMap' took 0.717
+[2019.10.14-21.04.54:213][124]LogSavePackage: Save=1.14ms
+[2019.10.14-21.04.54:213][124]LogSavePackage: Moving 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Kane_ModelFinalE8543281418685192699C1B2C5490103.tmp' to 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Content/Characters/Kane/Kane_ModelFinal.uasset'
+[2019.10.14-21.04.54:217][124]LogSavePackage: Display: Finished SavePackage C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Content/Characters/Kane/Kane_ModelFinal.uasset
+[2019.10.14-21.04.54:221][124]LogSavePackage: Save=1.10ms
+[2019.10.14-21.04.54:221][124]LogSavePackage: Moving 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Kane_ModelFinal_2017AAFAD7A64ACE431475F40DBEFAD06B32.tmp' to 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Content/Characters/Kane/Kane_ModelFinal_2017.uasset'
+[2019.10.14-21.04.54:225][124]LogSavePackage: Display: Finished SavePackage C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Content/Characters/Kane/Kane_ModelFinal_2017.uasset
+[2019.10.14-21.04.54:274][124]LogSavePackage: Save=34.71ms
+[2019.10.14-21.04.54:274][124]LogSavePackage: Moving 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Kane_ModelFinal_3D6E86319473305400F5857A4FDFD627D.tmp' to 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Content/Characters/Kane/Kane_ModelFinal_3.uasset'
+[2019.10.14-21.04.54:278][124]LogSavePackage: Display: Finished SavePackage C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Content/Characters/Kane/Kane_ModelFinal_3.uasset
+[2019.10.14-21.04.54:285][124]LogSavePackage: Save=2.35ms
+[2019.10.14-21.04.54:285][124]LogSavePackage: Moving 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Kane_ModelFinal_3_Skeleton2A21F65B47AE14DA4FAA1496CE480020.tmp' to 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Content/Characters/Kane/Kane_ModelFinal_3_Skeleton.uasset'
+[2019.10.14-21.04.54:288][124]LogSavePackage: Display: Finished SavePackage C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Content/Characters/Kane/Kane_ModelFinal_3_Skeleton.uasset
+[2019.10.14-21.04.54:315][124]LogSavePackage: Save=13.21ms
+[2019.10.14-21.04.54:315][124]LogSavePackage: Moving 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Kane_ModelFinal_3_PhysicsAssetB4B37C5144C90C7303C25AB00989D677.tmp' to 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Content/Characters/Kane/Kane_ModelFinal_3_PhysicsAsset.uasset'
+[2019.10.14-21.04.54:319][124]LogSavePackage: Display: Finished SavePackage C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Content/Characters/Kane/Kane_ModelFinal_3_PhysicsAsset.uasset
+[2019.10.14-21.04.54:342][124]LogSavePackage: Save=9.12ms
+[2019.10.14-21.04.54:343][124]LogSavePackage: Moving 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Kane_Run_2CC7F0C7347C06C270CA1A48A3E1AD26B.tmp' to 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Content/Characters/Kane/Animations/Kane_Run_2.uasset'
+[2019.10.14-21.04.54:346][124]LogSavePackage: Display: Finished SavePackage C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Content/Characters/Kane/Animations/Kane_Run_2.uasset
+[2019.10.14-21.12.02:225][163]LogEditorViewport: Clicking on Actor (LMB): Enemy_C (Enemy)
+[2019.10.14-21.12.10:158][857]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2019.10.14-21.12.15:562][240]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.10.14-21.12.15:573][240]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.10.14-21.12.15:573][240]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.14-21.12.15:573][240]PIE: New page: PIE session: SideScrollerExampleMap (Oct 14, 2019, 1:12:15 PM)
+[2019.10.14-21.12.15:573][240]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.10.14-21.12.15:624][240]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050539s)
+[2019.10.14-21.12.15:624][240]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.10.14-21.12.15:625][240]LogPlayLevel: PIE: World Init took: (0.000707s)
+[2019.10.14-21.12.15:625][240]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.051553s)
+[2019.10.14-21.12.15:687][240]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.14-21.12.15:701][240]LogInit: FAudioDevice initialized.
+[2019.10.14-21.12.15:797][240]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.10.14-21.12.15:802][240]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2019.10.14-17.12.15
+[2019.10.14-21.12.15:802][240]LogWorld: Bringing up level for play took: 0.004229
+[2019.10.14-21.12.15:809][240]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.049
+[2019.10.14-21.12.16:322][240]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.10.14-21.12.16:964][292]LogBlueprintUserMessages: [SKnight_Checkpoint_356] Checkpoint Reached
+[2019.10.14-21.12.18:454][428]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.10.14-21.12.18:512][428]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.10.14-21.12.20:555][655]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2019.10.14-21.15.35:877][827]LogSavePackage: Save=540.35ms
+[2019.10.14-21.15.35:877][827]LogSavePackage: Moving 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Saved/SideScrollerExampleMap_Auto36E8B9E634895EA2599A6E38D6CC57D1E.tmp' to 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto3.umap'
+[2019.10.14-21.15.35:881][827]LogSavePackage: Display: Finished SavePackage C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto3.umap
+[2019.10.14-21.15.35:883][827]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.580
+[2019.10.14-21.15.35:883][827]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.580
+[2019.10.14-21.16.03:287][625]LogMaterial: Missing cached shader map for material PersonaFloorMat, compiling. 
+[2019.10.14-21.17.56:879][947]LogEditorViewport: Clicking on Actor (LMB): Enemy_C (Enemy)
+[2019.10.14-21.18.01:804][461]LogEditorViewport: Clicking on Actor (LMB): Enemy_C (Enemy)
+[2019.10.14-21.18.04:151][737]LogEditorViewport: Clicking on Actor (LMB): Enemy_C (Enemy)
+[2019.10.14-21.18.08:289][205]LogEditorViewport: Clicking on Actor (context menu): Enemy_C (Enemy)
+[2019.10.14-21.19.05:484][133]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton Kane_ModelFinal_3_Skeleton, removing AnimBP from actor.
+[2019.10.14-21.19.05:484][133]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton Kane_ModelFinal_3_Skeleton, removing AnimBP from actor.
+[2019.10.14-21.19.05:484][133]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton Kane_ModelFinal_3_Skeleton, removing AnimBP from actor.
+[2019.10.14-21.19.13:700][716]BlueprintLog: New page: Compile SideScrollerCharacter
+[2019.10.14-21.19.14:112][716]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C:Spawn Player'!
+[2019.10.14-21.19.17:289][979]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.10.14-21.19.17:310][979]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.10.14-21.19.17:310][979]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.14-21.19.17:310][979]PIE: New page: PIE session: SideScrollerExampleMap (Oct 14, 2019, 1:19:17 PM)
+[2019.10.14-21.19.17:310][979]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.10.14-21.19.17:367][979]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056814s)
+[2019.10.14-21.19.17:367][979]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.10.14-21.19.17:368][979]LogPlayLevel: PIE: World Init took: (0.000647s)
+[2019.10.14-21.19.17:368][979]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.057769s)
+[2019.10.14-21.19.17:394][979]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.14-21.19.17:407][979]LogInit: FAudioDevice initialized.
+[2019.10.14-21.19.17:494][979]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.10.14-21.19.17:498][979]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2019.10.14-17.19.17
+[2019.10.14-21.19.17:498][979]LogWorld: Bringing up level for play took: 0.003761
+[2019.10.14-21.19.17:503][979]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.353
+[2019.10.14-21.19.17:504][979]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.10.14-21.19.18:216][ 55]LogBlueprintUserMessages: [SKnight_Checkpoint_356] Checkpoint Reached
+[2019.10.14-21.19.18:949][143]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.10.14-21.19.19:012][143]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.10.14-21.20.57:470][978]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.10.14-21.21.57:608][371]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2019.10.14-21.22.42:735][800]LogMetaData: Removing '/Game/Characters/Kane/Kane_AnimBP.Kane_AnimBP:AnimGraph.AnimGraphNode_Root_0' ref from Metadata '/Game/Characters/Kane/NewAnimBlueprint.PackageMetaData'
+[2019.10.14-21.22.42:736][800]LogMetaData: Removing '/Game/Characters/Kane/Kane_AnimBP.SKEL_Kane_AnimBP_C' ref from Metadata '/Game/Characters/Kane/NewAnimBlueprint.PackageMetaData'
+[2019.10.14-21.22.42:736][800]LogMetaData: Removing '/Game/Characters/Kane/Kane_AnimBP.Kane_AnimBP_C' ref from Metadata '/Game/Characters/Kane/NewAnimBlueprint.PackageMetaData'
+[2019.10.14-21.22.42:736][800]LogMetaData: Removing '/Game/Characters/Kane/Kane_AnimBP.Kane_AnimBP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Characters/Kane/NewAnimBlueprint.PackageMetaData'
+[2019.10.14-21.22.42:736][800]LogMetaData: Removing '/Game/Characters/Kane/Kane_AnimBP.Kane_AnimBP:EventGraph.K2Node_CallFunction_0' ref from Metadata '/Game/Characters/Kane/NewAnimBlueprint.PackageMetaData'
+[2019.10.14-21.22.42:814][800]LogSavePackage: Save=13.72ms
+[2019.10.14-21.22.42:814][800]LogSavePackage: Moving 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Kane_AnimBPB29AC1764D85F8A9983479B38DF7BF66.tmp' to 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Content/Characters/Kane/Kane_AnimBP.uasset'
+[2019.10.14-21.22.42:818][800]LogSavePackage: Display: Finished SavePackage C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Content/Characters/Kane/Kane_AnimBP.uasset
+[2019.10.14-21.22.56:667][333]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_25:PersistentLevel.Actor_7.DebugSkelMeshComponent_9) Already registered. Aborting.
+[2019.10.14-21.22.56:866][333]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_25:PersistentLevel.Actor_7.DebugSkelMeshComponent_9) - call TermArticulated first.
+[2019.10.14-21.23.40:848][443]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.10.14-21.26.06:656][194]Cmd: TRANSACTION UNDO
+[2019.10.14-21.26.06:656][194]LogEditorTransaction: Undo Rename Node
+[2019.10.14-21.26.06:739][194]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_25:PersistentLevel.Actor_7.DebugSkelMeshComponent_9) Already registered. Aborting.
+[2019.10.14-21.26.52:993][334]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C:Spawn Player'!
+[2019.10.14-21.27.00:459][ 53]LogSavePackage: Save=576.88ms
+[2019.10.14-21.27.00:459][ 53]LogSavePackage: Moving 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Saved/SideScrollerExampleMap9AFC49B74496D42A4817EEBABDC47E80.tmp' to 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2019.10.14-21.27.00:464][ 53]LogSavePackage: Display: Finished SavePackage C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap
+[2019.10.14-21.27.00:483][ 53]LogFileHelpers: Saving map 'SideScrollerExampleMap' took 0.709
+[2019.10.14-21.27.00:662][ 53]LogSavePackage: Save=141.20ms
+[2019.10.14-21.27.00:662][ 53]LogSavePackage: Moving 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Saved/SideScrollerCharacter95C148BE4C874B1308F1A6A653D89D0A.tmp' to 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2019.10.14-21.27.00:665][ 53]LogSavePackage: Display: Finished SavePackage C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2019.10.14-21.27.00:707][ 53]LogSavePackage: Save=16.52ms
+[2019.10.14-21.27.00:708][ 53]LogSavePackage: Moving 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Kane_AnimBP710081A2467F59DEEFE31DB92244D7F1.tmp' to 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Content/Characters/Kane/Kane_AnimBP.uasset'
+[2019.10.14-21.27.00:711][ 53]LogSavePackage: Display: Finished SavePackage C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Content/Characters/Kane/Kane_AnimBP.uasset
+[2019.10.14-21.27.03:392][353]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.10.14-21.27.03:582][354]Cmd: QUIT_EDITOR
+[2019.10.14-21.27.04:459][354]LogExit: Preparing to exit.
+[2019.10.14-21.27.04:856][354]LogExit: Editor shut down
+[2019.10.14-21.27.04:866][354]LogExit: Transaction tracking system shut down
+[2019.10.14-21.27.04:934][354]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2019.10.14-21.27.04:934][354]LogDirectoryWatcher: A directory notification for 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Content/' was aborted.
+[2019.10.14-21.27.04:934][354]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2019.10.14-21.27.04:934][354]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2019.10.14-21.27.04:934][354]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2019.10.14-21.27.04:934][354]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2019.10.14-21.27.04:934][354]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2019.10.14-21.27.05:013][354]LogExit: Object subsystem successfully closed.
+[2019.10.14-21.27.05:038][354]LogD3D11RHI: Shutdown
+[2019.10.14-21.27.05:038][354]LogD3D11RHI: CleanupD3DDevice
+[2019.10.14-21.27.05:042][354]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.10.14-21.27.05:051][354]LogModuleManager: Shutting down and abandoning module BlueprintGraph (562)
+[2019.10.14-21.27.05:051][354]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (560)
+[2019.10.14-21.27.05:051][354]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (558)
+[2019.10.14-21.27.05:051][354]LogModuleManager: Shutting down and abandoning module AnimationEditor (556)
+[2019.10.14-21.27.05:051][354]LogModuleManager: Shutting down and abandoning module PhysicsAssetEditor (554)
+[2019.10.14-21.27.05:051][354]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (552)
+[2019.10.14-21.27.05:051][354]LogModuleManager: Shutting down and abandoning module SkeletonEditor (550)
+[2019.10.14-21.27.05:051][354]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
+[2019.10.14-21.27.05:051][354]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
+[2019.10.14-21.27.05:051][354]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
+[2019.10.14-21.27.05:051][354]LogDirectoryWatcher: A directory notification for 'D:/Program Files (x86)/Epic Games/4.15/UE_4.18/FeaturePacks/' was aborted.
+[2019.10.14-21.27.05:053][354]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
+[2019.10.14-21.27.05:053][354]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
+[2019.10.14-21.27.05:053][354]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
+[2019.10.14-21.27.05:053][354]LogDirectoryWatcher: A directory notification for 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Content/Collections/' was aborted.
+[2019.10.14-21.27.05:053][354]LogDirectoryWatcher: A directory notification for 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Content/Developers/Ownewr/Collections/' was aborted.
+[2019.10.14-21.27.05:054][354]LogDirectoryWatcher: A directory notification for 'C:/Users/Ownewr/Documents/Unreal Projects/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Collections/' was aborted.
+[2019.10.14-21.27.05:054][354]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2019.10.14-21.27.05:054][354]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2019.10.14-21.27.05:054][354]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2019.10.14-21.27.05:054][354]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2019.10.14-21.27.05:054][354]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2019.10.14-21.27.05:054][354]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2019.10.14-21.27.05:054][354]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2019.10.14-21.27.05:054][354]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2019.10.14-21.27.05:054][354]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2019.10.14-21.27.05:054][354]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2019.10.14-21.27.05:054][354]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2019.10.14-21.27.05:054][354]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2019.10.14-21.27.05:054][354]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2019.10.14-21.27.05:054][354]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2019.10.14-21.27.05:054][354]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2019.10.14-21.27.05:054][354]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2019.10.14-21.27.05:054][354]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2019.10.14-21.27.05:054][354]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2019.10.14-21.27.05:054][354]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2019.10.14-21.27.05:054][354]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2019.10.14-21.27.05:054][354]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2019.10.14-21.27.05:054][354]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2019.10.14-21.27.05:054][354]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2019.10.14-21.27.05:054][354]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2019.10.14-21.27.05:054][354]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2019.10.14-21.27.05:054][354]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2019.10.14-21.27.05:054][354]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2019.10.14-21.27.05:054][354]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2019.10.14-21.27.05:054][354]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2019.10.14-21.27.05:054][354]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2019.10.14-21.27.05:054][354]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2019.10.14-21.27.05:054][354]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2019.10.14-21.27.05:054][354]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2019.10.14-21.27.05:054][354]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2019.10.14-21.27.05:054][354]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2019.10.14-21.27.05:054][354]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2019.10.14-21.27.05:055][354]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2019.10.14-21.27.05:055][354]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2019.10.14-21.27.05:055][354]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2019.10.14-21.27.05:055][354]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2019.10.14-21.27.05:055][354]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2019.10.14-21.27.05:161][354]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2019.10.14-21.27.05:161][354]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2019.10.14-21.27.05:161][354]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2019.10.14-21.27.05:161][354]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2019.10.14-21.27.05:161][354]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2019.10.14-21.27.05:161][354]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2019.10.14-21.27.05:161][354]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2019.10.14-21.27.05:161][354]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2019.10.14-21.27.05:161][354]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2019.10.14-21.27.05:161][354]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2019.10.14-21.27.05:161][354]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2019.10.14-21.27.05:161][354]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2019.10.14-21.27.05:161][354]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2019.10.14-21.27.05:161][354]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2019.10.14-21.27.05:161][354]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2019.10.14-21.27.05:161][354]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2019.10.14-21.27.05:162][354]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2019.10.14-21.27.05:162][354]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2019.10.14-21.27.05:162][354]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2019.10.14-21.27.05:162][354]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2019.10.14-21.27.05:162][354]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2019.10.14-21.27.05:162][354]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2019.10.14-21.27.05:162][354]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2019.10.14-21.27.05:162][354]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2019.10.14-21.27.05:217][354]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2019.10.14-21.27.05:217][354]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2019.10.14-21.27.05:217][354]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2019.10.14-21.27.05:217][354]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2019.10.14-21.27.05:217][354]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2019.10.14-21.27.05:217][354]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2019.10.14-21.27.05:217][354]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2019.10.14-21.27.05:217][354]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2019.10.14-21.27.05:217][354]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2019.10.14-21.27.05:217][354]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2019.10.14-21.27.05:222][354]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2019.10.14-21.27.05:223][354]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2019.10.14-21.27.05:223][354]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2019.10.14-21.27.05:223][354]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2019.10.14-21.27.05:224][354]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2019.10.14-21.27.05:224][354]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2019.10.14-21.27.05:224][354]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2019.10.14-21.27.05:224][354]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2019.10.14-21.27.05:224][354]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2019.10.14-21.27.05:224][354]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2019.10.14-21.27.05:224][354]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2019.10.14-21.27.05:224][354]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2019.10.14-21.27.05:224][354]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2019.10.14-21.27.05:224][354]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2019.10.14-21.27.05:224][354]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2019.10.14-21.27.05:224][354]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2019.10.14-21.27.05:224][354]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2019.10.14-21.27.05:224][354]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2019.10.14-21.27.05:224][354]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2019.10.14-21.27.05:224][354]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2019.10.14-21.27.05:292][354]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2019.10.14-21.27.05:292][354]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2019.10.14-21.27.05:292][354]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2019.10.14-21.27.05:292][354]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2019.10.14-21.27.05:292][354]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2019.10.14-21.27.05:292][354]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2019.10.14-21.27.05:292][354]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2019.10.14-21.27.05:292][354]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2019.10.14-21.27.05:292][354]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2019.10.14-21.27.05:292][354]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2019.10.14-21.27.05:292][354]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2019.10.14-21.27.05:292][354]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2019.10.14-21.27.05:292][354]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2019.10.14-21.27.05:292][354]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2019.10.14-21.27.05:292][354]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2019.10.14-21.27.05:292][354]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2019.10.14-21.27.05:292][354]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2019.10.14-21.27.05:292][354]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2019.10.14-21.27.05:292][354]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2019.10.14-21.27.05:292][354]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2019.10.14-21.27.05:292][354]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2019.10.14-21.27.05:293][354]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2019.10.14-21.27.05:293][354]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2019.10.14-21.27.05:293][354]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2019.10.14-21.27.05:293][354]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2019.10.14-21.27.05:293][354]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2019.10.14-21.27.05:293][354]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2019.10.14-21.27.05:293][354]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2019.10.14-21.27.05:293][354]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2019.10.14-21.27.05:293][354]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2019.10.14-21.27.05:293][354]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2019.10.14-21.27.05:293][354]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2019.10.14-21.27.05:293][354]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2019.10.14-21.27.05:293][354]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2019.10.14-21.27.05:293][354]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2019.10.14-21.27.05:294][354]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2019.10.14-21.27.05:294][354]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2019.10.14-21.27.05:294][354]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2019.10.14-21.27.05:294][354]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2019.10.14-21.27.05:294][354]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2019.10.14-21.27.05:294][354]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2019.10.14-21.27.05:294][354]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2019.10.14-21.27.05:294][354]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2019.10.14-21.27.05:294][354]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2019.10.14-21.27.05:294][354]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2019.10.14-21.27.05:294][354]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2019.10.14-21.27.05:395][354]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2019.10.14-21.27.05:718][354]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2019.10.14-21.27.05:718][354]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2019.10.14-21.27.05:718][354]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2019.10.14-21.27.05:718][354]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2019.10.14-21.27.05:718][354]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2019.10.14-21.27.05:718][354]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2019.10.14-21.27.05:719][354]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2019.10.14-21.27.05:719][354]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2019.10.14-21.27.05:719][354]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2019.10.14-21.27.05:719][354]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2019.10.14-21.27.05:721][354]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2019.10.14-21.27.05:721][354]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2019.10.14-21.27.05:721][354]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2019.10.14-21.27.05:721][354]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2019.10.14-21.27.05:721][354]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2019.10.14-21.27.05:721][354]LogModuleManager: Shutting down and abandoning module Media (221)
+[2019.10.14-21.27.05:727][354]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2019.10.14-21.27.05:727][354]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2019.10.14-21.27.05:727][354]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2019.10.14-21.27.05:727][354]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2019.10.14-21.27.05:727][354]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2019.10.14-21.27.05:727][354]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2019.10.14-21.27.05:727][354]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2019.10.14-21.27.05:727][354]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2019.10.14-21.27.05:727][354]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2019.10.14-21.27.05:727][354]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2019.10.14-21.27.05:728][354]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2019.10.14-21.27.05:728][354]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2019.10.14-21.27.05:728][354]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2019.10.14-21.27.05:728][354]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2019.10.14-21.27.05:728][354]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2019.10.14-21.27.05:728][354]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2019.10.14-21.27.05:729][354]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2019.10.14-21.27.05:729][354]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2019.10.14-21.27.05:729][354]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2019.10.14-21.27.05:729][354]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2019.10.14-21.27.05:729][354]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2019.10.14-21.27.05:729][354]LogModuleManager: Shutting down and abandoning module Core (172)
+[2019.10.14-21.27.05:729][354]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2019.10.14-21.27.05:729][354]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2019.10.14-21.27.05:731][354]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2019.10.14-21.27.05:731][354]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2019.10.14-21.27.05:731][354]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2019.10.14-21.27.05:731][354]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2019.10.14-21.27.05:731][354]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2019.10.14-21.27.05:731][354]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2019.10.14-21.27.05:731][354]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2019.10.14-21.27.05:731][354]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2019.10.14-21.27.05:731][354]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2019.10.14-21.27.05:766][354]LogDerivedDataCache: Shutdown
+[2019.10.14-21.27.05:766][354]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2019.10.14-21.27.05:766][354]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2019.10.14-21.27.05:766][354]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2019.10.14-21.27.05:766][354]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2019.10.14-21.27.05:766][354]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2019.10.14-21.27.05:766][354]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2019.10.14-21.27.05:766][354]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2019.10.14-21.27.05:766][354]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2019.10.14-21.27.05:766][354]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2019.10.14-21.27.05:766][354]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2019.10.14-21.27.05:766][354]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2019.10.14-21.27.05:766][354]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2019.10.14-21.27.05:766][354]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2019.10.14-21.27.05:766][354]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2019.10.14-21.27.05:766][354]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2019.10.14-21.27.05:767][354]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2019.10.14-21.27.05:767][354]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2019.10.14-21.27.05:767][354]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2019.10.14-21.27.05:767][354]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2019.10.14-21.27.05:767][354]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2019.10.14-21.27.05:767][354]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2019.10.14-21.27.05:767][354]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2019.10.14-21.27.05:767][354]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2019.10.14-21.27.05:767][354]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2019.10.14-21.27.05:767][354]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2019.10.14-21.27.05:767][354]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2019.10.14-21.27.05:767][354]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2019.10.14-21.27.05:767][354]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2019.10.14-21.27.05:767][354]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2019.10.14-21.27.05:767][354]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2019.10.14-21.27.05:767][354]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2019.10.14-21.27.05:767][354]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2019.10.14-21.27.05:767][354]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2019.10.14-21.27.05:767][354]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2019.10.14-21.27.05:767][354]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2019.10.14-21.27.05:767][354]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2019.10.14-21.27.05:767][354]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2019.10.14-21.27.05:767][354]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2019.10.14-21.27.05:767][354]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2019.10.14-21.27.05:767][354]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2019.10.14-21.27.05:767][354]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2019.10.14-21.27.05:767][354]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2019.10.14-21.27.05:767][354]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2019.10.14-21.27.05:767][354]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2019.10.14-21.27.05:767][354]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2019.10.14-21.27.05:767][354]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2019.10.14-21.27.05:767][354]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2019.10.14-21.27.05:767][354]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2019.10.14-21.27.05:767][354]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2019.10.14-21.27.05:767][354]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2019.10.14-21.27.05:767][354]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2019.10.14-21.27.05:767][354]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2019.10.14-21.27.05:767][354]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2019.10.14-21.27.05:767][354]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.10.14-21.27.05:767][354]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6658A7D1-4A05-5EB0-FC72-60BF94E62E7D%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.2-3794801%2B%2B%2BUE4%2BRelease-4.18&UserID=7ecfb0fb4b05d227c1ea07ad8327072f%7C3f5323921f214845ab758bd89726b713%7C5706eedc-39df-4408-bf06-1d219d8aa549&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.10.14-21.27.05:801][354]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2019.10.14-21.27.05:802][354]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.10.14-21.27.05:802][354]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.10.14-21.27.05:802][354]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.10.14-21.27.05:802][354]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.10.14-21.27.05:802][354]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.10.14-21.27.05:802][354]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.10.14-21.27.05:802][354]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.10.14-21.27.05:803][354]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.10.14-21.27.05:803][354]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.10.14-21.27.05:803][354]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.10.14-21.27.05:803][354]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.10.14-21.27.05:803][354]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.10.14-21.27.05:804][354]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.10.14-21.27.05:804][354]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.10.14-21.27.05:804][354]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.10.14-21.27.05:804][354]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.10.14-21.27.05:804][354]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.10.14-21.27.05:804][354]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.10.14-21.27.05:806][354]LogExit: Exiting.
+[2019.10.14-21.27.05:816][354]Log file closed, 10/14/19 17:27:05
