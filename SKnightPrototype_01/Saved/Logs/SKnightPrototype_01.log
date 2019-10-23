@@ -1096,3 +1096,16 @@ LogInit: Object subsystem initialized
 [2019.10.23-00.44.17:483][791]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
 [2019.10.23-00.44.17:483][791]LogModuleManager: Shutting down and abandoning module Landscape (26)
 [2019.10.23-00.44.17:483][791]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.10.23-00.44.17:609][791]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.10.23-00.44.17:642][791]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.10.23-00.44.17:643][791]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.10.23-00.44.17:670][791]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.10.23-00.44.17:670][791]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.10.23-00.44.17:670][791]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.10.23-00.44.17:670][791]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.10.23-00.44.17:688][791]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.10.23-00.44.17:697][791]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.10.23-00.44.17:707][791]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.10.23-00.44.17:720][791]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.10.23-00.44.17:816][791]LogExit: Exiting.
+[2019.10.23-00.44.17:838][791]Log file closed, 10/22/19 20:44:17
