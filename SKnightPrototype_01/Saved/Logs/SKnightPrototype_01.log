@@ -1,4 +1,4 @@
-﻿Log file open, 10/31/19 13:32:02
+﻿Log file open, 11/02/19 11:05:20
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: SKnightPrototype_01
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(975477473) SRandInit(975477474).
+LogInit: Display: RandInit(535085869) SRandInit(535085869).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 8.924647
+LogStats: Stats thread started at 4.354996
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -196,366 +196,764 @@ LogInit: Base directory: D:/Program Files (x86)/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.10.31-17.32.17:004][  0]LogInit: Selected Device Profile: [Windows]
-[2019.10.31-17.32.17:004][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.10.31-17.32.17:199][  0]LogInit: Computer: DESKTOP-EEGEEHC
-[2019.10.31-17.32.17:199][  0]LogInit: User: ChristopherP
-[2019.10.31-17.32.17:199][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.10.31-17.32.17:199][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.10.31-17.32.17:273][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2019.10.31-17.32.17:273][  0]LogMemory: Platform Memory Stats for Windows
-[2019.10.31-17.32.17:273][  0]LogMemory: Process Physical Memory: 271.88 MB used, 271.89 MB peak
-[2019.10.31-17.32.17:273][  0]LogMemory: Process Virtual Memory: 263.61 MB used, 263.61 MB peak
-[2019.10.31-17.32.17:273][  0]LogMemory: Physical Memory: 5255.52 MB used,  2876.35 MB free, 8131.87 MB total
-[2019.10.31-17.32.17:273][  0]LogMemory: Virtual Memory: 4742.16 MB used,  2876.35 MB free, 134217728.00 MB total
-[2019.10.31-17.32.20:658][  0]LogInit: Using OS detected language (en-US).
-[2019.10.31-17.32.20:658][  0]LogInit: Using OS detected locale (en-US).
-[2019.10.31-17.32.20:919][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.10.31-17.32.21:899][  0]LogInit: Setting process to per monitor DPI aware
-[2019.10.31-17.32.25:744][  0]LogD3D11RHI: D3D11 adapters:
-[2019.10.31-17.32.25:837][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2019.10.31-17.32.25:837][  0]LogD3D11RHI:       8088/0/4065 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2019.10.31-17.32.25:843][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.10.31-17.32.25:843][  0]LogD3D11RHI:       0/0/4065 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.10.31-17.32.25:843][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.10.31-17.32.25:852][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.10.31-17.32.25:852][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2019.10.31-17.32.25:852][  0]LogWindows: EnumDisplayDevices:
-[2019.10.31-17.32.25:853][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2019.10.31-17.32.25:877][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2019.10.31-17.32.25:877][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2019.10.31-17.32.25:877][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2019.10.31-17.32.25:878][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2019.10.31-17.32.25:878][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2019.10.31-17.32.25:878][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2019.10.31-17.32.25:878][  0]LogD3D11RHI:      Driver Date: Unknown
-[2019.10.31-17.32.25:878][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
-[2019.10.31-17.32.25:946][  0]LogD3D11RHI: Async texture creation enabled
-[2019.10.31-17.32.26:674][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.10.31-17.32.26:814][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Intermediate/Shaders/WorkingDirectory/15212/).
-[2019.10.31-17.32.26:814][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ChristopherP/AppData/Local/Temp/UnrealShaderWorkingDir/A0DFAC5F4867AAB3ACB9DD8B8DE631D6/'.
-[2019.10.31-17.32.26:823][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.10.31-17.32.33:229][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.10.31-17.32.33:526][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.10.31-17.32.33:896][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.10.31-17.32.34:243][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.10.31-17.32.34:660][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.10.31-17.32.35:068][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.10.31-17.32.35:430][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.10.31-17.32.35:767][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.10.31-17.32.36:098][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.10.31-17.32.36:460][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2019.10.31-17.32.36:781][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2019.10.31-17.32.37:099][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2019.10.31-17.32.37:463][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2019.10.31-17.32.37:799][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2019.10.31-17.32.38:464][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2019.10.31-17.32.38:465][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2019.10.31-17.32.38:835][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.10.31-17.32.39:150][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.10.31-17.32.39:847][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.10.31-17.32.40:020][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.10.31-17.32.40:373][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.10.31-17.32.40:715][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.10.31-17.32.41:041][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.10.31-17.32.41:396][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.10.31-17.32.41:396][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.10.31-17.32.46:153][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.10.31-17.32.47:116][  0]LogDerivedDataCache: Loaded boot cache 0.95s 78MB C:/Users/ChristopherP/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2019.10.31-17.32.47:116][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ChristopherP/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2019.10.31-17.32.47:117][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.10.31-17.32.47:117][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.10.31-17.32.47:117][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.10.31-17.32.47:117][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.10.31-17.32.47:199][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.10.31-17.32.47:219][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ChristopherP/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.10.31-17.32.47:293][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.10.31-17.32.47:367][  0]LogSlate: Using Freetype 2.6.0
-[2019.10.31-17.32.47:425][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.10.31-17.32.47:434][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.10.31-17.32.57:470][  0]LogInit: Selected Device Profile: [Windows]
-[2019.10.31-17.33.00:443][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.10.31-17.33.00:735][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.10.31-17.33.00:735][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.10.31-17.33.00:735][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.10.31-17.33.00:735][  0]LogMeshReduction: No automatic mesh merging module available
-[2019.10.31-17.33.00:735][  0]LogMeshMerging: No automatic mesh merging module available
-[2019.10.31-17.33.01:195][  0]LogNetVersion: SKnightPrototype_01 , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 431312611)
-[2019.10.31-17.33.02:910][  0]LogAssetRegistry: FAssetRegistry took 0.0481 seconds to start up
-[2019.10.31-17.33.07:734][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.239030 seconds
-[2019.10.31-17.33.07:755][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2019.10.31-17.33.07:755][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
-[2019.10.31-17.33.07:755][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.10.31-17.33.08:177][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2019.10.31-17.33.34:780][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.10.31-17.33.35:009][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.10.31-17.33.40:225][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2019.10.31-17.33.46:376][  0]SourceControl: Source control is disabled
-[2019.10.31-17.33.46:385][  0]SourceControl: Source control is disabled
-[2019.10.31-17.33.46:888][  0]SourceControl: Source control is disabled
-[2019.10.31-17.33.47:438][  0]SourceControl: Source control is disabled
-[2019.10.31-17.33.57:333][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.10.31-17.34.00:074][  0]LogOcInput: OculusInput pre-init called
-[2019.10.31-17.34.02:877][  0]LogEngine: Initializing Engine...
-[2019.10.31-17.34.03:025][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.10.31-17.34.04:122][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.10.31-17.34.04:123][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.10.31-17.34.05:339][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.10.31-17.34.05:585][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.10.31-17.34.05:730][  0]LogInit: FAudioDevice initialized.
-[2019.10.31-17.34.05:931][  0]LogDerivedDataCache: Saved boot cache 0.18s 78MB C:/Users/ChristopherP/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2019.10.31-17.34.05:942][  0]LogInit: Texture streaming: Enabled
-[2019.10.31-17.34.06:855][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.10.31-17.34.08:041][  0]LogInit: Transaction tracking system initialized
-[2019.10.31-17.34.10:877][  0]BlueprintLog: New page: Editor Load
-[2019.10.31-17.34.18:671][  0]LocalizationService: Localization service is disabled
-[2019.10.31-17.34.25:641][  0]LogConsoleResponse: Display: 
-[2019.10.31-17.34.28:151][  0]LogFileCache: Scanning file cache for directory 'D:/GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/' took 0.10s
-[2019.10.31-17.34.28:151][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.10.31-17.34.28:167][  0]LogCook: Display: Mobile HDR setting 1
-[2019.10.31-17.34.28:188][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.10.31-17.34.37:932][  0]SourceControl: Source control is disabled
-[2019.10.31-17.34.37:958][  0]Cmd: MAP LOAD FILE="../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.10.31-17.34.37:960][  0]LightingResults: New page: Lighting Build
-[2019.10.31-17.34.38:502][  0]MapCheck: New page: Map Check
-[2019.10.31-17.34.38:503][  0]LightingResults: New page: Lighting Build
-[2019.10.31-17.34.44:191][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2019.10.31-17.34.45:069][  0]LogScript: Warning: Accessed None trying to read property Kane
+[2019.11.02-15.05.34:941][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.02-15.05.34:941][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.11.02-15.05.35:131][  0]LogInit: Computer: DESKTOP-EEGEEHC
+[2019.11.02-15.05.35:132][  0]LogInit: User: ChristopherP
+[2019.11.02-15.05.35:132][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.11.02-15.05.35:132][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.11.02-15.05.35:132][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.11.02-15.05.35:132][  0]LogMemory: Platform Memory Stats for Windows
+[2019.11.02-15.05.35:132][  0]LogMemory: Process Physical Memory: 271.92 MB used, 271.93 MB peak
+[2019.11.02-15.05.35:132][  0]LogMemory: Process Virtual Memory: 263.71 MB used, 263.71 MB peak
+[2019.11.02-15.05.35:132][  0]LogMemory: Physical Memory: 5554.82 MB used,  2577.05 MB free, 8131.87 MB total
+[2019.11.02-15.05.35:132][  0]LogMemory: Virtual Memory: 4742.16 MB used,  2577.05 MB free, 134217728.00 MB total
+[2019.11.02-15.05.38:607][  0]LogInit: Using OS detected language (en-US).
+[2019.11.02-15.05.38:607][  0]LogInit: Using OS detected locale (en-US).
+[2019.11.02-15.05.38:723][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.11.02-15.05.39:709][  0]LogInit: Setting process to per monitor DPI aware
+[2019.11.02-15.05.43:324][  0]LogD3D11RHI: D3D11 adapters:
+[2019.11.02-15.05.43:413][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2019.11.02-15.05.43:413][  0]LogD3D11RHI:       8088/0/4065 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.11.02-15.05.43:417][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.11.02-15.05.43:417][  0]LogD3D11RHI:       0/0/4065 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.11.02-15.05.43:417][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.11.02-15.05.43:427][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.11.02-15.05.43:440][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2019.11.02-15.05.43:440][  0]LogWindows: EnumDisplayDevices:
+[2019.11.02-15.05.43:441][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2019.11.02-15.05.43:441][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2019.11.02-15.05.43:441][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.11.02-15.05.43:441][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.11.02-15.05.43:442][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.11.02-15.05.43:442][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2019.11.02-15.05.43:442][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.11.02-15.05.43:442][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.11.02-15.05.43:442][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2019.11.02-15.05.43:534][  0]LogD3D11RHI: Async texture creation enabled
+[2019.11.02-15.05.43:892][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.11.02-15.05.44:040][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Intermediate/Shaders/WorkingDirectory/6916/).
+[2019.11.02-15.05.44:041][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ChristopherP/AppData/Local/Temp/UnrealShaderWorkingDir/8CDF7CB742ED336530BA3994C8E19648/'.
+[2019.11.02-15.05.44:053][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.11.02-15.05.49:067][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.11.02-15.05.49:367][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.11.02-15.05.49:723][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.11.02-15.05.50:067][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.11.02-15.05.50:455][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.11.02-15.05.50:811][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.11.02-15.05.51:185][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.11.02-15.05.51:507][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.11.02-15.05.52:084][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.11.02-15.05.52:461][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2019.11.02-15.05.52:807][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2019.11.02-15.05.53:175][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2019.11.02-15.05.53:515][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2019.11.02-15.05.53:861][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2019.11.02-15.05.54:568][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2019.11.02-15.05.54:568][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.11.02-15.05.54:931][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.02-15.05.55:264][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.11.02-15.05.55:910][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.11.02-15.05.56:081][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.11.02-15.05.56:476][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.11.02-15.05.56:834][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.11.02-15.05.57:244][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.11.02-15.05.57:625][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.11.02-15.05.57:625][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.11.02-15.06.01:875][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.02-15.06.02:925][  0]LogDerivedDataCache: Loaded boot cache 1.05s 78MB C:/Users/ChristopherP/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2019.11.02-15.06.02:925][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ChristopherP/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2019.11.02-15.06.02:925][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.02-15.06.02:925][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.02-15.06.02:926][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.02-15.06.02:926][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.11.02-15.06.03:004][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.11.02-15.06.03:019][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ChristopherP/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.11.02-15.06.03:081][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.11.02-15.06.03:175][  0]LogSlate: Using Freetype 2.6.0
+[2019.11.02-15.06.03:241][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.02-15.06.03:256][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.02-15.06.09:455][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.02-15.06.12:412][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.11.02-15.06.12:762][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.11.02-15.06.12:763][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.02-15.06.12:763][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.11.02-15.06.12:763][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.11.02-15.06.12:763][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.11.02-15.06.13:266][  0]LogNetVersion: SKnightPrototype_01 , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 431312611)
+[2019.11.02-15.06.15:239][  0]LogAssetRegistry: FAssetRegistry took 0.0557 seconds to start up
+[2019.11.02-15.06.20:911][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.278486 seconds
+[2019.11.02-15.06.20:942][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2019.11.02-15.06.20:942][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2019.11.02-15.06.20:942][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.02-15.06.21:398][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2019.11.02-15.07.27:446][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.02-15.07.27:811][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.02-15.07.36:523][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2019.11.02-15.07.42:303][  0]SourceControl: Source control is disabled
+[2019.11.02-15.07.42:340][  0]SourceControl: Source control is disabled
+[2019.11.02-15.07.43:099][  0]SourceControl: Source control is disabled
+[2019.11.02-15.07.43:707][  0]SourceControl: Source control is disabled
+[2019.11.02-15.07.53:599][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.02-15.07.56:158][  0]LogOcInput: OculusInput pre-init called
+[2019.11.02-15.08.00:954][  0]LogEngine: Initializing Engine...
+[2019.11.02-15.08.01:611][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.02-15.08.03:808][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.11.02-15.08.03:809][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.11.02-15.08.06:263][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.11.02-15.08.08:077][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-15.08.08:243][  0]LogInit: FAudioDevice initialized.
+[2019.11.02-15.08.08:515][  0]LogDerivedDataCache: Saved boot cache 0.18s 78MB C:/Users/ChristopherP/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2019.11.02-15.08.08:552][  0]LogInit: Texture streaming: Enabled
+[2019.11.02-15.08.10:340][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.11.02-15.08.12:189][  0]LogInit: Transaction tracking system initialized
+[2019.11.02-15.08.15:036][  0]BlueprintLog: New page: Editor Load
+[2019.11.02-15.08.24:158][  0]LocalizationService: Localization service is disabled
+[2019.11.02-15.08.30:869][  0]LogConsoleResponse: Display: 
+[2019.11.02-15.08.37:348][  0]LogFileCache: Scanning file cache for directory 'D:/GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/' took 0.33s
+[2019.11.02-15.08.37:348][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.11.02-15.08.37:376][  0]LogCook: Display: Mobile HDR setting 1
+[2019.11.02-15.08.37:429][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.11.02-15.08.49:307][  0]SourceControl: Source control is disabled
+[2019.11.02-15.08.49:353][  0]Cmd: MAP LOAD FILE="../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.02-15.08.49:371][  0]LightingResults: New page: Lighting Build
+[2019.11.02-15.08.49:904][  0]MapCheck: New page: Map Check
+[2019.11.02-15.08.49:904][  0]LightingResults: New page: Lighting Build
+[2019.11.02-15.08.57:493][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.11.02-15.08.58:621][  0]LogScript: Warning: Accessed None trying to read property Kane
 	Kane_AnimBP_C /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_78.CharacterMesh0.Kane_AnimBP_C_0
 	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.34.45:428][  0]LogEditorServer: Finished looking for orphan Actors (0.003 secs)
-[2019.10.31-17.34.45:767][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.10.31-17.34.46:167][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 393.83ms to complete.
-[2019.10.31-17.34.46:167][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 8.224
-[2019.10.31-17.34.48:819][  0]LogCollectionManager: Loaded 0 collections in 0.025179 seconds
-[2019.10.31-17.34.49:391][  0]LogFileCache: Scanning file cache for directory 'D:/GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Collections/' took 0.01s
-[2019.10.31-17.34.49:391][  0]LogFileCache: Scanning file cache for directory 'D:/GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/Developers/ChristopherP/Collections/' took 0.01s
-[2019.10.31-17.34.49:391][  0]LogFileCache: Scanning file cache for directory 'D:/GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/Collections/' took 0.01s
-[2019.10.31-17.34.49:391][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.10.31-17.34.49:427][  0]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 2363 classes and 519 folders.
-[2019.10.31-17.34.50:078][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2019.10.31-17.34.51:253][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
-[2019.10.31-17.34.51:744][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2019.10.31-17.34.52:797][  0]LogSlate: Took 0.024909 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.10.31-17.34.52:816][  0]LogSlate: Took 0.013183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.10.31-17.34.53:047][  0]LogSlate: Took 0.019613 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.10.31-17.34.54:151][  0]LogRenderer: Reallocating scene render targets to support 1128x636 Format 10 NumSamples 1 (Frame:1).
-[2019.10.31-17.34.57:438][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2019.10.31-17.34.57:438][  0]LogLoad: (Engine Initialization) Total time: 211.70 seconds
-[2019.10.31-17.34.57:438][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.10.31-17.34.57:505][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2019.10.31-17.34.58:736][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.10.31-17.35.00:144][  1]LogSlate: Took 0.069429 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2019.10.31-17.35.00:595][  3]LogAssetRegistry: Asset discovery search completed in 117.7069 seconds
-[2019.10.31-17.35.00:640][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2019.10.31-17.35.00:640][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.026968 seconds (updated 0 objects)
-[2019.10.31-17.37.31:496][632]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_3:PersistentLevel.SideScrollerCharacter_C_0.CharacterMesh0.Kane_AnimBP_C_0
+[2019.11.02-15.08.59:075][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.02-15.08.59:452][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.02-15.08.59:708][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 249.605ms to complete.
+[2019.11.02-15.08.59:708][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 10.364
+[2019.11.02-15.09.02:879][  0]LogCollectionManager: Loaded 0 collections in 0.026570 seconds
+[2019.11.02-15.09.03:468][  0]LogFileCache: Scanning file cache for directory 'D:/GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Collections/' took 0.01s
+[2019.11.02-15.09.03:468][  0]LogFileCache: Scanning file cache for directory 'D:/GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/Developers/ChristopherP/Collections/' took 0.01s
+[2019.11.02-15.09.03:468][  0]LogFileCache: Scanning file cache for directory 'D:/GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/Collections/' took 0.01s
+[2019.11.02-15.09.03:468][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.11.02-15.09.03:504][  0]LogContentBrowser: Native class hierarchy populated in 0.0341 seconds. Added 2363 classes and 519 folders.
+[2019.11.02-15.09.04:231][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.11.02-15.09.05:591][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.11.02-15.09.05:964][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.11.02-15.09.06:824][  0]LogSlate: Took 0.037544 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.11.02-15.09.06:867][  0]LogSlate: Took 0.012699 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.11.02-15.09.06:965][  0]LogSlate: Took 0.028100 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.11.02-15.09.07:697][  0]LogRenderer: Reallocating scene render targets to support 1128x636 Format 10 NumSamples 1 (Frame:1).
+[2019.11.02-15.09.09:241][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2019.11.02-15.09.09:241][  0]LogLoad: (Engine Initialization) Total time: 241.33 seconds
+[2019.11.02-15.09.09:241][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.02-15.09.09:266][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2019.11.02-15.09.10:123][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.11.02-15.09.10:839][  1]LogSlate: Took 0.017632 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.11.02-15.09.11:097][  2]LogSlate: Took 0.000532 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.11.02-15.09.11:330][  3]LogAssetRegistry: Asset discovery search completed in 176.1132 seconds
+[2019.11.02-15.09.11:359][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.11.02-15.09.11:359][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.010387 seconds (updated 0 objects)
+[2019.11.02-15.09.11:642][  4]LogScript: Warning: Accessed None trying to read property Kane
+	Kane_AnimBP_C /Engine/Transient.World_2:PersistentLevel.SideScrollerCharacter_C_0.CharacterMesh0.Kane_AnimBP_C_0
 	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.37.33:860][775]LogSlate: Took 0.000397 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2019.10.31-17.37.34:715][775]LogSlate: Took 0.000364 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.10.31-17.37.35:335][775]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0070 seconds. Added 116 classes and 0 folders.
-[2019.10.31-17.37.37:991][775]LogSlate: Took 0.052571 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.10.31-17.37.43:337][  8]LogSlate: Took 0.017818 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.10.31-17.39.13:278][498]BlueprintLog: New page: Compile SKnight_Door
-[2019.10.31-17.40.17:192][486]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.10.31-17.40.19:048][486]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
-[2019.10.31-17.40.19:100][486]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.10.31-17.40.19:347][486]PIE: New page: PIE session: SideScrollerExampleMap (Oct 31, 2019, 9:40:19 AM)
-[2019.10.31-17.40.19:454][486]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
-[2019.10.31-17.40.22:909][486]LogPlayLevel: PIE: StaticDuplicateObject took: (3.455577s)
-[2019.10.31-17.40.22:910][486]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2019.10.31-17.40.22:978][486]LogPlayLevel: PIE: World Init took: (0.068782s)
-[2019.10.31-17.40.22:991][486]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (3.539772s)
-[2019.10.31-17.40.23:188][486]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.10.31-17.40.23:253][486]LogInit: FAudioDevice initialized.
-[2019.10.31-17.40.23:444][486]LogLoad: Game class is 'SideScrollerGameMode_C'
-[2019.10.31-17.40.23:666][486]LogScript: Warning: Accessed None trying to read property Kane
+[2019.11.02-15.10.23:332][476]LogSlate: Took 0.000346 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.11.02-15.10.24:212][476]LogSlate: Took 0.029359 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.11.02-15.14.34:961][580]LogSlate: Took 0.000299 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.11.02-15.14.35:348][580]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0130 seconds. Added 116 classes and 0 folders.
+[2019.11.02-15.14.37:801][581]LogSlate: Took 0.013795 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.11.02-15.15.03:202][143]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.02-15.15.03:503][143]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.15.03:576][143]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.02-15.15.03:682][143]PIE: New page: PIE session: SideScrollerExampleMap (Nov 2, 2019, 7:15:03 AM)
+[2019.11.02-15.15.03:696][143]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.11.02-15.15.03:951][143]LogPlayLevel: PIE: StaticDuplicateObject took: (0.254523s)
+[2019.11.02-15.15.03:952][143]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.11.02-15.15.03:962][143]LogPlayLevel: PIE: World Init took: (0.011309s)
+[2019.11.02-15.15.03:963][143]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.269108s)
+[2019.11.02-15.15.04:187][143]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-15.15.04:233][143]LogInit: FAudioDevice initialized.
+[2019.11.02-15.15.04:389][143]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.11.02-15.15.04:525][143]LogScript: Warning: Accessed None trying to read property Kane
 	Kane_AnimBP_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_78.CharacterMesh0.Kane_AnimBP_C_0
 	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.40.23:667][486]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Kane from function: 'ExecuteUbergraph_Kane_AnimBP' from node: Result in graph: Transition in object: Kane_AnimBP with description: Accessed None trying to read property Kane
-[2019.10.31-17.40.23:668][486]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2019.10.31-13.40.23
-[2019.10.31-17.40.23:776][486]LogWorld: Bringing up level for play took: 0.121087
-[2019.10.31-17.40.25:758][486]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
-[2019.10.31-17.40.25:916][486]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 6.862
-[2019.10.31-17.40.25:921][486]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
-[2019.10.31-17.40.26:136][486]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
-[2019.10.31-17.40.28:555][600]LogBlueprintUserMessages: [SKnight_Checkpoint_356] Checkpoint Reached
-[2019.10.31-17.40.40:870][273]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
-[2019.10.31-17.40.41:195][273]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
-[2019.10.31-17.40.49:324][851]LogEditorViewport: Clicking on Actor (LMB): SKnight_Key_C (SKnight_Key)
-[2019.10.31-17.40.58:963][502]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_8:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0.Kane_AnimBP_C_1
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.40.58:965][502]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_8:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0.Kane_AnimBP_C_1
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.40.59:552][503]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_8:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0.Kane_AnimBP_C_1
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.00:854][504]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_8:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0.Kane_AnimBP_C_1
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.00:871][505]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_8:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0.Kane_AnimBP_C_1
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.00:890][506]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_8:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0.Kane_AnimBP_C_1
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.00:907][507]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_8:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0.Kane_AnimBP_C_1
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.00:927][508]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_8:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0.Kane_AnimBP_C_1
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.00:946][509]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_8:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0.Kane_AnimBP_C_1
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.00:979][510]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_8:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0.Kane_AnimBP_C_1
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.01:007][511]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_8:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0.Kane_AnimBP_C_1
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.01:030][512]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_8:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0.Kane_AnimBP_C_1
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.01:058][513]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_8:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0.Kane_AnimBP_C_1
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.01:098][514]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_8:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0.Kane_AnimBP_C_1
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.01:126][515]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_8:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0.Kane_AnimBP_C_1
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.01:150][516]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_8:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0.Kane_AnimBP_C_1
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.01:175][517]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_8:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0.Kane_AnimBP_C_1
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.07:445][797]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_78.CharacterMesh0.Kane_AnimBP_C_0
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.07:447][797]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_3:PersistentLevel.SideScrollerCharacter_C_0.CharacterMesh0.Kane_AnimBP_C_0
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.15:816][154]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_78.CharacterMesh0.Kane_AnimBP_C_0
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.15:818][154]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_3:PersistentLevel.SideScrollerCharacter_C_0.CharacterMesh0.Kane_AnimBP_C_0
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.18:497][257]BlueprintLog: New page: Compile SideScrollerCharacter
-[2019.10.31-17.41.18:670][257]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_78.CharacterMesh0.Kane_AnimBP_C_2
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.18:672][257]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_3:PersistentLevel.SideScrollerCharacter_C_0.CharacterMesh0.Kane_AnimBP_C_2
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.18:673][257]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_3:PersistentLevel.SideScrollerCharacter_C_0.CharacterMesh0.Kane_AnimBP_C_3
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.18:673][257]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_8:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0.Kane_AnimBP_C_4
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.18:675][257]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_8:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0.Kane_AnimBP_C_5
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.19:112][257]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_78.CharacterMesh0.Kane_AnimBP_C_2
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.19:113][257]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_3:PersistentLevel.SideScrollerCharacter_C_0.CharacterMesh0.Kane_AnimBP_C_3
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.19:115][257]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_8:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0.Kane_AnimBP_C_5
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.19:145][257]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C:Spawn Player'!
-[2019.10.31-17.41.19:146][257]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_3:PersistentLevel.SideScrollerCharacter_C_8.CharacterMesh0.Kane_AnimBP_C_6
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.19:157][257]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_8:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0.Kane_AnimBP_C_5
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.19:222][258]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_8:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0.Kane_AnimBP_C_5
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.19:251][259]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_8:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0.Kane_AnimBP_C_5
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.19:276][260]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_8:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0.Kane_AnimBP_C_5
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.19:295][261]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_8:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0.Kane_AnimBP_C_5
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.19:317][262]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_8:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0.Kane_AnimBP_C_5
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.19:338][263]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_8:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0.Kane_AnimBP_C_5
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.19:359][264]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_8:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0.Kane_AnimBP_C_5
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.19:382][265]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_8:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0.Kane_AnimBP_C_5
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.19:405][266]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_8:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0.Kane_AnimBP_C_5
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.19:433][267]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_8:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0.Kane_AnimBP_C_5
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.19:452][268]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_8:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0.Kane_AnimBP_C_5
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.19:476][269]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_8:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0.Kane_AnimBP_C_5
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.19:499][270]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_8:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0.Kane_AnimBP_C_5
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.41.19:522][271]LogScript: Warning: Accessed None trying to read property Kane
-	Kane_AnimBP_C /Engine/Transient.World_8:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0.Kane_AnimBP_C_5
-	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.42.18:101][506]BlueprintLog: New page: Compile SKnight_Key
-[2019.10.31-17.43.20:967][160]BlueprintLog: New page: Compile SKnight_Door
-[2019.10.31-17.43.28:762][458]BlueprintLog: New page: Compile SKnight_Door
-[2019.10.31-17.43.30:192][488]LogSavePackage: Save=143.06ms
-[2019.10.31-17.43.30:193][488]LogSavePackage: Moving '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Saved/SKnight_Door4476929E418CB67B3FAC9C81764A72E7.tmp' to '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/SideScrollerBP/Blueprints/SKnight_Door.uasset'
-[2019.10.31-17.43.30:222][488]LogSavePackage: Display: Finished SavePackage ../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/SideScrollerBP/Blueprints/SKnight_Door.uasset
-[2019.10.31-17.43.32:909][614]LogSavePackage: Save=210.19ms
-[2019.10.31-17.43.32:909][614]LogSavePackage: Moving '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Saved/SideScrollerCharacter7FCB8BEF41A646D115367DB350438FE6.tmp' to '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2019.10.31-17.43.32:928][614]LogSavePackage: Display: Finished SavePackage ../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
-[2019.10.31-17.43.34:665][702]LogSavePackage: Save=44.88ms
-[2019.10.31-17.43.34:665][702]LogSavePackage: Moving '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Saved/SKnight_Key308B39B24F90E586E9F65E9720FD1020.tmp' to '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/SideScrollerBP/Blueprints/SKnight_Key.uasset'
-[2019.10.31-17.43.34:676][702]LogSavePackage: Display: Finished SavePackage ../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/SideScrollerBP/Blueprints/SKnight_Key.uasset
-[2019.10.31-17.43.44:753][330]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.10.31-17.43.44:805][330]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
-[2019.10.31-17.43.44:806][330]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.10.31-17.43.44:806][330]PIE: New page: PIE session: SideScrollerExampleMap (Oct 31, 2019, 9:43:44 AM)
-[2019.10.31-17.43.44:806][330]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
-[2019.10.31-17.43.44:970][330]LogPlayLevel: PIE: StaticDuplicateObject took: (0.163142s)
-[2019.10.31-17.43.44:970][330]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2019.10.31-17.43.44:971][330]LogPlayLevel: PIE: World Init took: (0.000987s)
-[2019.10.31-17.43.44:971][330]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.164565s)
-[2019.10.31-17.43.45:101][330]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.10.31-17.43.45:158][330]LogInit: FAudioDevice initialized.
-[2019.10.31-17.43.45:239][330]LogLoad: Game class is 'SideScrollerGameMode_C'
-[2019.10.31-17.43.45:245][330]LogScript: Warning: Accessed None trying to read property Kane
+[2019.11.02-15.15.04:525][143]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Kane from function: 'ExecuteUbergraph_Kane_AnimBP' from node: Result in graph: Transition in object: Kane_AnimBP with description: Accessed None trying to read property Kane
+[2019.11.02-15.15.04:526][143]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2019.11.02-11.15.04
+[2019.11.02-15.15.04:672][143]LogWorld: Bringing up level for play took: 0.158924
+[2019.11.02-15.15.05:025][143]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2019.11.02-15.15.05:148][143]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 2.319
+[2019.11.02-15.15.05:149][143]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.15.05:374][143]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2019.11.02-15.16.07:420][366]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.16.07:769][366]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.16.22:122][172]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2019.11.02-15.16.48:764][410]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.02-15.16.48:781][410]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.16.48:785][410]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.02-15.16.48:785][410]PIE: New page: PIE session: SideScrollerExampleMap (Nov 2, 2019, 7:16:48 AM)
+[2019.11.02-15.16.48:785][410]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.11.02-15.16.48:873][410]LogPlayLevel: PIE: StaticDuplicateObject took: (0.086775s)
+[2019.11.02-15.16.48:873][410]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.11.02-15.16.48:874][410]LogPlayLevel: PIE: World Init took: (0.000954s)
+[2019.11.02-15.16.48:874][410]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.088239s)
+[2019.11.02-15.16.49:100][410]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-15.16.49:139][410]LogInit: FAudioDevice initialized.
+[2019.11.02-15.16.49:213][410]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.11.02-15.16.49:218][410]LogScript: Warning: Accessed None trying to read property Kane
 	Kane_AnimBP_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_78.CharacterMesh0.Kane_AnimBP_C_0
 	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
-[2019.10.31-17.43.45:245][330]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Kane from function: 'ExecuteUbergraph_Kane_AnimBP' from node: Result in graph: Transition in object: Kane_AnimBP with description: Accessed None trying to read property Kane
-[2019.10.31-17.43.45:246][330]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2019.10.31-13.43.45
-[2019.10.31-17.43.45:247][330]LogWorld: Bringing up level for play took: 0.007223
-[2019.10.31-17.43.45:257][330]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.203
-[2019.10.31-17.43.45:274][330]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
-[2019.10.31-17.43.46:243][387]LogBlueprintUserMessages: [SKnight_Checkpoint_356] Checkpoint Reached
-[2019.10.31-17.43.57:422][161]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
-[2019.10.31-17.43.57:511][161]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
-[2019.10.31-17.45.14:530][915]LogSavePackage: Save=857.39ms
-[2019.10.31-17.45.14:530][915]LogSavePackage: Moving '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Saved/SideScrollerExampleMap7CA3A396418423A62DADBE989BC71CFF.tmp' to '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
-[2019.10.31-17.45.14:566][915]LogSavePackage: Display: Finished SavePackage ../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap
+[2019.11.02-15.16.49:218][410]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Kane from function: 'ExecuteUbergraph_Kane_AnimBP' from node: Result in graph: Transition in object: Kane_AnimBP with description: Accessed None trying to read property Kane
+[2019.11.02-15.16.49:220][410]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2019.11.02-11.16.49
+[2019.11.02-15.16.49:221][410]LogWorld: Bringing up level for play took: 0.006970
+[2019.11.02-15.16.49:235][410]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.407
+[2019.11.02-15.16.49:253][410]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.16.49:421][411]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.057167 > MaxSimulationTimeStep (0.050) for 'SideScrollerCharacter_78', movement 'Walking'
+[2019.11.02-15.16.58:376][872]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.16.58:445][872]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.17.40:412][483]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'UBlackboardComponent::SetValueAsObject' [Element not found.]
+[2019.11.02-15.19.36:706][951]LogEditorViewport: Clicking on Actor (LMB): Enemy_C (Enemy)
+[2019.11.02-15.20.25:514][948]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.02-15.21.16:779][  6]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2019.11.02-15.21.21:874][289]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.02-15.21.21:891][289]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.21.21:894][289]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.02-15.21.21:895][289]PIE: New page: PIE session: SideScrollerExampleMap (Nov 2, 2019, 7:21:21 AM)
+[2019.11.02-15.21.21:895][289]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.11.02-15.21.21:977][289]LogPlayLevel: PIE: StaticDuplicateObject took: (0.081932s)
+[2019.11.02-15.21.21:978][289]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.11.02-15.21.21:978][289]LogPlayLevel: PIE: World Init took: (0.001179s)
+[2019.11.02-15.21.21:979][289]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.083724s)
+[2019.11.02-15.21.22:107][289]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-15.21.22:147][289]LogInit: FAudioDevice initialized.
+[2019.11.02-15.21.22:224][289]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.11.02-15.21.22:229][289]LogScript: Warning: Accessed None trying to read property Kane
+	Kane_AnimBP_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_78.CharacterMesh0.Kane_AnimBP_C_0
+	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
+[2019.11.02-15.21.22:229][289]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Kane from function: 'ExecuteUbergraph_Kane_AnimBP' from node: Result in graph: Transition in object: Kane_AnimBP with description: Accessed None trying to read property Kane
+[2019.11.02-15.21.22:230][289]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2019.11.02-11.21.22
+[2019.11.02-15.21.22:231][289]LogWorld: Bringing up level for play took: 0.005228
+[2019.11.02-15.21.22:241][289]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.588
+[2019.11.02-15.21.22:241][289]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.21.28:085][634]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.21.28:155][634]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.22.27:344][545]LogSavePackage: Save=1191.68ms
+[2019.11.02-15.22.27:344][545]LogSavePackage: Moving '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Saved/SideScrollerExampleMap_Auto1631373514A013ED49EAD778C8D405B41.tmp' to '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto1.umap'
+[2019.11.02-15.22.27:423][545]LogSavePackage: Display: Finished SavePackage ../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto1.umap
+[2019.11.02-15.22.27:449][545]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 1.764
+[2019.11.02-15.22.27:450][545]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.764
+[2019.11.02-15.22.27:470][545]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SideScrollerBP/Blueprints/SKnight_EnemyBT] ([1] browsable assets)...
+[2019.11.02-15.22.27:470][545]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Blueprints/SKnight_EnemyBT]
+[2019.11.02-15.22.27:524][545]LogSavePackage: Save=10.85ms
+[2019.11.02-15.22.27:524][545]LogSavePackage: Moving '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Saved/SKnight_EnemyBT_Auto1C42E010344FD5B6EE52065BCF62F4105.tmp' to '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Autosaves/Game/SideScrollerBP/Blueprints/SKnight_EnemyBT_Auto1.uasset'
+[2019.11.02-15.22.27:546][545]LogSavePackage: Display: Finished SavePackage ../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Autosaves/Game/SideScrollerBP/Blueprints/SKnight_EnemyBT_Auto1.uasset
+[2019.11.02-15.22.27:546][545]LogFileHelpers: Auto-saving content packages took 0.092
+[2019.11.02-15.23.46:753][835]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.02-15.23.46:770][835]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.23.46:774][835]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.02-15.23.46:775][835]PIE: New page: PIE session: SideScrollerExampleMap (Nov 2, 2019, 7:23:46 AM)
+[2019.11.02-15.23.46:775][835]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.11.02-15.23.46:854][835]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079151s)
+[2019.11.02-15.23.46:855][835]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.11.02-15.23.46:856][835]LogPlayLevel: PIE: World Init took: (0.001146s)
+[2019.11.02-15.23.46:856][835]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.080854s)
+[2019.11.02-15.23.46:954][835]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-15.23.46:993][835]LogInit: FAudioDevice initialized.
+[2019.11.02-15.23.47:067][835]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.11.02-15.23.47:071][835]LogScript: Warning: Accessed None trying to read property Kane
+	Kane_AnimBP_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_78.CharacterMesh0.Kane_AnimBP_C_0
+	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
+[2019.11.02-15.23.47:071][835]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Kane from function: 'ExecuteUbergraph_Kane_AnimBP' from node: Result in graph: Transition in object: Kane_AnimBP with description: Accessed None trying to read property Kane
+[2019.11.02-15.23.47:072][835]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2019.11.02-11.23.47
+[2019.11.02-15.23.47:073][835]LogWorld: Bringing up level for play took: 0.005098
+[2019.11.02-15.23.47:080][835]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.252
+[2019.11.02-15.23.47:080][835]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.23.59:398][746]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.23.59:473][746]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.27.07:552][ 11]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.02-15.27.07:570][ 11]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.27.07:574][ 11]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.02-15.27.07:574][ 11]PIE: New page: PIE session: SideScrollerExampleMap (Nov 2, 2019, 7:27:07 AM)
+[2019.11.02-15.27.07:574][ 11]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.11.02-15.27.07:657][ 11]LogPlayLevel: PIE: StaticDuplicateObject took: (0.082746s)
+[2019.11.02-15.27.07:658][ 11]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.11.02-15.27.07:658][ 11]LogPlayLevel: PIE: World Init took: (0.000964s)
+[2019.11.02-15.27.07:659][ 11]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.084283s)
+[2019.11.02-15.27.07:765][ 11]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-15.27.07:805][ 11]LogInit: FAudioDevice initialized.
+[2019.11.02-15.27.07:872][ 11]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.11.02-15.27.07:876][ 11]LogScript: Warning: Accessed None trying to read property Kane
+	Kane_AnimBP_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_78.CharacterMesh0.Kane_AnimBP_C_0
+	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
+[2019.11.02-15.27.07:876][ 11]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Kane from function: 'ExecuteUbergraph_Kane_AnimBP' from node: Result in graph: Transition in object: Kane_AnimBP with description: Accessed None trying to read property Kane
+[2019.11.02-15.27.07:878][ 11]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2019.11.02-11.27.07
+[2019.11.02-15.27.07:879][ 11]LogWorld: Bringing up level for play took: 0.006021
+[2019.11.02-15.27.07:887][ 11]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 1.059
+[2019.11.02-15.27.07:887][ 11]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.27.23:443][167]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.27.23:507][167]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.27.36:578][220]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.02-15.27.36:595][220]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.27.36:599][220]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.02-15.27.36:599][220]PIE: New page: PIE session: SideScrollerExampleMap (Nov 2, 2019, 7:27:36 AM)
+[2019.11.02-15.27.36:599][220]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.11.02-15.27.36:674][220]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074267s)
+[2019.11.02-15.27.36:675][220]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.11.02-15.27.36:675][220]LogPlayLevel: PIE: World Init took: (0.001017s)
+[2019.11.02-15.27.36:675][220]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.075705s)
+[2019.11.02-15.27.36:780][220]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-15.27.36:806][220]LogInit: FAudioDevice initialized.
+[2019.11.02-15.27.36:869][220]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.11.02-15.27.36:874][220]LogScript: Warning: Accessed None trying to read property Kane
+	Kane_AnimBP_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_78.CharacterMesh0.Kane_AnimBP_C_0
+	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
+[2019.11.02-15.27.36:874][220]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Kane from function: 'ExecuteUbergraph_Kane_AnimBP' from node: Result in graph: Transition in object: Kane_AnimBP with description: Accessed None trying to read property Kane
+[2019.11.02-15.27.36:875][220]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2019.11.02-11.27.36
+[2019.11.02-15.27.36:876][220]LogWorld: Bringing up level for play took: 0.005944
+[2019.11.02-15.27.36:884][220]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.056
+[2019.11.02-15.27.36:885][220]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.27.49:256][ 93]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.27.49:321][ 93]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.28.00:668][822]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.02-15.28.00:686][822]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.28.00:690][822]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.02-15.28.00:690][822]PIE: New page: PIE session: SideScrollerExampleMap (Nov 2, 2019, 7:28:00 AM)
+[2019.11.02-15.28.00:690][822]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.11.02-15.28.00:769][822]LogPlayLevel: PIE: StaticDuplicateObject took: (0.080265s)
+[2019.11.02-15.28.00:770][822]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.11.02-15.28.00:771][822]LogPlayLevel: PIE: World Init took: (0.001188s)
+[2019.11.02-15.28.00:771][822]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.081940s)
+[2019.11.02-15.28.00:869][822]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-15.28.00:895][822]LogInit: FAudioDevice initialized.
+[2019.11.02-15.28.00:965][822]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.11.02-15.28.00:969][822]LogScript: Warning: Accessed None trying to read property Kane
+	Kane_AnimBP_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_78.CharacterMesh0.Kane_AnimBP_C_0
+	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
+[2019.11.02-15.28.00:969][822]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Kane from function: 'ExecuteUbergraph_Kane_AnimBP' from node: Result in graph: Transition in object: Kane_AnimBP with description: Accessed None trying to read property Kane
+[2019.11.02-15.28.00:970][822]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2019.11.02-11.28.00
+[2019.11.02-15.28.00:971][822]LogWorld: Bringing up level for play took: 0.005515
+[2019.11.02-15.28.00:980][822]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.152
+[2019.11.02-15.28.00:981][822]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.28.01:800][863]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.28.01:888][863]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.28.03:773][962]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.02-15.28.03:791][962]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.28.03:794][962]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.02-15.28.03:795][962]PIE: New page: PIE session: SideScrollerExampleMap (Nov 2, 2019, 7:28:03 AM)
+[2019.11.02-15.28.03:795][962]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.11.02-15.28.03:874][962]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078652s)
+[2019.11.02-15.28.03:875][962]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.11.02-15.28.03:875][962]LogPlayLevel: PIE: World Init took: (0.001001s)
+[2019.11.02-15.28.03:875][962]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.080071s)
+[2019.11.02-15.28.03:987][962]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-15.28.04:020][962]LogInit: FAudioDevice initialized.
+[2019.11.02-15.28.04:093][962]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.11.02-15.28.04:097][962]LogScript: Warning: Accessed None trying to read property Kane
+	Kane_AnimBP_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_78.CharacterMesh0.Kane_AnimBP_C_0
+	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
+[2019.11.02-15.28.04:097][962]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Kane from function: 'ExecuteUbergraph_Kane_AnimBP' from node: Result in graph: Transition in object: Kane_AnimBP with description: Accessed None trying to read property Kane
+[2019.11.02-15.28.04:099][962]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2019.11.02-11.28.04
+[2019.11.02-15.28.04:100][962]LogWorld: Bringing up level for play took: 0.006449
+[2019.11.02-15.28.04:110][962]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 1.282
+[2019.11.02-15.28.04:110][962]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.28.29:054][359]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.28.29:127][359]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.29.09:028][731]LogBehaviorTree: Warning: Blackboard asset (SKnight_EnemyBB) has (SKnight_EnemyBB) in parent chain! Clearing value to avoid cycle.
+[2019.11.02-15.29.29:233][418]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.02-15.29.29:255][418]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.29.29:259][418]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.02-15.29.29:259][418]PIE: New page: PIE session: SideScrollerExampleMap (Nov 2, 2019, 7:29:29 AM)
+[2019.11.02-15.29.29:259][418]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.11.02-15.29.29:338][418]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078458s)
+[2019.11.02-15.29.29:339][418]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.11.02-15.29.29:339][418]LogPlayLevel: PIE: World Init took: (0.000976s)
+[2019.11.02-15.29.29:339][418]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.079800s)
+[2019.11.02-15.29.29:442][418]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-15.29.29:479][418]LogInit: FAudioDevice initialized.
+[2019.11.02-15.29.29:547][418]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.11.02-15.29.29:552][418]LogScript: Warning: Accessed None trying to read property Kane
+	Kane_AnimBP_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_78.CharacterMesh0.Kane_AnimBP_C_0
+	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
+[2019.11.02-15.29.29:552][418]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Kane from function: 'ExecuteUbergraph_Kane_AnimBP' from node: Result in graph: Transition in object: Kane_AnimBP with description: Accessed None trying to read property Kane
+[2019.11.02-15.29.29:554][418]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2019.11.02-11.29.29
+[2019.11.02-15.29.29:554][418]LogWorld: Bringing up level for play took: 0.006434
+[2019.11.02-15.29.29:572][418]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.744
+[2019.11.02-15.29.29:573][418]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.29.34:395][733]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.29.34:466][733]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.32.54:785][ 85]BlueprintLog: New page: Compile Enemy
+[2019.11.02-15.32.58:377][253]LogEditorViewport: Clicking on Actor (LMB): Enemy_C (Enemy)
+[2019.11.02-15.33.10:712][851]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.02-15.33.10:738][851]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.33.10:741][851]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.02-15.33.10:742][851]PIE: New page: PIE session: SideScrollerExampleMap (Nov 2, 2019, 7:33:10 AM)
+[2019.11.02-15.33.10:742][851]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.11.02-15.33.10:823][851]LogPlayLevel: PIE: StaticDuplicateObject took: (0.080686s)
+[2019.11.02-15.33.10:824][851]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.11.02-15.33.10:824][851]LogPlayLevel: PIE: World Init took: (0.001099s)
+[2019.11.02-15.33.10:825][851]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.082211s)
+[2019.11.02-15.33.10:928][851]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-15.33.10:976][851]LogInit: FAudioDevice initialized.
+[2019.11.02-15.33.11:050][851]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.11.02-15.33.11:054][851]LogScript: Warning: Accessed None trying to read property Kane
+	Kane_AnimBP_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_78.CharacterMesh0.Kane_AnimBP_C_0
+	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
+[2019.11.02-15.33.11:054][851]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Kane from function: 'ExecuteUbergraph_Kane_AnimBP' from node: Result in graph: Transition in object: Kane_AnimBP with description: Accessed None trying to read property Kane
+[2019.11.02-15.33.11:055][851]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2019.11.02-11.33.11
+[2019.11.02-15.33.11:056][851]LogWorld: Bringing up level for play took: 0.005616
+[2019.11.02-15.33.11:064][851]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.236
+[2019.11.02-15.33.11:065][851]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.33.15:667][ 75]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.33.15:743][ 75]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.33.49:801][855]LogSavePackage: Save=34.26ms
+[2019.11.02-15.33.49:801][855]LogSavePackage: Moving '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Saved/SKnight_EnemyBT827D62F442F796C14E8DDBA1BECC8D33.tmp' to '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/SideScrollerBP/Blueprints/SKnight_EnemyBT.uasset'
+[2019.11.02-15.33.49:808][855]LogSavePackage: Display: Finished SavePackage ../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/SideScrollerBP/Blueprints/SKnight_EnemyBT.uasset
+[2019.11.02-15.33.49:839][855]LogSavePackage: Save=3.05ms
+[2019.11.02-15.33.49:839][855]LogSavePackage: Moving '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Saved/SKnight_EnemyBB3145D4F44D346D0AF03E8E96F0227C8A.tmp' to '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/SideScrollerBP/Blueprints/SKnight_EnemyBB.uasset'
+[2019.11.02-15.33.49:845][855]LogSavePackage: Display: Finished SavePackage ../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/SideScrollerBP/Blueprints/SKnight_EnemyBB.uasset
+[2019.11.02-15.35.23:010][708]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.02-15.35.23:027][708]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.35.23:031][708]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.02-15.35.23:031][708]PIE: New page: PIE session: SideScrollerExampleMap (Nov 2, 2019, 7:35:23 AM)
+[2019.11.02-15.35.23:031][708]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.11.02-15.35.23:110][708]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078907s)
+[2019.11.02-15.35.23:111][708]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.11.02-15.35.23:111][708]LogPlayLevel: PIE: World Init took: (0.000878s)
+[2019.11.02-15.35.23:112][708]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.080199s)
+[2019.11.02-15.35.23:205][708]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-15.35.23:231][708]LogInit: FAudioDevice initialized.
+[2019.11.02-15.35.23:303][708]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.11.02-15.35.23:307][708]LogScript: Warning: Accessed None trying to read property Kane
+	Kane_AnimBP_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_78.CharacterMesh0.Kane_AnimBP_C_0
+	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
+[2019.11.02-15.35.23:307][708]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Kane from function: 'ExecuteUbergraph_Kane_AnimBP' from node: Result in graph: Transition in object: Kane_AnimBP with description: Accessed None trying to read property Kane
+[2019.11.02-15.35.23:309][708]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2019.11.02-11.35.23
+[2019.11.02-15.35.23:310][708]LogWorld: Bringing up level for play took: 0.005596
+[2019.11.02-15.35.23:316][708]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.488
+[2019.11.02-15.35.23:317][708]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.35.29:866][177]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.35.29:939][177]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.35.45:498][389]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.02-15.35.45:517][389]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.35.45:521][389]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.02-15.35.45:521][389]PIE: New page: PIE session: SideScrollerExampleMap (Nov 2, 2019, 7:35:45 AM)
+[2019.11.02-15.35.45:521][389]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.11.02-15.35.45:600][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079359s)
+[2019.11.02-15.35.45:601][389]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.11.02-15.35.45:601][389]LogPlayLevel: PIE: World Init took: (0.000907s)
+[2019.11.02-15.35.45:601][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.080717s)
+[2019.11.02-15.35.45:691][389]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-15.35.45:713][389]LogInit: FAudioDevice initialized.
+[2019.11.02-15.35.45:785][389]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.11.02-15.35.45:790][389]LogScript: Warning: Accessed None trying to read property Kane
+	Kane_AnimBP_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_78.CharacterMesh0.Kane_AnimBP_C_0
+	Function /Game/Characters/Kane/Animations/Kane_AnimBP.Kane_AnimBP_C:ExecuteUbergraph_Kane_AnimBP:045E
+[2019.11.02-15.35.45:790][389]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Kane from function: 'ExecuteUbergraph_Kane_AnimBP' from node: Result in graph: Transition in object: Kane_AnimBP with description: Accessed None trying to read property Kane
+[2019.11.02-15.35.45:791][389]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2019.11.02-11.35.45
+[2019.11.02-15.35.45:792][389]LogWorld: Bringing up level for play took: 0.005160
+[2019.11.02-15.35.45:799][389]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.971
+[2019.11.02-15.35.45:800][389]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.35.49:903][670]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.35.49:970][670]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.11.02-15.36.10:634][259]LogSavePackage: Save=134.04ms
+[2019.11.02-15.36.10:634][259]LogSavePackage: Moving '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Saved/EnemyEC3D434D4BB22048756CAE96DD845E54.tmp' to '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/SideScrollerBP/Blueprints/Enemy.uasset'
+[2019.11.02-15.36.10:641][259]LogSavePackage: Display: Finished SavePackage ../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/SideScrollerBP/Blueprints/Enemy.uasset
+[2019.11.02-15.36.10:676][259]LogSavePackage: Save=8.87ms
+[2019.11.02-15.36.10:676][259]LogSavePackage: Moving '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Saved/SKnight_EnemyBTF28A639C496F309E58B70F845A884DEA.tmp' to '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/SideScrollerBP/Blueprints/SKnight_EnemyBT.uasset'
+[2019.11.02-15.36.10:682][259]LogSavePackage: Display: Finished SavePackage ../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/SideScrollerBP/Blueprints/SKnight_EnemyBT.uasset
+[2019.11.02-15.36.11:790][259]LogSavePackage: Save=735.78ms
+[2019.11.02-15.36.11:790][259]LogSavePackage: Moving '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Saved/SideScrollerExampleMapC80C18B7411849EDF5CA2DB4400C6107.tmp' to '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2019.11.02-15.36.11:798][259]LogSavePackage: Display: Finished SavePackage ../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap
+[2019.11.02-15.36.11:865][259]LogFileHelpers: Saving map 'SideScrollerExampleMap' took 1.178
+[2019.11.02-15.36.12:323][259]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.11.02-15.36.12:717][260]Cmd: QUIT_EDITOR
+[2019.11.02-15.36.13:912][260]LogExit: Preparing to exit.
+[2019.11.02-15.36.15:248][260]LogDirectoryWatcher: A directory notification for 'D:/GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/' was aborted.
+[2019.11.02-15.36.15:441][260]LogExit: Editor shut down
+[2019.11.02-15.36.15:449][260]LogExit: Transaction tracking system shut down
+[2019.11.02-15.36.15:882][260]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2019.11.02-15.36.15:882][260]LogDirectoryWatcher: A directory notification for '../../../../../GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/' was aborted.
+[2019.11.02-15.36.15:883][260]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2019.11.02-15.36.15:883][260]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2019.11.02-15.36.15:883][260]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2019.11.02-15.36.15:883][260]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2019.11.02-15.36.15:883][260]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2019.11.02-15.36.17:143][260]LogExit: Object subsystem successfully closed.
+[2019.11.02-15.36.17:493][260]LogD3D11RHI: Shutdown
+[2019.11.02-15.36.17:507][260]LogD3D11RHI: CleanupD3DDevice
+[2019.11.02-15.36.17:552][260]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.11.02-15.36.18:742][260]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (552)
+[2019.11.02-15.36.18:742][260]LogModuleManager: Shutting down and abandoning module BlueprintGraph (550)
+[2019.11.02-15.36.18:742][260]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
+[2019.11.02-15.36.18:742][260]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
+[2019.11.02-15.36.18:753][260]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
+[2019.11.02-15.36.18:759][260]LogDirectoryWatcher: A directory notification for 'D:/Program Files (x86)/UE_4.18/FeaturePacks/' was aborted.
+[2019.11.02-15.36.18:761][260]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
+[2019.11.02-15.36.18:761][260]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
+[2019.11.02-15.36.18:761][260]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
+[2019.11.02-15.36.18:776][260]LogDirectoryWatcher: A directory notification for 'D:/GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/Collections/' was aborted.
+[2019.11.02-15.36.18:776][260]LogDirectoryWatcher: A directory notification for 'D:/GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Content/Developers/ChristopherP/Collections/' was aborted.
+[2019.11.02-15.36.18:776][260]LogDirectoryWatcher: A directory notification for 'D:/GitKrakenRepo/SugarKnight_SaltySour/SKnightPrototype_01/Saved/Collections/' was aborted.
+[2019.11.02-15.36.18:776][260]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2019.11.02-15.36.18:794][260]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2019.11.02-15.36.18:795][260]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2019.11.02-15.36.18:804][260]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2019.11.02-15.36.18:804][260]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2019.11.02-15.36.18:805][260]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2019.11.02-15.36.18:805][260]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2019.11.02-15.36.18:805][260]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2019.11.02-15.36.18:805][260]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2019.11.02-15.36.18:805][260]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2019.11.02-15.36.18:805][260]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2019.11.02-15.36.18:805][260]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2019.11.02-15.36.18:823][260]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2019.11.02-15.36.18:838][260]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2019.11.02-15.36.18:853][260]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2019.11.02-15.36.18:958][260]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2019.11.02-15.36.18:958][260]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2019.11.02-15.36.18:958][260]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2019.11.02-15.36.18:958][260]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2019.11.02-15.36.18:958][260]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2019.11.02-15.36.18:958][260]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2019.11.02-15.36.18:958][260]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2019.11.02-15.36.18:958][260]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2019.11.02-15.36.18:958][260]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2019.11.02-15.36.18:958][260]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2019.11.02-15.36.18:958][260]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2019.11.02-15.36.18:958][260]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2019.11.02-15.36.18:973][260]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2019.11.02-15.36.18:990][260]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2019.11.02-15.36.18:990][260]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2019.11.02-15.36.18:990][260]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2019.11.02-15.36.18:990][260]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2019.11.02-15.36.18:990][260]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2019.11.02-15.36.19:020][260]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2019.11.02-15.36.19:091][260]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2019.11.02-15.36.19:373][260]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2019.11.02-15.36.19:493][260]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2019.11.02-15.36.19:601][260]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2019.11.02-15.36.19:601][260]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2019.11.02-15.36.19:601][260]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2019.11.02-15.36.19:601][260]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2019.11.02-15.36.20:002][260]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2019.11.02-15.36.20:002][260]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2019.11.02-15.36.20:002][260]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2019.11.02-15.36.20:002][260]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2019.11.02-15.36.20:012][260]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2019.11.02-15.36.20:033][260]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2019.11.02-15.36.20:033][260]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2019.11.02-15.36.20:050][260]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2019.11.02-15.36.20:050][260]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2019.11.02-15.36.20:065][260]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2019.11.02-15.36.20:074][260]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2019.11.02-15.36.20:074][260]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2019.11.02-15.36.20:074][260]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2019.11.02-15.36.20:075][260]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2019.11.02-15.36.20:083][260]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2019.11.02-15.36.20:083][260]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2019.11.02-15.36.20:087][260]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2019.11.02-15.36.20:088][260]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2019.11.02-15.36.20:089][260]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2019.11.02-15.36.20:163][260]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2019.11.02-15.36.20:184][260]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2019.11.02-15.36.20:205][260]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2019.11.02-15.36.20:215][260]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2019.11.02-15.36.20:229][260]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2019.11.02-15.36.20:304][260]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2019.11.02-15.36.20:350][260]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2019.11.02-15.36.20:376][260]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2019.11.02-15.36.20:395][260]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2019.11.02-15.36.20:395][260]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2019.11.02-15.36.20:410][260]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2019.11.02-15.36.20:411][260]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2019.11.02-15.36.20:430][260]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2019.11.02-15.36.20:431][260]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2019.11.02-15.36.20:431][260]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2019.11.02-15.36.20:458][260]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2019.11.02-15.36.20:459][260]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2019.11.02-15.36.20:459][260]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2019.11.02-15.36.20:471][260]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2019.11.02-15.36.20:605][260]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2019.11.02-15.36.20:669][260]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2019.11.02-15.36.20:690][260]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2019.11.02-15.36.20:690][260]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2019.11.02-15.36.20:690][260]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2019.11.02-15.36.20:690][260]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2019.11.02-15.36.20:690][260]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2019.11.02-15.36.20:690][260]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2019.11.02-15.36.20:690][260]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2019.11.02-15.36.20:690][260]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2019.11.02-15.36.20:690][260]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2019.11.02-15.36.20:690][260]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2019.11.02-15.36.20:690][260]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2019.11.02-15.36.20:690][260]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2019.11.02-15.36.20:717][260]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2019.11.02-15.36.20:717][260]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2019.11.02-15.36.20:763][260]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2019.11.02-15.36.20:838][260]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2019.11.02-15.36.20:838][260]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2019.11.02-15.36.20:838][260]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2019.11.02-15.36.20:904][260]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2019.11.02-15.36.20:921][260]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2019.11.02-15.36.20:922][260]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2019.11.02-15.36.20:922][260]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2019.11.02-15.36.20:937][260]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2019.11.02-15.36.20:937][260]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2019.11.02-15.36.20:937][260]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2019.11.02-15.36.20:937][260]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2019.11.02-15.36.21:295][260]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2019.11.02-15.36.21:295][260]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2019.11.02-15.36.21:295][260]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2019.11.02-15.36.21:295][260]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2019.11.02-15.36.21:321][260]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2019.11.02-15.36.21:322][260]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2019.11.02-15.36.21:371][260]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2019.11.02-15.36.21:371][260]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2019.11.02-15.36.21:371][260]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2019.11.02-15.36.21:630][260]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2019.11.02-15.36.21:763][260]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2019.11.02-15.36.21:764][260]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2019.11.02-15.36.21:764][260]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2019.11.02-15.36.21:764][260]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2019.11.02-15.36.21:842][260]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2019.11.02-15.36.21:937][260]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2019.11.02-15.36.22:018][260]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2019.11.02-15.36.22:265][260]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2019.11.02-15.36.22:265][260]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2019.11.02-15.36.22:265][260]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2019.11.02-15.36.22:265][260]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2019.11.02-15.36.22:705][260]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2019.11.02-15.36.22:788][260]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2019.11.02-15.36.23:009][260]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2019.11.02-15.36.23:115][260]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2019.11.02-15.36.23:116][260]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2019.11.02-15.36.23:427][260]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2019.11.02-15.36.23:427][260]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2019.11.02-15.36.23:427][260]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2019.11.02-15.36.23:427][260]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2019.11.02-15.36.23:427][260]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2019.11.02-15.36.23:427][260]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2019.11.02-15.36.23:427][260]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2019.11.02-15.36.23:568][260]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2019.11.02-15.36.23:820][260]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2019.11.02-15.36.24:014][260]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2019.11.02-15.36.24:211][260]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2019.11.02-15.36.24:211][260]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2019.11.02-15.36.24:211][260]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2019.11.02-15.36.24:425][260]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2019.11.02-15.36.24:425][260]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2019.11.02-15.36.24:426][260]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2019.11.02-15.36.24:426][260]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2019.11.02-15.36.24:454][260]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2019.11.02-15.36.24:528][260]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2019.11.02-15.36.24:640][260]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2019.11.02-15.36.24:640][260]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2019.11.02-15.36.24:640][260]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2019.11.02-15.36.24:640][260]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2019.11.02-15.36.24:920][260]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2019.11.02-15.36.24:920][260]LogModuleManager: Shutting down and abandoning module Media (221)
+[2019.11.02-15.36.24:927][260]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2019.11.02-15.36.24:927][260]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2019.11.02-15.36.24:927][260]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2019.11.02-15.36.25:203][260]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2019.11.02-15.36.25:521][260]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2019.11.02-15.36.25:521][260]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2019.11.02-15.36.25:521][260]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2019.11.02-15.36.25:703][260]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2019.11.02-15.36.25:949][260]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2019.11.02-15.36.25:949][260]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2019.11.02-15.36.26:028][260]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2019.11.02-15.36.26:139][260]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2019.11.02-15.36.26:206][260]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2019.11.02-15.36.26:206][260]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2019.11.02-15.36.26:234][260]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2019.11.02-15.36.26:234][260]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2019.11.02-15.36.26:308][260]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2019.11.02-15.36.26:308][260]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2019.11.02-15.36.26:308][260]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2019.11.02-15.36.26:308][260]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2019.11.02-15.36.26:308][260]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2019.11.02-15.36.26:308][260]LogModuleManager: Shutting down and abandoning module Core (172)
+[2019.11.02-15.36.26:308][260]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2019.11.02-15.36.26:334][260]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2019.11.02-15.36.26:335][260]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2019.11.02-15.36.26:335][260]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2019.11.02-15.36.26:428][260]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2019.11.02-15.36.26:454][260]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2019.11.02-15.36.26:454][260]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2019.11.02-15.36.26:470][260]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2019.11.02-15.36.26:470][260]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2019.11.02-15.36.26:481][260]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2019.11.02-15.36.26:493][260]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2019.11.02-15.36.26:548][260]LogDerivedDataCache: Shutdown
+[2019.11.02-15.36.26:548][260]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2019.11.02-15.36.26:549][260]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2019.11.02-15.36.27:065][260]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2019.11.02-15.36.27:090][260]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2019.11.02-15.36.27:138][260]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2019.11.02-15.36.27:151][260]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2019.11.02-15.36.27:194][260]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2019.11.02-15.36.27:194][260]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2019.11.02-15.36.27:194][260]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2019.11.02-15.36.27:208][260]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2019.11.02-15.36.27:219][260]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2019.11.02-15.36.27:219][260]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2019.11.02-15.36.27:219][260]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2019.11.02-15.36.27:219][260]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2019.11.02-15.36.27:219][260]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2019.11.02-15.36.27:219][260]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2019.11.02-15.36.27:219][260]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2019.11.02-15.36.27:219][260]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2019.11.02-15.36.27:219][260]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2019.11.02-15.36.27:220][260]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2019.11.02-15.36.27:220][260]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2019.11.02-15.36.27:220][260]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2019.11.02-15.36.27:220][260]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2019.11.02-15.36.27:220][260]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2019.11.02-15.36.27:220][260]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2019.11.02-15.36.27:220][260]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2019.11.02-15.36.27:220][260]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2019.11.02-15.36.27:220][260]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2019.11.02-15.36.27:220][260]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2019.11.02-15.36.27:220][260]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2019.11.02-15.36.27:220][260]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2019.11.02-15.36.27:220][260]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2019.11.02-15.36.27:220][260]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2019.11.02-15.36.27:220][260]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2019.11.02-15.36.27:220][260]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2019.11.02-15.36.27:220][260]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2019.11.02-15.36.27:220][260]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2019.11.02-15.36.27:220][260]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2019.11.02-15.36.27:220][260]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2019.11.02-15.36.27:220][260]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2019.11.02-15.36.27:220][260]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2019.11.02-15.36.27:220][260]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2019.11.02-15.36.27:220][260]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2019.11.02-15.36.27:220][260]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2019.11.02-15.36.27:220][260]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2019.11.02-15.36.27:220][260]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2019.11.02-15.36.27:243][260]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2019.11.02-15.36.27:243][260]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2019.11.02-15.36.27:243][260]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2019.11.02-15.36.27:243][260]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2019.11.02-15.36.27:243][260]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2019.11.02-15.36.27:367][260]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2019.11.02-15.36.27:398][260]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2019.11.02-15.36.27:398][260]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.11.02-15.36.27:417][260]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B873E7BA7-449A-88B1-A388-D9A3F7822B62%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=2f9916264acdf33f70768f822f9563c9%7C504a56eacb094752a172dcccc7c138cb%7C241500de-b41d-44c2-b004-1325f18bb3ba&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.11.02-15.36.27:476][260]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2019.11.02-15.36.27:600][260]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.11.02-15.36.27:632][260]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.11.02-15.36.27:632][260]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.11.02-15.36.27:723][260]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.11.02-15.36.27:764][260]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.11.02-15.36.27:764][260]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.11.02-15.36.27:764][260]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.11.02-15.36.27:798][260]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.11.02-15.36.27:835][260]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.11.02-15.36.27:835][260]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.11.02-15.36.27:888][260]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.11.02-15.36.27:888][260]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.11.02-15.36.27:888][260]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.11.02-15.36.27:888][260]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.11.02-15.36.27:917][260]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.11.02-15.36.27:948][260]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.11.02-15.36.27:966][260]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.11.02-15.36.27:966][260]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.11.02-15.36.28:099][260]LogExit: Exiting.
+[2019.11.02-15.36.28:122][260]Log file closed, 11/02/19 11:36:28
